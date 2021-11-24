@@ -50,7 +50,6 @@ body{
                     color: #666;
                     display: inline-block;
                     padding: 20px;
-                    box-sizing: border-box;
                 }
                 &:last-child a{
                     border-radius: 30px;
@@ -142,7 +141,7 @@ body{
     .gnbMo{
         width: 100%;
         height: calc(100vh - 80px);
-        position: fixed;
+        position: absolute;
         top: 80px;
         left: -100%;
         background: #19191a;
@@ -466,117 +465,113 @@ body{
         margin: 0 auto;
 
         .wrap{
-            .address{
-                float: left;
-                width: 380px;
-                margin-right: 20px;
-                border-right: 1px solid rgba(255,255,255,0.1);
-                box-sizing: border-box;
-
-                h1{
-                    font: 20px/1 $font;
-                    color: #eee;
-                    margin-bottom: 40px;
-                }
-                address{
-                    font: 300 16px/1.6 $font;
-                    color: #bbb;
-                    margin-bottom: 50px;
-                }
-                p{
-                    font: 300 16px/1.6 $font;
-                    color: #bbb;
-                    margin-bottom: 20px;
-                }
-            }
-            .contact{
+            >div{
                 float: left;
                 width: 380px;
                 margin-right: 20px;
                 padding-left: 30px;
                 border-right: 1px solid rgba(255,255,255,0.1);
-                box-sizing: border-box;
 
-                h2{
-                    font: 16px/1 $font;
-                    color: #eee;
-                    margin-bottom: 40px;
-                    position: relative;
+                &.contact{
+                    padding-left: 0;
 
-                    &::after{
-                        content:'';
-                        display: block;
-                        width: 24px;
-                        height: 2px;
-                        background: #bbb;
-                        position: absolute;
-                        left: 0;
-                        bottom: -12px;
-                    }
-                }
-                address{
-                    font: 300 16px/2 $font;
-                    color: #aaa;
-                    margin-bottom: 40px;
+                    h2{
+                        font: 16px/1 $font;
+                        color: #eee;
+                        margin-bottom: 40px;
+                        position: relative;
 
-                    i{
-                        font-size: 16px;
-                        color: #aaa;
-                        margin-right: 10px;
-                    }
-                }
-                .sns{
-                    li{
-                        float: left;
-
-                        a{
-                            font-size: 18px;
-                            color: #aaa;
-                            margin-right: 20px;
+                        &::after{
+                            content:'';
+                            display: block;
+                            width: 24px;
+                            height: 2px;
+                            background: #bbb;
+                            position: absolute;
+                            left: 0;
+                            bottom: -12px;
                         }
                     }
-                }
-            }
-            .about{
-                float: right;
-                width: 380px;
-                padding-left: 30px;
+                    address{
+                        font: 300 16px/2 $font;
+                        color: #aaa;
+                        margin-bottom: 40px;
 
-                h2{
-                    font: 16px/1 $font;
-                    color: #eee;
-                    margin-bottom: 40px;
-                    position: relative;
-
-                    &::after{
-                        content:'';
-                        display: block;
-                        width: 24px;
-                        height: 2px;
-                        background: #bbb;
-                        position: absolute;
-                        left: 0;
-                        bottom: -12px;
+                        i{
+                            font-size: 16px;
+                            color: #aaa;
+                            margin-right: 10px;
+                        }
                     }
-                }
-                .wrap{
-                    ul{
+                    .sns{
                         li{
-                            padding: 10px 0;
+                            float: left;
 
                             a{
-                                font: 300 16px/1 $font;
+                                font-size: 18px;
                                 color: #aaa;
+                                margin-right: 20px;
                             }
                         }
                     }
-                    .left{
-                        float: left;
-                        width: 50%;
+                }
+                &.about{
+                    h2{
+                        font: 16px/1 $font;
+                        color: #eee;
+                        margin-bottom: 40px;
+                        position: relative;
+
+                        &::after{
+                            content:'';
+                            display: block;
+                            width: 24px;
+                            height: 2px;
+                            background: #bbb;
+                            position: absolute;
+                            left: 0;
+                            bottom: -12px;
+                        }
                     }
-                    .right{
-                        float: left;
-                        width: 50%;
+                    .wrap{
+                        ul{
+                            li{
+                                padding: 10px 0;
+
+                                a{
+                                    font: 300 16px/1 $font;
+                                    color: #aaa;
+                                }
+                            }
+                        }
+                        .left{
+                            float: left;
+                            width: 50%;
+                        }
+                        .right{
+                            float: left;
+                            width: 50%;
+                        }
+                    }
+                }
+                &.address{
+                    margin-right: 0;
+                    border-right: none;
+
+                    h1{
+                        font: 20px/1 $font;
+                        color: #eee;
+                        margin-bottom: 40px;
+                    }
+                    address{
+                        font: 300 16px/1.6 $font;
+                        color: #bbb;
+                        margin-bottom: 50px;
+                    }
+                    p{
+                        font: 300 16px/1.6 $font;
+                        color: #bbb;
+                        margin-bottom: 20px;
                     }
                 }
             }
@@ -603,23 +598,6 @@ body{
         }
     }
 
-    #content{
-        padding: 100px 30px;
-
-        .inner{
-            width: 100%;
-
-            .wrap article{
-                width: 49%;
-                margin-right: 2%;
-                margin-bottom: 30px;
-
-                &:nth-of-type(even){
-                    margin-right: 0;
-                }
-            }
-        }
-    }
 
     #footer{
         padding: 100px 30px;
@@ -631,6 +609,17 @@ body{
                 >div:nth-of-type(n+1){
                     width: 33%;
                     margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 980px){
+    #footer{
+        .inner .wrap{
+            div{
+                &.address{
                 }
             }
         }
