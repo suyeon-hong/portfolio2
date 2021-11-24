@@ -514,6 +514,9 @@ body{
                                 margin-right: 20px;
                                 transition: .4s;
                             }
+                            &:last-child a{
+                                margin-right: 0;
+                            }
                         }
                     }
                 }
@@ -686,6 +689,7 @@ body{
             margin-bottom: 30px;
             text-align: center;
             padding-left: 0;
+            border-right: none;
 
             &.contact{
                 h2::after{display: none;}
