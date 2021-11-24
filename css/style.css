@@ -153,29 +153,29 @@ body {
   height: calc(100vh - 81px);
   background-color: #ddd; }
 
-#content {
+#intro {
   width: 100%;
   padding: 100px 0; }
-  #content .inner {
+  #intro .inner {
     width: 1180px;
     margin: 0 auto; }
-    #content .inner h1 {
+    #intro .inner h1 {
       font: 100 30px/1 "Noto Sans KR";
       color: #555;
       text-align: center;
       margin-bottom: 20px; }
-    #content .inner h2 {
+    #intro .inner h2 {
       font: 300 20px/1.4 "Noto Sans KR";
       color: #333;
       text-align: center;
       margin-bottom: 100px; }
-    #content .inner .box {
+    #intro .inner .box {
       width: 100%;
       height: 400px;
       background: #555;
       position: relative;
       margin-bottom: 100px; }
-      #content .inner .box > div {
+      #intro .inner .box > div {
         width: 300px;
         height: 110%;
         background: #251F28;
@@ -184,13 +184,13 @@ body {
         top: -5%;
         padding: 60px;
         border-radius: 5px; }
-        #content .inner .box > div h3 {
+        #intro .inner .box > div h3 {
           font: 400 18px/1 "Noto Sans KR";
           color: #eee;
           text-align: center;
           letter-spacing: 2px;
           margin-bottom: 40px; }
-          #content .inner .box > div h3::after {
+          #intro .inner .box > div h3::after {
             content: '';
             display: block;
             width: 34px;
@@ -198,44 +198,184 @@ body {
             background: #eee;
             margin-top: 30px;
             margin-left: calc(50% - 17px); }
-        #content .inner .box > div .pic {
+        #intro .inner .box > div .pic {
           width: 100px;
           height: 100px;
           border-radius: 50%;
           background: #bbb;
           margin: 0 auto;
           margin-bottom: 30px; }
-        #content .inner .box > div h4 {
+        #intro .inner .box > div h4 {
           font: 300 18px/1 "Noto Sans KR";
           color: #ddd;
           text-align: center;
           margin-bottom: 15px; }
-        #content .inner .box > div p {
+        #intro .inner .box > div p {
           font: 200 16px/1.4 "Noto Sans KR";
           color: #ddd;
           text-align: center; }
-    #content .inner .wrap {
+    #intro .inner .wrap {
       width: 80%;
       margin: 0 auto; }
-      #content .inner .wrap article {
+      #intro .inner .wrap article {
         width: 33.333%;
         float: left;
         text-align: center;
         padding: 0 50px; }
-        #content .inner .wrap article .pic {
+        #intro .inner .wrap article .pic {
           display: inline-block;
           width: 100%;
           height: 200px;
           border-radius: 50%;
           background: #bbb;
           margin-bottom: 20px; }
-        #content .inner .wrap article h2 {
+        #intro .inner .wrap article h3 {
           font: 400 18px/1 "Noto Sans KR";
           color: #333;
           margin-bottom: 10px; }
-        #content .inner .wrap article p {
+        #intro .inner .wrap article p {
           font: 200 16px/1.4 "Noto Sans KR";
           color: #444; }
+
+#service {
+  width: 100%;
+  height: 400px;
+  background: #000;
+  position: relative; }
+  #service > div {
+    width: 300px;
+    height: 110%;
+    background: #251F28;
+    position: absolute;
+    right: 20vw;
+    top: -5%;
+    padding: 60px;
+    border-radius: 5px; }
+    #service > div h1 {
+      font: 400 18px/1 "Noto Sans KR";
+      color: #eee;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-bottom: 40px; }
+      #service > div h1::after {
+        content: '';
+        display: block;
+        width: 34px;
+        height: 1px;
+        background: #eee;
+        margin-top: 30px;
+        margin-left: calc(50% - 17px); }
+    #service > div .pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #bbb;
+      margin: 0 auto;
+      margin-bottom: 30px; }
+    #service > div h2 {
+      font: 300 18px/1 "Noto Sans KR";
+      color: #ddd;
+      text-align: center;
+      margin-bottom: 15px; }
+    #service > div p {
+      font: 200 16px/1.4 "Noto Sans KR";
+      color: #ddd;
+      text-align: center; }
+
+#news {
+  width: 100%;
+  padding: 100px 0;
+  background: #F5F5F5; }
+  #news .inner {
+    width: 1180px;
+    margin: 0 auto; }
+    #news .inner h1 {
+      font: 100 30px/1 "Noto Sans KR";
+      color: #555;
+      text-align: center;
+      margin-bottom: 20px; }
+    #news .inner h2 {
+      font: 300 20px/1.4 "Noto Sans KR";
+      color: #333;
+      text-align: center;
+      margin-bottom: 100px; }
+    #news .inner .pic {
+      width: 100%;
+      height: 400px;
+      background: #000;
+      margin-bottom: 100px; }
+    #news .inner .wrap {
+      width: 80%;
+      margin: 0 auto; }
+      #news .inner .wrap article {
+        width: 33.333%;
+        float: left;
+        text-align: center;
+        padding: 0 50px; }
+        #news .inner .wrap article .pic {
+          display: inline-block;
+          width: 100%;
+          height: 180px;
+          border-radius: 5px;
+          background: #bbb;
+          margin-bottom: 20px; }
+        #news .inner .wrap article h3 {
+          font: 400 18px/1 "Noto Sans KR";
+          color: #333;
+          margin-bottom: 10px; }
+        #news .inner .wrap article p {
+          font: 200 16px/1.4 "Noto Sans KR";
+          color: #444; }
+
+#cs {
+  width: 100%;
+  padding: 100px 0; }
+  #cs .inner {
+    width: 1180px;
+    margin: 0 auto; }
+    #cs .inner .pic {
+      width: 100%;
+      height: 400px;
+      background: #000;
+      position: relative;
+      padding: 100px 70px;
+      padding-right: 70%; }
+      #cs .inner .pic h1 {
+        font: 100 30px/1 "Noto Sans KR";
+        color: #ddd;
+        margin-bottom: 30px; }
+      #cs .inner .pic > p {
+        font: 300 18px/1.6 "Noto Sans KR";
+        color: #ddd; }
+      #cs .inner .pic article {
+        position: absolute;
+        top: -5%;
+        right: 100px;
+        width: 500px;
+        height: 50%;
+        background: #251F28;
+        border-radius: 5px;
+        padding: 60px 0;
+        padding-left: 180px; }
+        #cs .inner .pic article:nth-of-type(2) {
+          top: auto;
+          bottom: -5%; }
+        #cs .inner .pic article .icon {
+          position: absolute;
+          top: 50px;
+          left: 50px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background: #322D35;
+          border: 1px solid #4e4a50; }
+        #cs .inner .pic article h2 {
+          font: 300 18px/1 "Noto Sans KR";
+          color: #ddd;
+          margin-bottom: 15px; }
+        #cs .inner .pic article p {
+          font: 200 16px/1.6 "Noto Sans KR";
+          color: #ddd; }
 
 #footer {
   width: 100%;
