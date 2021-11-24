@@ -394,7 +394,7 @@ body {
         #footer .inner .wrap > div.contact h2 {
           font: 16px/1 "Noto Sans KR";
           color: #eee;
-          margin-bottom: 40px;
+          margin-bottom: 20px;
           position: relative; }
           #footer .inner .wrap > div.contact h2::after {
             content: '';
@@ -402,9 +402,7 @@ body {
             width: 24px;
             height: 2px;
             background: #bbb;
-            position: absolute;
-            left: 0;
-            bottom: -12px; }
+            margin-top: 10px; }
         #footer .inner .wrap > div.contact address {
           font: 300 16px/2 "Noto Sans KR";
           color: #aaa;
@@ -415,14 +413,17 @@ body {
             margin-right: 10px; }
         #footer .inner .wrap > div.contact .sns li {
           float: left; }
+          #footer .inner .wrap > div.contact .sns li:hover a {
+            color: #aaa; }
           #footer .inner .wrap > div.contact .sns li a {
             font-size: 18px;
-            color: #aaa;
-            margin-right: 20px; }
+            color: #777;
+            margin-right: 20px;
+            transition: .4s; }
       #footer .inner .wrap > div.about h2 {
         font: 16px/1 "Noto Sans KR";
         color: #eee;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         position: relative; }
         #footer .inner .wrap > div.about h2::after {
           content: '';
@@ -430,35 +431,40 @@ body {
           width: 24px;
           height: 2px;
           background: #bbb;
-          position: absolute;
-          left: 0;
-          bottom: -12px; }
+          margin-top: 10px; }
       #footer .inner .wrap > div.about .wrap ul li {
-        padding: 10px 0; }
+        margin-bottom: 10px; }
         #footer .inner .wrap > div.about .wrap ul li a {
           font: 300 16px/1 "Noto Sans KR";
-          color: #aaa; }
+          color: #aaa;
+          transition: .4s; }
+          #footer .inner .wrap > div.about .wrap ul li a:hover {
+            color: #eee; }
       #footer .inner .wrap > div.about .wrap .left {
         float: left;
         width: 50%; }
       #footer .inner .wrap > div.about .wrap .right {
         float: left;
         width: 50%; }
-      #footer .inner .wrap > div.address {
+      #footer .inner .wrap > div.company {
         margin-right: 0;
         border-right: none; }
-        #footer .inner .wrap > div.address h1 {
+        #footer .inner .wrap > div.company h1 {
           font: 20px/1 "Noto Sans KR";
           color: #eee;
           margin-bottom: 40px; }
-        #footer .inner .wrap > div.address address {
-          font: 300 16px/1.6 "Noto Sans KR";
+        #footer .inner .wrap > div.company h2 {
+          font: 300 16px/1 "Noto Sans KR";
           color: #bbb;
           margin-bottom: 50px; }
-        #footer .inner .wrap > div.address p {
-          font: 300 16px/1.6 "Noto Sans KR";
-          color: #bbb;
-          margin-bottom: 20px; }
+          #footer .inner .wrap > div.company h2 span {
+            display: block;
+            margin-bottom: 10px; }
+        #footer .inner .wrap > div.company p {
+          font: 300 14px/1.6 "Noto Sans KR";
+          color: #bbb; }
+          #footer .inner .wrap > div.company p span {
+            display: block; }
 
 @media screen and (max-width: 1179px) {
   #header {
@@ -476,13 +482,74 @@ body {
     padding: 100px 30px; }
     #footer .inner {
       width: 100%; }
-      #footer .inner .wrap > div:nth-of-type(n+1) {
+      #footer .inner .wrap > div {
         width: 33%;
         margin-right: 0; } }
+@media screen and (max-width: 980px) {
+  #footer {
+    padding: 80px 20px 30px; }
+    #footer .inner .wrap > div {
+      width: 50%; }
+      #footer .inner .wrap > div.contact address {
+        font-size: 14px; }
+      #footer .inner .wrap > div.about {
+        border-right: none; }
+        #footer .inner .wrap > div.about .wrap ul li a {
+          font-size: 14px; }
+      #footer .inner .wrap > div.company {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px; }
+        #footer .inner .wrap > div.company h1 {
+          display: none; }
+        #footer .inner .wrap > div.company h2 {
+          font-size: 13px;
+          margin-bottom: 10px; }
+          #footer .inner .wrap > div.company h2 span {
+            display: inline-block;
+            margin-right: 20px; }
+        #footer .inner .wrap > div.company p {
+          font-size: 12px;
+          line-height: 1; }
+          #footer .inner .wrap > div.company p span {
+            display: inline-block;
+            margin-right: 5px; } }
 @media screen and (max-width: 539px) {
   #header {
     padding: 0 10px; }
     #header .inner .lan {
-      display: none; } }
+      display: none; }
+
+  #footer {
+    padding: 50px 10px 20px; }
+    #footer .inner .wrap > div {
+      width: 100%;
+      margin-bottom: 30px;
+      text-align: center;
+      padding-left: 0; }
+      #footer .inner .wrap > div.contact h2::after {
+        display: none; }
+      #footer .inner .wrap > div.contact address {
+        margin-bottom: 20px;
+        line-height: 1.8; }
+        #footer .inner .wrap > div.contact address i {
+          font-size: 13px; }
+      #footer .inner .wrap > div.contact .sns {
+        display: inline-block; }
+        #footer .inner .wrap > div.contact .sns li a {
+          font-size: 16px; }
+      #footer .inner .wrap > div.about h2::after {
+        display: none; }
+      #footer .inner .wrap > div.about .wrap .left, #footer .inner .wrap > div.about .wrap .right {
+        width: 100%;
+        font-size: 0; }
+        #footer .inner .wrap > div.about .wrap .left li, #footer .inner .wrap > div.about .wrap .right li {
+          display: inline-block;
+          margin-right: 10px; }
+      #footer .inner .wrap > div.company {
+        margin: 0; }
+        #footer .inner .wrap > div.company h2 span {
+          margin-right: 5px;
+          font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */

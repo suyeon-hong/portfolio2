@@ -478,7 +478,7 @@ body{
                     h2{
                         font: 16px/1 $font;
                         color: #eee;
-                        margin-bottom: 40px;
+                        margin-bottom: 20px;
                         position: relative;
 
                         &::after{
@@ -487,9 +487,7 @@ body{
                             width: 24px;
                             height: 2px;
                             background: #bbb;
-                            position: absolute;
-                            left: 0;
-                            bottom: -12px;
+                            margin-top: 10px;
                         }
                     }
                     address{
@@ -507,10 +505,14 @@ body{
                         li{
                             float: left;
 
+                            &:hover a{
+                                color: #aaa;
+                            }
                             a{
                                 font-size: 18px;
-                                color: #aaa;
+                                color: #777;
                                 margin-right: 20px;
+                                transition: .4s;
                             }
                         }
                     }
@@ -519,7 +521,7 @@ body{
                     h2{
                         font: 16px/1 $font;
                         color: #eee;
-                        margin-bottom: 40px;
+                        margin-bottom: 20px;
                         position: relative;
 
                         &::after{
@@ -528,19 +530,20 @@ body{
                             width: 24px;
                             height: 2px;
                             background: #bbb;
-                            position: absolute;
-                            left: 0;
-                            bottom: -12px;
+                            margin-top: 10px;
                         }
                     }
                     .wrap{
                         ul{
                             li{
-                                padding: 10px 0;
+                                margin-bottom: 10px;
 
                                 a{
                                     font: 300 16px/1 $font;
                                     color: #aaa;
+                                    transition: .4s;
+
+                                    &:hover{color: #eee}
                                 }
                             }
                         }
@@ -554,7 +557,7 @@ body{
                         }
                     }
                 }
-                &.address{
+                &.company{
                     margin-right: 0;
                     border-right: none;
 
@@ -563,15 +566,21 @@ body{
                         color: #eee;
                         margin-bottom: 40px;
                     }
-                    address{
-                        font: 300 16px/1.6 $font;
+                    h2{
+                        font: 300 16px/1 $font;
                         color: #bbb;
                         margin-bottom: 50px;
+
+                        span{
+                            display: block;
+                            margin-bottom: 10px;
+                        }
                     }
                     p{
-                        font: 300 16px/1.6 $font;
+                        font: 300 14px/1.6 $font;
                         color: #bbb;
-                        margin-bottom: 20px;
+
+                        span{display: block;}
                     }
                 }
             }
@@ -598,7 +607,6 @@ body{
         }
     }
 
-
     #footer{
         padding: 100px 30px;
     
@@ -606,7 +614,7 @@ body{
             width: 100%;
     
             .wrap{
-                >div:nth-of-type(n+1){
+                >div{
                     width: 33%;
                     margin-right: 0;
                 }
@@ -617,9 +625,42 @@ body{
 
 @media screen and (max-width: 980px){
     #footer{
+        padding: 80px 20px 30px;
+
         .inner .wrap{
-            div{
-                &.address{
+            >div{
+                width: 50%;
+
+                &.contact address{font-size: 14px;}
+                &.about{
+                    border-right: none;
+
+                    .wrap ul li a{font-size: 14px;}
+                }
+                &.company{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 50px;
+
+                    h1{display: none;}
+                    h2{
+                        font-size: 13px;
+                        margin-bottom: 10px;
+
+                        span{
+                            display: inline-block;
+                            margin-right: 20px;
+                        }
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 1;
+
+                        span{
+                            display: inline-block;
+                            margin-right: 5px;
+                        }
+                    }
                 }
             }
         }
@@ -633,6 +674,54 @@ body{
         .inner{
             .lan{
                 display: none;
+            }
+        }
+    }
+
+    #footer{
+        padding: 50px 10px 20px;
+
+        .inner .wrap >div{
+            width: 100%;
+            margin-bottom: 30px;
+            text-align: center;
+            padding-left: 0;
+
+            &.contact{
+                h2::after{display: none;}
+                address{
+                    margin-bottom: 20px;
+                    line-height: 1.8;
+
+                    i{font-size: 13px;}
+                }
+                .sns{
+                    display: inline-block;
+
+                    li a{font-size: 16px;}
+                }
+            }
+            &.about{
+                h2::after{display: none;}
+                .wrap{
+                    .left, .right{
+                        width: 100%;
+                        font-size: 0;
+
+                        li{
+                            display: inline-block;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+            &.company{
+                margin: 0;
+
+                h2 span{
+                    margin-right: 5px;
+                    font-size: 12px;
+                }
             }
         }
     }
