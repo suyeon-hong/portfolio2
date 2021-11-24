@@ -1,0 +1,17 @@
+@import 'header_sub';
+
+
+.content{
+    width: 100%;
+    min-height: 1000px;
+
+    .visual{
+        width: 100%;
+        height: 300px;
+        background: #bbb;
+    }
+}
+
+
+
+@import 'footer_sub';
