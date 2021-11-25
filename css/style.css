@@ -578,7 +578,7 @@ body {
       font-size: 0; }
       #header_sub .inner h1 a {
         font: 600 20px/1 "Noto Sans KR";
-        color: #444; }
+        color: #232D3A; }
     #header_sub .inner #gnb {
       position: absolute;
       left: 50%;
@@ -708,7 +708,7 @@ body {
     min-height: 500px;
     padding: 100px 0; }
     .content .inner h1 {
-      font: 600 30px/1 "Noto Sans KR";
+      font: 400 30px/1 "Noto Sans KR";
       color: #111;
       text-align: center;
       margin-bottom: 100px; }
@@ -1048,5 +1048,53 @@ body {
   .join .inner .address tr input[type="button"] {
     width: 100px;
     left: calc(100% - 100px); } }
+.community .inner .membership {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 200px; }
+  .community .inner .membership article {
+    width: 280px;
+    height: 230px;
+    float: left;
+    position: relative;
+    padding: 0 20px;
+    margin-right: 20px; }
+    .community .inner .membership article::after {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 40px;
+      background-color: #bbb;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      margin-top: -20px; }
+    .community .inner .membership article:last-child {
+      margin-right: 0; }
+      .community .inner .membership article:last-child::after {
+        display: none; }
+    .community .inner .membership article i {
+      font-size: 50px;
+      margin-bottom: 30px;
+      color: #232D3A; }
+    .community .inner .membership article h3 {
+      font: 400 20px/1 "Noto Sans KR";
+      color: #111;
+      margin-bottom: 20px; }
+    .community .inner .membership article p {
+      font: 400 14px/1.4 "Noto Sans KR";
+      color: #333; }
+    .community .inner .membership article .btn {
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      font: 300 12px/1 "Noto Sans KR";
+      color: #000;
+      letter-spacing: 1px;
+      transition: 0.6s; }
+      .community .inner .membership article .btn:hover {
+        font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */
