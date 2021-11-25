@@ -28,3 +28,31 @@ fieldset{
     border: none;
 }
 .textarea:focus, input:focus{outline: none;}
+
+@mixin bar($wid:100%, $ht:2px, $bgc: #534847, $left:0, $top:0, $mt: $ht/2){
+    display: block;
+    width: $wid;
+    height: $ht;
+    background-color: $bgc;
+    position: absolute;
+    left: $left;
+    top: $top;
+    margin-top: -$mt;
+}
+
+@mixin triangle_up($bb:35px, $br:60px, $color:#335B75){
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: $bb solid $color;
+    border-left: $br solid transparent;
+    border-right: $br solid transparent;
+}
+@mixin triangle_down($bt:35px, $br:60px, $color:#335B75){
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: $bt solid $color;
+    border-left: $br solid transparent;
+    border-right: $br solid transparent;
+}

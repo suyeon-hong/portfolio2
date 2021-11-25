@@ -1,7 +1,7 @@
 .join{
     .inner{
         h2{
-            font: 400 16px/1 $font;
+            font: bold 16px/1 $font;
             color: #000;
             margin-bottom: 15px;
         }
@@ -41,7 +41,7 @@
             }
         }
         label{
-            font: 400 13px/1 $font;
+            font: bold 13px/1 $font;
             color: #555;
             display: inline-block;
             margin-bottom: 100px;
@@ -65,7 +65,7 @@
 
             caption{
                 text-align: left;
-                font: 400 16px/1 $font;
+                font: bold 16px/1 $font;
                 color: #000;
                 margin-bottom: 20px;
             }
@@ -74,7 +74,7 @@
                 display: inline-block;
 
                 th{
-                    font: 400 14px/1 $font;
+                    font: bold 14px/1 $font;
                     color: #333;
                     width: 100%;
                     margin-bottom: 5px;
@@ -89,7 +89,7 @@
                         height: 40px;
                         border: none;
                         border-bottom: 1px solid #888;
-                        font: 400 16px/1 $font;
+                        font: bold 16px/1 $font;
                         color: #555;
                         margin-bottom: 50px;
                         padding-left: 10px;
@@ -101,7 +101,7 @@
                     }
                 }
                 p{
-                    font: 300 13px/1 $font;
+                    font: normal 13px/1 $font;
                     color: tomato;
                 }
             }
@@ -179,7 +179,7 @@
                     width: 180px;
                     height: 40px;
                     border: 1px solid #888;
-                    font: 400 13px/40px $font;
+                    font: bold 13px/40px $font;
                     color: #111;
                     background: transparent;
                     margin-bottom: 50px;

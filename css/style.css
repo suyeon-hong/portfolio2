@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&Montserrat:wght@100&:wght@100;300;500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -31,7 +31,7 @@ fieldset {
   outline: none; }
 
 body {
-  font-family: "Noto Sans KR"; }
+  font-family: "Gowun Batang"; }
 
 #header {
   width: 100%;
@@ -50,7 +50,7 @@ body {
       transform: translateY(-50%);
       font-size: 0; }
       #header .inner h1 a {
-        font: 600 20px/1 "Noto Sans KR";
+        font: 600 20px/1 "Gowun Batang";
         color: #232D3A; }
     #header .inner #gnb {
       position: absolute;
@@ -62,7 +62,7 @@ body {
         float: left;
         position: relative; }
         #header .inner #gnb li a {
-          font: 400 16px/1 "Noto Sans KR";
+          font: 500 16px/1 'Montserrat';
           color: #666;
           display: inline-block;
           padding: 20px; }
@@ -82,7 +82,7 @@ body {
         float: left;
         margin-left: 10px; }
         #header .inner .lan li a {
-          font: 400 13px/1 "Noto Sans KR";
+          font: 400 13px/1 'Montserrat';
           color: #555; }
     #header .inner .btnMo {
       display: none;
@@ -147,7 +147,7 @@ body {
       padding: 50px;
       border-bottom: 1px solid #444; }
       #header .gnbMo li a {
-        font: 500 20px/1 "Noto Sans KR";
+        font: 500 20px/1 "Gowun Batang";
         color: #fff; }
     #header .gnbMo.on {
       left: 0;
@@ -165,12 +165,12 @@ body {
     width: 1180px;
     margin: 0 auto; }
     #intro .inner h1 {
-      font: 100 30px/1 "Noto Sans KR";
+      font: 100 30px/1 "Gowun Batang";
       color: #555;
       text-align: center;
       margin-bottom: 20px; }
     #intro .inner h2 {
-      font: 300 20px/1.4 "Noto Sans KR";
+      font: 300 20px/1.4 "Gowun Batang";
       color: #333;
       text-align: center;
       margin-bottom: 100px; }
@@ -190,7 +190,7 @@ body {
         padding: 60px;
         border-radius: 5px; }
         #intro .inner .box > div h3 {
-          font: 400 18px/1 "Noto Sans KR";
+          font: 400 18px/1 "Gowun Batang";
           color: #eee;
           text-align: center;
           letter-spacing: 2px;
@@ -211,12 +211,12 @@ body {
           margin: 0 auto;
           margin-bottom: 30px; }
         #intro .inner .box > div h4 {
-          font: 300 18px/1 "Noto Sans KR";
+          font: 300 18px/1 "Gowun Batang";
           color: #ddd;
           text-align: center;
           margin-bottom: 15px; }
         #intro .inner .box > div p {
-          font: 200 16px/1.4 "Noto Sans KR";
+          font: 200 16px/1.4 "Gowun Batang";
           color: #ddd;
           text-align: center; }
     #intro .inner .wrap {
@@ -235,11 +235,11 @@ body {
           background: #bbb;
           margin-bottom: 20px; }
         #intro .inner .wrap article h3 {
-          font: 400 18px/1 "Noto Sans KR";
+          font: 400 18px/1 "Gowun Batang";
           color: #333;
           margin-bottom: 10px; }
         #intro .inner .wrap article p {
-          font: 200 16px/1.4 "Noto Sans KR";
+          font: 200 16px/1.4 "Gowun Batang";
           color: #444; }
 
 #service {
@@ -257,7 +257,7 @@ body {
     padding: 60px;
     border-radius: 5px; }
     #service > div h1 {
-      font: 400 18px/1 "Noto Sans KR";
+      font: 400 18px/1 "Gowun Batang";
       color: #eee;
       text-align: center;
       letter-spacing: 2px;
@@ -278,12 +278,12 @@ body {
       margin: 0 auto;
       margin-bottom: 30px; }
     #service > div h2 {
-      font: 300 18px/1 "Noto Sans KR";
+      font: 300 18px/1 "Gowun Batang";
       color: #ddd;
       text-align: center;
       margin-bottom: 15px; }
     #service > div p {
-      font: 200 16px/1.4 "Noto Sans KR";
+      font: 200 16px/1.4 "Gowun Batang";
       color: #ddd;
       text-align: center; }
 
@@ -295,12 +295,12 @@ body {
     width: 1180px;
     margin: 0 auto; }
     #news .inner h1 {
-      font: 100 30px/1 "Noto Sans KR";
+      font: 100 30px/1 "Gowun Batang";
       color: #555;
       text-align: center;
       margin-bottom: 20px; }
     #news .inner h2 {
-      font: 300 20px/1.4 "Noto Sans KR";
+      font: 300 20px/1.4 "Gowun Batang";
       color: #333;
       text-align: center;
       margin-bottom: 100px; }
@@ -325,11 +325,11 @@ body {
           background: #bbb;
           margin-bottom: 20px; }
         #news .inner .wrap article h3 {
-          font: 400 18px/1 "Noto Sans KR";
+          font: 400 18px/1 "Gowun Batang";
           color: #333;
           margin-bottom: 10px; }
         #news .inner .wrap article p {
-          font: 200 16px/1.4 "Noto Sans KR";
+          font: 200 16px/1.4 "Gowun Batang";
           color: #444; }
 
 #cs {
@@ -346,11 +346,11 @@ body {
       padding: 100px 70px;
       padding-right: 70%; }
       #cs .inner .pic h1 {
-        font: 100 30px/1 "Noto Sans KR";
+        font: 100 30px/1 "Gowun Batang";
         color: #ddd;
         margin-bottom: 30px; }
       #cs .inner .pic > p {
-        font: 300 18px/1.6 "Noto Sans KR";
+        font: 300 18px/1.6 "Gowun Batang";
         color: #ddd; }
       #cs .inner .pic article {
         position: absolute;
@@ -375,11 +375,11 @@ body {
           background: #322D35;
           border: 1px solid #4e4a50; }
         #cs .inner .pic article h2 {
-          font: 300 18px/1 "Noto Sans KR";
+          font: 300 18px/1 "Gowun Batang";
           color: #ddd;
           margin-bottom: 15px; }
         #cs .inner .pic article p {
-          font: 200 16px/1.6 "Noto Sans KR";
+          font: 200 16px/1.6 "Gowun Batang";
           color: #ddd; }
 
 #footer {
@@ -398,7 +398,7 @@ body {
       #footer .inner .wrap > div.contact {
         padding-left: 0; }
         #footer .inner .wrap > div.contact h2 {
-          font: 16px/1 "Noto Sans KR";
+          font: 16px/1 "Gowun Batang";
           color: #eee;
           margin-bottom: 20px;
           position: relative; }
@@ -410,7 +410,7 @@ body {
             background: #bbb;
             margin-top: 10px; }
         #footer .inner .wrap > div.contact address {
-          font: 300 16px/2 "Noto Sans KR";
+          font: 300 16px/2 "Gowun Batang";
           color: #aaa;
           margin-bottom: 40px; }
           #footer .inner .wrap > div.contact address i {
@@ -429,7 +429,7 @@ body {
           #footer .inner .wrap > div.contact .sns li:last-child a {
             margin-right: 0; }
       #footer .inner .wrap > div.about h2 {
-        font: 16px/1 "Noto Sans KR";
+        font: 16px/1 "Gowun Batang";
         color: #eee;
         margin-bottom: 20px;
         position: relative; }
@@ -443,7 +443,7 @@ body {
       #footer .inner .wrap > div.about .wrap ul li {
         margin-bottom: 10px; }
         #footer .inner .wrap > div.about .wrap ul li a {
-          font: 300 16px/1 "Noto Sans KR";
+          font: 300 16px/1 "Gowun Batang";
           color: #aaa;
           transition: .4s; }
           #footer .inner .wrap > div.about .wrap ul li a:hover {
@@ -458,18 +458,18 @@ body {
         margin-right: 0;
         border-right: none; }
         #footer .inner .wrap > div.company h1 {
-          font: 20px/1 "Noto Sans KR";
+          font: 20px/1 "Gowun Batang";
           color: #eee;
           margin-bottom: 40px; }
         #footer .inner .wrap > div.company h2 {
-          font: 300 16px/1 "Noto Sans KR";
+          font: 300 16px/1 "Gowun Batang";
           color: #bbb;
           margin-bottom: 50px; }
           #footer .inner .wrap > div.company h2 span {
             display: block;
             margin-bottom: 10px; }
         #footer .inner .wrap > div.company p {
-          font: 300 14px/1.6 "Noto Sans KR";
+          font: 300 14px/1.6 "Gowun Batang";
           color: #bbb; }
           #footer .inner .wrap > div.company p span {
             display: block; }
@@ -577,7 +577,7 @@ body {
       transform: translateY(-50%);
       font-size: 0; }
       #header_sub .inner h1 a {
-        font: 600 20px/1 "Noto Sans KR";
+        font: 500 20px/1 'Montserrat';
         color: #232D3A; }
     #header_sub .inner #gnb {
       position: absolute;
@@ -589,7 +589,7 @@ body {
         float: left;
         position: relative; }
         #header_sub .inner #gnb li a {
-          font: 400 16px/1 "Noto Sans KR";
+          font: 400 16px/1 'Montserrat';
           color: #666;
           display: inline-block;
           padding: 20px; }
@@ -609,7 +609,7 @@ body {
         float: left;
         margin-left: 10px; }
         #header_sub .inner .lan li a {
-          font: 400 13px/1 "Noto Sans KR";
+          font: 400 13px/1 "Gowun Batang";
           color: #555; }
     #header_sub .inner .btnMo {
       display: none;
@@ -674,7 +674,7 @@ body {
       padding: 50px;
       border-bottom: 1px solid #444; }
       #header_sub .gnbMo li a {
-        font: 500 20px/1 "Noto Sans KR";
+        font: 500 20px/1 "Gowun Batang";
         color: #fff; }
     #header_sub .gnbMo.on {
       left: 0;
@@ -708,14 +708,14 @@ body {
     min-height: 500px;
     padding: 100px 0; }
     .content .inner h1 {
-      font: 400 30px/1 "Noto Sans KR";
-      color: #111;
+      font: bold 30px/1 "Gowun Batang";
+      color: #333;
       text-align: center;
       margin-bottom: 100px; }
       .content .inner h1 span {
         font-size: 16px;
-        font-weight: 400;
-        color: #444; }
+        font-weight: normal;
+        color: #888; }
         .content .inner h1 span::before {
           content: '/';
           padding: 0 10px 0 15px; }
@@ -745,7 +745,7 @@ body {
       #footer_sub .inner .wrap > div.contact {
         padding-left: 0; }
         #footer_sub .inner .wrap > div.contact h2 {
-          font: 16px/1 "Noto Sans KR";
+          font: 16px/1 "Gowun Batang";
           color: #eee;
           margin-bottom: 20px;
           position: relative; }
@@ -757,7 +757,7 @@ body {
             background: #bbb;
             margin-top: 10px; }
         #footer_sub .inner .wrap > div.contact address {
-          font: 300 16px/2 "Noto Sans KR";
+          font: 300 16px/2 "Gowun Batang";
           color: #aaa;
           margin-bottom: 40px; }
           #footer_sub .inner .wrap > div.contact address i {
@@ -776,7 +776,7 @@ body {
           #footer_sub .inner .wrap > div.contact .sns li:last-child a {
             margin-right: 0; }
       #footer_sub .inner .wrap > div.about h2 {
-        font: 16px/1 "Noto Sans KR";
+        font: 16px/1 "Gowun Batang";
         color: #eee;
         margin-bottom: 20px;
         position: relative; }
@@ -790,7 +790,7 @@ body {
       #footer_sub .inner .wrap > div.about .wrap ul li {
         margin-bottom: 10px; }
         #footer_sub .inner .wrap > div.about .wrap ul li a {
-          font: 300 16px/1 "Noto Sans KR";
+          font: 300 16px/1 "Gowun Batang";
           color: #aaa;
           transition: .4s; }
           #footer_sub .inner .wrap > div.about .wrap ul li a:hover {
@@ -805,18 +805,18 @@ body {
         margin-right: 0;
         border-right: none; }
         #footer_sub .inner .wrap > div.company h1 {
-          font: 20px/1 "Noto Sans KR";
+          font: 20px/1 "Gowun Batang";
           color: #eee;
           margin-bottom: 40px; }
         #footer_sub .inner .wrap > div.company h2 {
-          font: 300 16px/1 "Noto Sans KR";
+          font: 300 16px/1 "Gowun Batang";
           color: #bbb;
           margin-bottom: 50px; }
           #footer_sub .inner .wrap > div.company h2 span {
             display: block;
             margin-bottom: 10px; }
         #footer_sub .inner .wrap > div.company p {
-          font: 300 14px/1.6 "Noto Sans KR";
+          font: 300 14px/1.6 "Gowun Batang";
           color: #bbb; }
           #footer_sub .inner .wrap > div.company p span {
             display: block; }
@@ -892,7 +892,7 @@ body {
           margin-right: 5px;
           font-size: 12px; } }
 .join .inner h2 {
-  font: 400 16px/1 "Noto Sans KR";
+  font: bold 16px/1 "Gowun Batang";
   color: #000;
   margin-bottom: 15px; }
 .join .inner .policy {
@@ -900,7 +900,7 @@ body {
   height: 300px;
   overflow-y: scroll;
   padding: 20px;
-  font: 300 16px/1.4 "Noto Sans KR";
+  font: 300 16px/1.4 "Gowun Batang";
   border: 1px solid #bbb;
   color: #333;
   margin-bottom: 5px; }
@@ -922,7 +922,7 @@ body {
     border-color: tomato;
     background-color: tomato; }
 .join .inner label {
-  font: 400 13px/1 "Noto Sans KR";
+  font: bold 13px/1 "Gowun Batang";
   color: #555;
   display: inline-block;
   margin-bottom: 100px;
@@ -941,14 +941,14 @@ body {
   text-align: left; }
   .join .inner table caption {
     text-align: left;
-    font: 400 16px/1 "Noto Sans KR";
+    font: bold 16px/1 "Gowun Batang";
     color: #000;
     margin-bottom: 20px; }
   .join .inner table tr {
     width: 100%;
     display: inline-block; }
     .join .inner table tr th {
-      font: 400 14px/1 "Noto Sans KR";
+      font: bold 14px/1 "Gowun Batang";
       color: #333;
       width: 100%;
       margin-bottom: 5px;
@@ -961,15 +961,15 @@ body {
         height: 40px;
         border: none;
         border-bottom: 1px solid #888;
-        font: 400 16px/1 "Noto Sans KR";
+        font: bold 16px/1 "Gowun Batang";
         color: #555;
         margin-bottom: 50px;
         padding-left: 10px; }
         .join .inner table tr td input[type="text"]::placeholder, .join .inner table tr td input[type="password"]::placeholder {
-          font: 300 16px/1 "Noto Sans KR";
+          font: 300 16px/1 "Gowun Batang";
           color: #888; }
     .join .inner table tr p {
-      font: 300 13px/1 "Noto Sans KR";
+      font: normal 13px/1 "Gowun Batang";
       color: tomato; }
 .join .inner .info {
   margin-bottom: 50px; }
@@ -1016,7 +1016,7 @@ body {
   width: 180px;
   height: 40px;
   border: 1px solid #888;
-  font: 400 13px/40px "Noto Sans KR";
+  font: bold 13px/40px "Gowun Batang";
   color: #111;
   background: transparent;
   margin-bottom: 50px;
@@ -1078,11 +1078,11 @@ body {
       margin-bottom: 30px;
       color: #232D3A; }
     .community .inner .membership article h3 {
-      font: 400 20px/1 "Noto Sans KR";
+      font: 400 20px/1 "Gowun Batang";
       color: #111;
       margin-bottom: 20px; }
     .community .inner .membership article p {
-      font: 400 14px/1.4 "Noto Sans KR";
+      font: 400 14px/1.4 "Gowun Batang";
       color: #333; }
     .community .inner .membership article .btn {
       display: block;
@@ -1090,11 +1090,363 @@ body {
       left: 50%;
       bottom: 0;
       transform: translateX(-50%);
-      font: 300 12px/1 "Noto Sans KR";
+      font: 300 12px/1 "Gowun Batang";
       color: #000;
       letter-spacing: 1px;
       transition: 0.6s; }
       .community .inner .membership article .btn:hover {
         font-weight: 500; }
+
+.department li,
+.department span {
+  transition: 0.8s ease-in-out; }
+  .department li::before, .department li::after,
+  .department span::before,
+  .department span::after {
+    transition: 0.3s ease-in-out; }
+.department .summary {
+  margin-bottom: 100px;
+  text-align: center; }
+  .department .summary h2 {
+    font: bold 20px/1 "Gowun Batang";
+    color: #534847;
+    margin-bottom: 30px; }
+  .department .summary em {
+    display: block;
+    font: bold 18px/1.2 "Gowun Batang";
+    color: #335B75;
+    margin-bottom: 50px; }
+  .department .summary h3 {
+    font: normal 18px/1.2 "Gowun Batang";
+    color: #9B8281;
+    margin-bottom: 20px; }
+  .department .summary p {
+    font: normal 18px/1.4 "Gowun Batang";
+    color: #b19999; }
+.department .division {
+  width: 100%;
+  height: 750px;
+  padding-top: 60px;
+  text-align: center;
+  margin-bottom: 200px;
+  position: relative; }
+  .department .division::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: url(../img/map.png) no-repeat center/contain;
+    opacity: 0.1; }
+  .department .division .webtit {
+    font: bold 30px/1 "Gowun Batang";
+    color: #9B8281;
+    position: absolute;
+    top: 325px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .8s; }
+  .department .division .motit {
+    display: none;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: #000; }
+  .department .division .div_tree {
+    width: 100%;
+    /* 1depth */ }
+    .department .division .div_tree li {
+      /* 2depth */ }
+      .department .division .div_tree li span {
+        display: inline-block;
+        font: bold 32px/160px "Gowun Batang";
+        color: #534847;
+        background-color: #fff;
+        width: 200px;
+        height: 200px;
+        border: 20px solid #534847;
+        border-radius: 50%;
+        margin-bottom: 200px;
+        position: relative; }
+        .department .division .div_tree li span::before {
+          content: '';
+          display: block;
+          width: 1px;
+          height: 290px;
+          background-color: #534847;
+          position: absolute;
+          left: -12px;
+          top: 50%;
+          margin-top: -1px;
+          transform: rotate(59deg);
+          transform-origin: center top; }
+        .department .division .div_tree li span::after {
+          content: '';
+          display: block;
+          width: 1px;
+          height: 290px;
+          background-color: #534847;
+          position: absolute;
+          left: calc(100% + 10px);
+          top: 50%;
+          margin-top: -1px;
+          transform: rotate(-59deg);
+          transform-origin: center top; }
+      .department .division .div_tree li ul li {
+        display: inline-block;
+        margin-right: 100px;
+        vertical-align: top;
+        position: relative;
+        /* 3depth */ }
+        .department .division .div_tree li ul li::before {
+          content: '';
+          display: block;
+          width: 1px;
+          height: 35px;
+          background-color: #534847;
+          position: absolute;
+          left: 50%;
+          top: 105px;
+          margin-top: 0; }
+        .department .division .div_tree li ul li:nth-of-type(1)::after {
+          content: '';
+          display: block;
+          width: 1px;
+          height: 116px;
+          background-color: #534847;
+          position: absolute;
+          left: 100%;
+          top: 70px;
+          margin-top: 0;
+          transform: rotate(-64deg);
+          transform-origin: center top; }
+        .department .division .div_tree li ul li:nth-of-type(2)::after {
+          content: '';
+          display: block;
+          width: 1px;
+          height: 105px;
+          background-color: #534847;
+          position: absolute;
+          left: 100%;
+          top: 35px;
+          margin-top: 0;
+          transform: rotate(-90deg);
+          transform-origin: center top; }
+        .department .division .div_tree li ul li:nth-of-type(4)::after {
+          content: '';
+          display: block;
+          width: 1px;
+          height: 116px;
+          background-color: #534847;
+          position: absolute;
+          left: 0;
+          top: 70px;
+          margin-top: 0;
+          transform: rotate(64deg);
+          transform-origin: center top; }
+        .department .division .div_tree li ul li:last-of-type {
+          margin-right: 0; }
+        .department .division .div_tree li ul li:nth-of-type(1), .department .division .div_tree li ul li:nth-of-type(4) {
+          transform: translateY(-120px); }
+        .department .division .div_tree li ul li span {
+          margin-bottom: 70px;
+          width: 120px;
+          height: 70px;
+          font: 20px/70px "Gowun Batang";
+          color: #fff;
+          background-color: #335B75;
+          border: none;
+          border-radius: 0;
+          position: relative; }
+          .department .division .div_tree li ul li span::before {
+            content: '';
+            background-color: transparent;
+            transform: none;
+            margin-top: 0;
+            display: block;
+            width: 0;
+            height: 0;
+            border-bottom: 35px solid #335B75;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            position: absolute;
+            top: -35px;
+            left: 0; }
+          .department .division .div_tree li ul li span::after {
+            content: '';
+            background-color: transparent;
+            transform: none;
+            margin-top: 0;
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 35px solid #335B75;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            position: absolute;
+            top: 100%;
+            left: 0; }
+        .department .division .div_tree li ul li ul li {
+          display: block;
+          margin: 0 auto;
+          height: 30px; }
+          .department .division .div_tree li ul li ul li:last-of-type {
+            margin: 0 auto; }
+          .department .division .div_tree li ul li ul li:nth-of-type(n+1) {
+            transform: none; }
+          .department .division .div_tree li ul li ul li::before, .department .division .div_tree li ul li ul li:nth-of-type(n+1)::after {
+            display: none; }
+          .department .division .div_tree li ul li ul li span {
+            margin-bottom: 0;
+            width: 100%;
+            height: 100%;
+            font: 16px/30px "Gowun Batang";
+            background-color: transparent;
+            color: #9B8281; }
+            .department .division .div_tree li ul li ul li span::before, .department .division .div_tree li ul li ul li span::after {
+              display: none; }
+.department .work {
+  margin-bottom: 200px; }
+  .department .work .txt {
+    width: 580px;
+    float: left;
+    text-align: right;
+    padding-bottom: 50px; }
+    .department .work .txt h2 {
+      font: 60px/1 "Gowun Batang";
+      letter-spacing: 5px;
+      color: #335B75;
+      margin-bottom: 20px; }
+      .department .work .txt h2 strong {
+        display: block;
+        font-weight: bold; }
+    .department .work .txt span {
+      display: block;
+      font: bold 16px/1.2 "Gowun Batang";
+      color: #534847;
+      margin-bottom: 30px; }
+    .department .work .txt p {
+      font: 300 12px/1.2 "Gowun Batang";
+      color: #9B8281;
+      margin-bottom: 50px; }
+    .department .work .txt .btn {
+      font: bold 14px/1 "Gowun Batang";
+      color: #9B8281;
+      position: relative; }
+      .department .work .txt .btn span {
+        display: block;
+        width: 0px;
+        height: 1px;
+        background-color: #534847;
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        opacity: 0;
+        transition: .6s; }
+        .department .work .txt .btn span::before {
+          content: '';
+          display: block;
+          width: 8px;
+          height: 1px;
+          background-color: #534847;
+          position: absolute;
+          left: 0;
+          top: 0;
+          margin-top: 0;
+          transform-origin: right center;
+          transition: .6s; }
+        .department .work .txt .btn span::after {
+          content: '';
+          display: block;
+          width: 8px;
+          height: 1px;
+          background-color: #534847;
+          position: absolute;
+          left: 0;
+          top: 0;
+          margin-top: 0;
+          transform-origin: right center;
+          transition: .6s; }
+      .department .work .txt .btn:hover {
+        color: #000; }
+        .department .work .txt .btn:hover span {
+          width: 20px;
+          opacity: 1; }
+          .department .work .txt .btn:hover span::before {
+            left: 12px;
+            transform: rotate(45deg); }
+          .department .work .txt .btn:hover span::after {
+            left: 12px;
+            transform: rotate(-45deg); }
+  .department .work .pic {
+    width: 580px;
+    height: 400px;
+    float: right;
+    background-color: #9B8281;
+    position: relative; }
+    .department .work .pic::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #9B8281;
+      position: absolute;
+      top: -30px;
+      left: 30px; }
+    .department .work .pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .6; }
+.department .vision h2 {
+  font: bold 20px/1 "Gowun Batang";
+  color: #534847;
+  text-align: center;
+  margin-bottom: 30px; }
+.department .vision p {
+  font: bold 16px/1.2 "Gowun Batang";
+  color: #335B75;
+  text-align: center;
+  margin-bottom: 50px; }
+.department .vision .wrap {
+  text-align: center; }
+  .department .vision .wrap article {
+    width: 280px;
+    margin-right: 20px;
+    float: left;
+    padding: 15px; }
+    .department .vision .wrap article:last-child {
+      margin-right: 0; }
+    .department .vision .wrap article .pic {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 20px;
+      font: 400 100px/1.4 "Gowun Batang";
+      color: #b19999;
+      overflow: hidden;
+      position: relative; }
+      .department .vision .wrap article .pic::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 5px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        position: absolute;
+        bottom: -5px;
+        left: 0; }
+    .department .vision .wrap article h3 {
+      font: bold 18px/1 "Gowun Batang";
+      color: #534847;
+      margin-bottom: 30px; }
+    .department .vision .wrap article p {
+      font: normal 14px/2 "Gowun Batang";
+      color: #9B8281;
+      margin-bottom: 30px; }
+    .department .vision .wrap article i {
+      color: #335B75;
+      font-size: 40px;
+      margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
