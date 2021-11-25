@@ -100,6 +100,10 @@
                         }
                     }
                 }
+                p{
+                    font: 300 13px/1 $font;
+                    color: tomato;
+                }
             }
         }
         // info
@@ -145,9 +149,10 @@
                             width: 100px;
                             height: 100%;
                             background: url(../img/number.png) no-repeat center/contain;
+                            transition: .4s;
 
                             &:hover{
-                                transform: scale(2) translate(10px, 7px);
+                                transform: scale(2) translate(10px, 8px);
                             }
                         }
                     }
@@ -182,7 +187,7 @@
                     cursor: pointer;
 
                     &:hover{
-                        background-color: #333;
+                        background-color: #232D3A;
                         color: #fff;
                     }
                 }

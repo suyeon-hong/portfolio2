@@ -51,7 +51,7 @@ body {
       font-size: 0; }
       #header .inner h1 a {
         font: 600 20px/1 "Noto Sans KR";
-        color: #444; }
+        color: #232D3A; }
     #header .inner #gnb {
       position: absolute;
       left: 50%;
@@ -968,6 +968,9 @@ body {
         .join .inner table tr td input[type="text"]::placeholder, .join .inner table tr td input[type="password"]::placeholder {
           font: 300 16px/1 "Noto Sans KR";
           color: #888; }
+    .join .inner table tr p {
+      font: 300 13px/1 "Noto Sans KR";
+      color: tomato; }
 .join .inner .info {
   margin-bottom: 50px; }
   .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
@@ -995,9 +998,10 @@ body {
         display: block;
         width: 100px;
         height: 100%;
-        background: url(../img/number.png) no-repeat center/contain; }
+        background: url(../img/number.png) no-repeat center/contain;
+        transition: .4s; }
         .join .inner .info tr:nth-of-type(7) td span:hover {
-          transform: scale(2) translate(10px, 7px); }
+          transform: scale(2) translate(10px, 8px); }
 .join .inner .address tr:nth-of-type(2) {
   position: relative;
   width: 19%;
@@ -1019,7 +1023,7 @@ body {
   transition: background-color 0.6s;
   cursor: pointer; }
   .join .inner .address tr input[type="button"]:hover, .join .inner .address tr input[type="submit"]:hover {
-    background-color: #333;
+    background-color: #232D3A;
     color: #fff; }
 .join .inner .address tr input[type="submit"] {
   margin-bottom: 0; }
