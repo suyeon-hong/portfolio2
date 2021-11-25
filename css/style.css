@@ -24,6 +24,12 @@ a {
   font-size: 0;
   opacity: 0; }
 
+fieldset {
+  border: none; }
+
+.textarea:focus, input:focus {
+  outline: none; }
+
 body {
   font-family: "Noto Sans KR"; }
 
@@ -691,13 +697,41 @@ body {
     #header_sub .inner .lan {
       display: none; } }
 .content {
-  width: 100%;
-  min-height: 1000px; }
+  width: 100%; }
   .content .visual {
     width: 100%;
     height: 300px;
     background: #bbb; }
+  .content .inner {
+    width: 1180px;
+    margin: 0 auto;
+    min-height: 500px;
+    padding: 100px 0; }
+    .content .inner h1 {
+      font: 600 28px/1 "Noto Sans KR";
+      color: #111;
+      text-align: center;
+      margin-bottom: 100px; }
+      .content .inner h1 span {
+        font-size: 16px;
+        color: #444; }
+        .content .inner h1 span::before {
+          content: '/';
+          padding: 0 10px 0 15px; }
 
+@media screen and (max-width: 1179px) {
+  .content .inner {
+    padding: 0 30px; }
+  .content .sub_visual h1 {
+    font-size: 30px; } }
+@media screen and (max-width: 539px) {
+  .content .sub_visual {
+    margin-bottom: 50px;
+    height: 200px; }
+    .content .sub_visual h1 {
+      font-size: 14px; }
+  .content .inner {
+    padding: 0 20px; } }
 #footer_sub {
   width: 100%;
   padding: 100px 0;
@@ -860,5 +894,139 @@ body {
         #footer_sub .inner .wrap > div.company h2 span {
           margin-right: 5px;
           font-size: 12px; } }
+.join .inner h2 {
+  font: 400 16px/1 "Noto Sans KR";
+  color: #000;
+  margin-bottom: 15px; }
+.join .inner .policy {
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+  padding: 20px;
+  font: 300 16px/1.4 "Noto Sans KR";
+  border: 1px solid #bbb;
+  color: #333;
+  margin-bottom: 5px; }
+  .join .inner .policy::-webkit-scrollbar {
+    width: 13px; }
+  .join .inner .policy::-webkit-scrollbar-thumb {
+    background-color: #777;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-left: 2px solid transparent;
+    border-radius: 5px; }
+  .join .inner .policy::-webkit-scrollbar-track {
+    background-color: #ddd; }
+.join .inner input[type="checkbox"] {
+  display: none; }
+  .join .inner input[type="checkbox"]:checked + label {
+    color: tomato; }
+  .join .inner input[type="checkbox"]:checked + label::before {
+    border-color: tomato;
+    background-color: tomato; }
+.join .inner label {
+  font: 400 13px/1 "Noto Sans KR";
+  color: #000;
+  display: inline-block;
+  margin-bottom: 100px;
+  cursor: pointer; }
+  .join .inner label::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer; }
+.join .inner table {
+  width: 100%;
+  text-align: left; }
+  .join .inner table caption {
+    text-align: left;
+    font: 400 16px/1 "Noto Sans KR";
+    color: #000;
+    margin-bottom: 20px; }
+  .join .inner table tr {
+    width: 100%;
+    display: inline-block; }
+    .join .inner table tr th {
+      font: 400 14px/1 "Noto Sans KR";
+      color: #333;
+      width: 100%;
+      margin-bottom: 5px;
+      display: block; }
+    .join .inner table tr td {
+      width: 100%;
+      display: block; }
+      .join .inner table tr td input[type="text"], .join .inner table tr td input[type="password"] {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid #888;
+        font: 400 16px/1 "Noto Sans KR";
+        color: #555;
+        margin-bottom: 50px;
+        padding-left: 10px; }
+        .join .inner table tr td input[type="text"]::placeholder, .join .inner table tr td input[type="password"]::placeholder {
+          color: #888; }
+.join .inner .info {
+  margin-bottom: 50px; }
+  .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
+    width: 49.5%;
+    margin-right: 1%; }
+  .join .inner .info tr:nth-of-type(3) {
+    margin-right: 0; }
+  .join .inner .info tr:nth-of-type(5) input[type="text"] {
+    margin-bottom: 5px; }
+  .join .inner .info tr:nth-of-type(5) td label {
+    margin-bottom: 50px; }
+  .join .inner .info tr:nth-of-type(6) {
+    width: 34%;
+    margin-right: 1%; }
+  .join .inner .info tr:nth-of-type(7) {
+    width: 65%; }
+    .join .inner .info tr:nth-of-type(7) td {
+      width: 100%;
+      height: 40px;
+      border-bottom: 1px solid #000;
+      font-size: 18px;
+      margin-bottom: 50px;
+      font-weight: bold; }
+      .join .inner .info tr:nth-of-type(7) td span {
+        display: block;
+        width: 100px;
+        height: 100%;
+        background: url(../img/number.png) no-repeat center/contain; }
+        .join .inner .info tr:nth-of-type(7) td span:hover {
+          transform: scale(2) translate(10px, 7px); }
+.join .inner .address tr:nth-of-type(2) {
+  position: relative;
+  width: 19%;
+  margin-right: 1%; }
+.join .inner .address tr:nth-of-type(3) {
+  width: 64%; }
+.join .inner .address tr input[type="button"] {
+  position: absolute;
+  bottom: 0;
+  left: calc(1180px - 180px); }
+.join .inner .address tr input[type="button"], .join .inner .address tr input[type="submit"] {
+  width: 180px;
+  height: 40px;
+  border: 1px solid #000;
+  padding: 5px 15px;
+  font-size: 13px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  background-color: #fff;
+  transition: background-color 0.6s;
+  cursor: pointer; }
+  .join .inner .address tr input[type="button"]:hover, .join .inner .address tr input[type="submit"]:hover {
+    background-color: #333;
+    color: #fff; }
+.join .inner .address tr input[type="submit"] {
+  margin-bottom: 0; }
+.join .inner .address tr:last-child {
+  text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

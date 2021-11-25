@@ -24,3 +24,7 @@ a{
     font-size: 0;
     opacity: 0;
 }
+fieldset{
+    border: none;
+}
+.textarea:focus, input:focus{outline: none;}
