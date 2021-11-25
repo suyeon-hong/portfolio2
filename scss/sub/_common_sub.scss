@@ -16,13 +16,14 @@
         padding: 100px 0;
 
         h1{
-            font: 600 28px/1 $font;
+            font: 600 30px/1 $font;
             color: #111;
             text-align: center;
             margin-bottom: 100px;
             
             span{
                 font-size: 16px;
+                font-weight: 400;
                 color: #444;
     
                 &::before{
@@ -36,11 +37,11 @@
 
 @media screen and (max-width: $tablet){
     .content{
-        .inner{
-            padding: 0 30px;
-        }
         .sub_visual h1{
-            font-size: 30px;
+        }
+        .inner{
+            width: 100%;
+            padding: 100px 30px;
         }
     } 
 }
@@ -48,15 +49,13 @@
 @media screen and (max-width: $mobile){
     .content{
         .sub_visual{
-            margin-bottom: 50px;
-            height: 200px;
-    
-            h1{
-                font-size: 14px;
-            }
         }
         .inner{
-            padding: 0 20px;
+            padding: 50px 20px;
+
+            h1{
+                margin-bottom: 50px;
+            }
         }
     }
 }
