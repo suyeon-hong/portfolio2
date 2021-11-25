@@ -588,6 +588,28 @@ $mobile : 539px;
     }
 }
 
+#navi{
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+
+    li{
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        background: #bbb;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: .6s;
+
+        &.on{
+            height: 60px;
+            background: #555;
+        }
+    }
+}
+
 @media screen and (max-width: $tablet){
     #header{
         padding: 0 30px;

@@ -472,6 +472,23 @@ fieldset {
           #footer .inner .wrap > div.company p span {
             display: block; }
 
+#navi {
+  position: fixed;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%); }
+  #navi li {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: #bbb;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .6s; }
+    #navi li.on {
+      height: 60px;
+      background: #555; }
+
 @media screen and (max-width: 1179px) {
   #header {
     padding: 0 30px; }
