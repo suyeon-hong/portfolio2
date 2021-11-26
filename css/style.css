@@ -492,13 +492,14 @@ fieldset {
 .popup {
   width: 500px;
   background: #fff;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.3); }
   .popup .pic {
     width: 100%;
-    height: 200px;
+    height: 220px;
     background: #bbb; }
   .popup .con {
     padding: 30px 50px 50px;
@@ -514,7 +515,7 @@ fieldset {
       letter-spacing: -1px;
       margin-bottom: 40px;
       text-align: center; }
-    .popup .con input {
+    .popup .con input[type="text"] {
       width: 300px;
       height: 50px;
       border: 2px solid #000;
@@ -522,7 +523,7 @@ fieldset {
       color: #333;
       text-align: center;
       margin-bottom: 10px; }
-      .popup .con input::placeholder {
+      .popup .con input[type="text"]::placeholder {
         font: 600 15px/46px 'Montserrat';
         color: #555; }
     .popup .con button {
@@ -533,6 +534,13 @@ fieldset {
       font: 400 16px/46px 'Montserrat';
       color: #fff;
       cursor: pointer; }
+  .popup .cookieCk {
+    position: absolute;
+    bottom: 10px;
+    right: 10px; }
+    .popup .cookieCk label {
+      font: 13px/1 'Montserrat';
+      color: #555; }
   .popup .close {
     display: block;
     width: 20px;
