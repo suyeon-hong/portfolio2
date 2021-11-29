@@ -11,6 +11,16 @@
     <script defer src="js/common.js"></script>
     <script defer src="js/scroll.js"></script>
     <script defer src="js/popup.js"></script>
+    <script>
+        window.addEventListener("load", ()=>{
+            new CookiePopup(".popup", {
+                btnClose: ".close",
+                name: "popup",
+                value: "isdone",
+                delay: 1
+            });
+        });
+    </script>
 </head>
 <body>
     <header id="header" class="myscroll">
@@ -218,7 +228,7 @@
         <li></li>
     </ul>
 
-    <div class="popup">
+    <aside class="popup">
         <div class="pic"></div>
         <div class="con">
             <h1>DON'T GO!</h1>
@@ -231,6 +241,6 @@
             <label for="ck">오늘 하루 보지 않기</label>
         </div>
         <a href="#" class="close"></a>
-    </div>
+    </aside>
 </body>
 </html>
