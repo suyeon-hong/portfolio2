@@ -1,63 +1,191 @@
 .community{
-    .inner{
-        .membership {
-			width: 100%;
+	position: relative;
+
+	.tabs{
+		position: absolute;
+		top: 270px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 1180px;
+
+		&::after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		li{
+			float: left;
+			width: 25%;
+			height: 60px;
+			background: #28384d;
+			font: 300 20px/60px $font;
+			color: #ddd;
 			text-align: center;
-			margin-bottom: 200px;
+			cursor: pointer;
 
-			article {
-				width: 280px;
-				height: 230px;
+			&.on{
+				background: #232D3A;
+			}
+		}
+	}
+	.search{
+		width: 100%;
+		background: #eee;
+		padding: 40px 0;
+		margin-bottom: 30px;
+		text-align: center;
+
+		input{
+			width: 800px;
+			height: 50px;
+			font: 20px/1 $font;
+			color: #333;
+			background: transparent;
+			border: none;
+			border-bottom: 2px solid #000;
+
+			&::placeholder{
+				color: #333;
+			}
+		}
+	}
+    .inner{
+		.wrap{
+			margin-bottom: 30px;
+
+			article{
 				float: left;
-				position: relative;
-				padding: 0 20px;
+				width: 380px;
 				margin-right: 20px;
+				margin-bottom: 20px;
+				border: 1px solid #555;
+				box-sizing: border-box;
 
-				&::after {
-					content: "";
-					display: block;
-					width: 1px;
-					height: 40px;
-					background-color: #bbb;
-					position: absolute;
-					top: 50%;
-					right: 0;
-					margin-top: -20px;
+				&:nth-of-type(3n){margin-right: 0;}
+				.pic{
+					width: 100%;
+					height: 200px;
+					background: #bbb;
 				}
-				&:last-child {
-					margin-right: 0;
-					&::after {
-						display: none;
+				.con{
+					width: 100%;
+					padding: 30px;
+
+					h2{
+						font: 20px/1 $font;
+						color: #111;
+						margin-bottom: 40px;
+					}
+					p{
+						font: 14px/1.6 $font;
+						color: #333;
+						margin-bottom: 30px;
+					}
+					span{
+						display: block;
+						font: 12px/1 $font;
+						color: #555;
 					}
 				}
-				i {
-					font-size: 50px;
-					margin-bottom: 30px;
-					color: #232D3A;
-				}
-				h3 {
-                    font: 400 20px/1 $font;
-					color: #111;
-					margin-bottom: 20px;
-				}
-				p {
-					font: 400 14px/1.4 $font;
-					color: #333;
-				}
-				.btn {
+			}
+		}
+		.pagination{
+			text-align: center;
+			font-size: 0;
+
+			a{
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				border: 1px solid rgba(0,0,0,0.4);
+				position: relative;
+			}
+			.prev span{
+				display: block;
+				width: 15px;
+				height: 2px;
+				background: #333;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+
+				&::before{
+					content: '';
 					display: block;
+					width: 7px;
+					height: 2px;
+					background: inherit;
+					transform: rotate(-45deg);
+					transform-origin: left center;
 					position: absolute;
-					left: 50%;
+					left: 0;
+					top: 0;
+				}
+				&::after{
+					content: '';
+					display: block;
+					width: 7px;
+					height: 2px;
+					background: inherit;
+					transform: rotate(45deg);
+					transform-origin: left center;
+					position: absolute;
+					left: 0;
 					bottom: 0;
-					transform: translateX(-50%);
-					font: 300 12px/1 $font;
-					color: #000;
-					letter-spacing: 1px;
-					transition: 0.6s;
+				}
+			}
+			.numbers{
+				display: inline-block;
+				font-size: 0;
+				vertical-align: top;
+				margin: 0 10px;
 
-					&:hover {
-						font-weight: 500;
+				a{
+					border-right: none;
+					font: 15px/28px $font;
+					color: #333;
+
+					&:last-child{border: 1px solid rgba(0,0,0,0.4)}
+					&.on{
+						background: #232D3A;
+						color: #fff;
 					}
+				}
+			}
+			.next span{
+				display: block;
+				width: 15px;
+				height: 2px;
+				background: #333;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+
+				&::before{
+					content: '';
+					display: block;
+					width: 7px;
+					height: 2px;
+					background: inherit;
+					transform: rotate(-45deg);
+					transform-origin: right center;
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+				&::after{
+					content: '';
+					display: block;
+					width: 7px;
+					height: 2px;
+					background: inherit;
+					transform: rotate(45deg);
+					transform-origin: right center;
+					position: absolute;
+					right: 0;
+					bottom: 0;
 				}
 			}
 		}

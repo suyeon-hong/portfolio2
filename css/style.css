@@ -144,7 +144,7 @@ fieldset {
       padding: 50px;
       border-bottom: 1px solid #444; }
       #header .gnbMo li a {
-        font: 500 20px/1 "Gowun Batang";
+        font: 500 20px/1 "Montserrat";
         color: #fff; }
     #header .gnbMo.on {
       left: 0;
@@ -163,12 +163,12 @@ fieldset {
     width: 1180px;
     margin: 0 auto; }
     #intro .inner h1 {
-      font: 100 30px/1 "Gowun Batang";
+      font: 100 30px/1 "Montserrat";
       color: #555;
       text-align: center;
       margin-bottom: 20px; }
     #intro .inner h2 {
-      font: 300 20px/1.4 "Gowun Batang";
+      font: 300 20px/1.4 "Montserrat";
       color: #333;
       text-align: center;
       margin-bottom: 100px; }
@@ -188,7 +188,7 @@ fieldset {
         padding: 60px;
         border-radius: 5px; }
         #intro .inner .box > div h3 {
-          font: 400 18px/1 "Gowun Batang";
+          font: 400 18px/1 "Montserrat";
           color: #eee;
           text-align: center;
           letter-spacing: 2px;
@@ -209,12 +209,12 @@ fieldset {
           margin: 0 auto;
           margin-bottom: 30px; }
         #intro .inner .box > div h4 {
-          font: 300 18px/1 "Gowun Batang";
+          font: 300 18px/1 "Montserrat";
           color: #ddd;
           text-align: center;
           margin-bottom: 15px; }
         #intro .inner .box > div p {
-          font: 200 16px/1.4 "Gowun Batang";
+          font: 200 16px/1.4 "Montserrat";
           color: #ddd;
           text-align: center; }
     #intro .inner .wrap {
@@ -233,11 +233,11 @@ fieldset {
           background: #bbb;
           margin-bottom: 20px; }
         #intro .inner .wrap article h3 {
-          font: 400 18px/1 "Gowun Batang";
+          font: 400 18px/1 "Montserrat";
           color: #333;
           margin-bottom: 10px; }
         #intro .inner .wrap article p {
-          font: 200 16px/1.4 "Gowun Batang";
+          font: 200 16px/1.4 "Montserrat";
           color: #444; }
 
 #service {
@@ -255,7 +255,7 @@ fieldset {
     padding: 60px;
     border-radius: 5px; }
     #service > div h1 {
-      font: 400 18px/1 "Gowun Batang";
+      font: 400 18px/1 "Montserrat";
       color: #eee;
       text-align: center;
       letter-spacing: 2px;
@@ -276,12 +276,12 @@ fieldset {
       margin: 0 auto;
       margin-bottom: 30px; }
     #service > div h2 {
-      font: 300 18px/1 "Gowun Batang";
+      font: 300 18px/1 "Montserrat";
       color: #ddd;
       text-align: center;
       margin-bottom: 15px; }
     #service > div p {
-      font: 200 16px/1.4 "Gowun Batang";
+      font: 200 16px/1.4 "Montserrat";
       color: #ddd;
       text-align: center; }
 
@@ -293,12 +293,12 @@ fieldset {
     width: 1180px;
     margin: 0 auto; }
     #news .inner h1 {
-      font: 100 30px/1 "Gowun Batang";
+      font: 100 30px/1 "Montserrat";
       color: #555;
       text-align: center;
       margin-bottom: 20px; }
     #news .inner h2 {
-      font: 300 20px/1.4 "Gowun Batang";
+      font: 300 20px/1.4 "Montserrat";
       color: #333;
       text-align: center;
       margin-bottom: 100px; }
@@ -323,11 +323,11 @@ fieldset {
           background: #bbb;
           margin-bottom: 20px; }
         #news .inner .wrap article h3 {
-          font: 400 18px/1 "Gowun Batang";
+          font: 400 18px/1 "Montserrat";
           color: #333;
           margin-bottom: 10px; }
         #news .inner .wrap article p {
-          font: 200 16px/1.4 "Gowun Batang";
+          font: 200 16px/1.4 "Montserrat";
           color: #444; }
 
 #cs {
@@ -344,11 +344,11 @@ fieldset {
       padding: 100px 70px;
       padding-right: 70%; }
       #cs .inner .pic h1 {
-        font: 100 30px/1 "Gowun Batang";
+        font: 100 30px/1 "Montserrat";
         color: #ddd;
         margin-bottom: 30px; }
       #cs .inner .pic > p {
-        font: 300 18px/1.6 "Gowun Batang";
+        font: 300 18px/1.6 "Montserrat";
         color: #ddd; }
     #cs .inner article {
       position: absolute;
@@ -373,11 +373,11 @@ fieldset {
         background: #322D35;
         border: 1px solid #4e4a50; }
       #cs .inner article h2 {
-        font: 300 18px/1 "Gowun Batang";
+        font: 300 18px/1 "Montserrat";
         color: #ddd;
         margin-bottom: 15px; }
       #cs .inner article p {
-        font: 200 16px/1.6 "Gowun Batang";
+        font: 200 16px/1.6 "Montserrat";
         color: #ddd; }
 
 #footer {
@@ -395,12 +395,12 @@ fieldset {
       border-right: 1px solid rgba(255, 255, 255, 0.1); }
       #footer .inner .wrap > div.contact {
         padding-left: 0; }
-        #footer .inner .wrap > div.contact h2 {
+        #footer .inner .wrap > div.contact h1 {
           font: 16px/1 "Gowun Batang";
           color: #eee;
           margin-bottom: 20px;
           position: relative; }
-          #footer .inner .wrap > div.contact h2::after {
+          #footer .inner .wrap > div.contact h1::after {
             content: '';
             display: block;
             width: 24px;
@@ -408,7 +408,7 @@ fieldset {
             background: #bbb;
             margin-top: 10px; }
         #footer .inner .wrap > div.contact address {
-          font: 300 16px/2 "Gowun Batang";
+          font: 300 16px/2 "Montserrat";
           color: #aaa;
           margin-bottom: 40px; }
           #footer .inner .wrap > div.contact address i {
@@ -426,12 +426,12 @@ fieldset {
             transition: .4s; }
           #footer .inner .wrap > div.contact .sns li:last-child a {
             margin-right: 0; }
-      #footer .inner .wrap > div.about h2 {
+      #footer .inner .wrap > div.about h1 {
         font: 16px/1 "Gowun Batang";
         color: #eee;
         margin-bottom: 20px;
         position: relative; }
-        #footer .inner .wrap > div.about h2::after {
+        #footer .inner .wrap > div.about h1::after {
           content: '';
           display: block;
           width: 24px;
@@ -441,7 +441,7 @@ fieldset {
       #footer .inner .wrap > div.about .wrap ul li {
         margin-bottom: 10px; }
         #footer .inner .wrap > div.about .wrap ul li a {
-          font: 300 16px/1 "Gowun Batang";
+          font: 300 16px/1 "Montserrat";
           color: #aaa;
           transition: .4s; }
           #footer .inner .wrap > div.about .wrap ul li a:hover {
@@ -460,7 +460,7 @@ fieldset {
           color: #eee;
           margin-bottom: 40px; }
         #footer .inner .wrap > div.company h2 {
-          font: 300 16px/1 "Gowun Batang";
+          font: 300 16px/1 "Montserrat";
           color: #bbb;
           margin-bottom: 50px; }
           #footer .inner .wrap > div.company h2 span {
@@ -510,7 +510,7 @@ fieldset {
       margin-bottom: 20px;
       text-align: center; }
     .popup .con p {
-      font: 400 20px/1.2 "Gowun Batang";
+      font: 400 20px/1.2 "Montserrat";
       color: #888;
       letter-spacing: -1px;
       margin-bottom: 40px;
@@ -824,7 +824,7 @@ fieldset {
       transform: translateY(-50%);
       font-size: 0; }
       #header_sub .inner h1 a {
-        font: 600 20px/1 "Gowun Batang";
+        font: 600 20px/1 "Montserrat";
         color: #232D3A; }
     #header_sub .inner #gnb {
       position: absolute;
@@ -921,7 +921,7 @@ fieldset {
       padding: 50px;
       border-bottom: 1px solid #444; }
       #header_sub .gnbMo li a {
-        font: 500 20px/1 "Gowun Batang";
+        font: 500 20px/1 "Montserrat";
         color: #fff; }
     #header_sub .gnbMo.on {
       left: 0;
@@ -948,24 +948,25 @@ fieldset {
   .content .visual {
     width: 100%;
     height: 300px;
-    background: #bbb; }
+    background: #bbb;
+    margin-bottom: 100px; }
+  .content h1 {
+    font: bold 30px/1 "Montserrat";
+    color: #333;
+    text-align: center;
+    margin-bottom: 100px; }
+    .content h1 span {
+      font-size: 16px;
+      font-weight: normal;
+      color: #888; }
+      .content h1 span::before {
+        content: '/';
+        padding: 0 10px 0 15px; }
   .content .inner {
     width: 1180px;
     margin: 0 auto;
     min-height: 500px;
-    padding: 100px 0; }
-    .content .inner h1 {
-      font: bold 30px/1 "Gowun Batang";
-      color: #333;
-      text-align: center;
-      margin-bottom: 100px; }
-      .content .inner h1 span {
-        font-size: 16px;
-        font-weight: normal;
-        color: #888; }
-        .content .inner h1 span::before {
-          content: '/';
-          padding: 0 10px 0 15px; }
+    padding-bottom: 100px; }
 
 @media screen and (max-width: 1179px) {
   .content .inner {
@@ -992,7 +993,7 @@ fieldset {
       #footer_sub .inner .wrap > div.contact {
         padding-left: 0; }
         #footer_sub .inner .wrap > div.contact h2 {
-          font: 16px/1 "Gowun Batang";
+          font: 16px/1 "Montserrat";
           color: #eee;
           margin-bottom: 20px;
           position: relative; }
@@ -1004,7 +1005,7 @@ fieldset {
             background: #bbb;
             margin-top: 10px; }
         #footer_sub .inner .wrap > div.contact address {
-          font: 300 16px/2 "Gowun Batang";
+          font: 300 16px/2 "Montserrat";
           color: #aaa;
           margin-bottom: 40px; }
           #footer_sub .inner .wrap > div.contact address i {
@@ -1023,7 +1024,7 @@ fieldset {
           #footer_sub .inner .wrap > div.contact .sns li:last-child a {
             margin-right: 0; }
       #footer_sub .inner .wrap > div.about h2 {
-        font: 16px/1 "Gowun Batang";
+        font: 16px/1 "Montserrat";
         color: #eee;
         margin-bottom: 20px;
         position: relative; }
@@ -1037,7 +1038,7 @@ fieldset {
       #footer_sub .inner .wrap > div.about .wrap ul li {
         margin-bottom: 10px; }
         #footer_sub .inner .wrap > div.about .wrap ul li a {
-          font: 300 16px/1 "Gowun Batang";
+          font: 300 16px/1 "Montserrat";
           color: #aaa;
           transition: .4s; }
           #footer_sub .inner .wrap > div.about .wrap ul li a:hover {
@@ -1052,18 +1053,18 @@ fieldset {
         margin-right: 0;
         border-right: none; }
         #footer_sub .inner .wrap > div.company h1 {
-          font: 20px/1 "Gowun Batang";
+          font: 20px/1 "Montserrat";
           color: #eee;
           margin-bottom: 40px; }
         #footer_sub .inner .wrap > div.company h2 {
-          font: 300 16px/1 "Gowun Batang";
+          font: 300 16px/1 "Montserrat";
           color: #bbb;
           margin-bottom: 50px; }
           #footer_sub .inner .wrap > div.company h2 span {
             display: block;
             margin-bottom: 10px; }
         #footer_sub .inner .wrap > div.company p {
-          font: 300 14px/1.6 "Gowun Batang";
+          font: 300 14px/1.6 "Montserrat";
           color: #bbb; }
           #footer_sub .inner .wrap > div.company p span {
             display: block; }
@@ -1139,7 +1140,7 @@ fieldset {
           margin-right: 5px;
           font-size: 12px; } }
 .join .inner h2 {
-  font: bold 16px/1 "Gowun Batang";
+  font: bold 16px/1 "Montserrat";
   color: #000;
   margin-bottom: 15px; }
 .join .inner .policy {
@@ -1147,7 +1148,7 @@ fieldset {
   height: 300px;
   overflow-y: scroll;
   padding: 20px;
-  font: 300 16px/1.4 "Gowun Batang";
+  font: 300 16px/1.4 "Montserrat";
   border: 1px solid #bbb;
   color: #333;
   margin-bottom: 5px; }
@@ -1169,7 +1170,7 @@ fieldset {
     border-color: tomato;
     background-color: tomato; }
 .join .inner label {
-  font: bold 13px/1 "Gowun Batang";
+  font: bold 13px/1 "Montserrat";
   color: #555;
   display: inline-block;
   margin-bottom: 100px;
@@ -1188,14 +1189,14 @@ fieldset {
   text-align: left; }
   .join .inner table caption {
     text-align: left;
-    font: bold 16px/1 "Gowun Batang";
+    font: bold 16px/1 "Montserrat";
     color: #000;
     margin-bottom: 20px; }
   .join .inner table tr {
     width: 100%;
     display: inline-block; }
     .join .inner table tr th {
-      font: bold 14px/1 "Gowun Batang";
+      font: bold 14px/1 "Montserrat";
       color: #333;
       width: 100%;
       margin-bottom: 5px;
@@ -1208,15 +1209,15 @@ fieldset {
         height: 40px;
         border: none;
         border-bottom: 1px solid #888;
-        font: bold 16px/1 "Gowun Batang";
+        font: bold 16px/1 "Montserrat";
         color: #555;
         margin-bottom: 50px;
         padding-left: 10px; }
         .join .inner table tr td input[type="text"]::placeholder, .join .inner table tr td input[type="password"]::placeholder {
-          font: 300 16px/1 "Gowun Batang";
+          font: 300 16px/1 "Montserrat";
           color: #888; }
     .join .inner table tr p {
-      font: normal 13px/1 "Gowun Batang";
+      font: normal 13px/1 "Montserrat";
       color: tomato; }
 .join .inner .info {
   margin-bottom: 50px; }
@@ -1263,7 +1264,7 @@ fieldset {
   width: 180px;
   height: 40px;
   border: 1px solid #888;
-  font: bold 13px/40px "Gowun Batang";
+  font: bold 13px/40px "Montserrat";
   color: #111;
   background: transparent;
   margin-bottom: 50px;
@@ -1295,54 +1296,160 @@ fieldset {
   .join .inner .address tr input[type="button"] {
     width: 100px;
     left: calc(100% - 100px); } }
-.community .inner .membership {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 200px; }
-  .community .inner .membership article {
-    width: 280px;
-    height: 230px;
-    float: left;
-    position: relative;
-    padding: 0 20px;
-    margin-right: 20px; }
-    .community .inner .membership article::after {
-      content: "";
+.community {
+  position: relative; }
+  .community .tabs {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1180px; }
+    .community .tabs::after {
+      content: '';
       display: block;
-      width: 1px;
-      height: 40px;
-      background-color: #bbb;
+      clear: both; }
+    .community .tabs li {
+      float: left;
+      width: 25%;
+      height: 60px;
+      background: #28384d;
+      font: 300 20px/60px "Montserrat";
+      color: #ddd;
+      text-align: center;
+      cursor: pointer; }
+      .community .tabs li.on {
+        background: #232D3A; }
+  .community .search {
+    width: 100%;
+    background: #eee;
+    padding: 40px 0;
+    margin-bottom: 30px;
+    text-align: center; }
+    .community .search input {
+      width: 800px;
+      height: 50px;
+      font: 20px/1 "Montserrat";
+      color: #333;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #000; }
+      .community .search input::placeholder {
+        color: #333; }
+  .community .inner .wrap {
+    margin-bottom: 30px; }
+    .community .inner .wrap article {
+      float: left;
+      width: 380px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #555;
+      box-sizing: border-box; }
+      .community .inner .wrap article:nth-of-type(3n) {
+        margin-right: 0; }
+      .community .inner .wrap article .pic {
+        width: 100%;
+        height: 200px;
+        background: #bbb; }
+      .community .inner .wrap article .con {
+        width: 100%;
+        padding: 30px; }
+        .community .inner .wrap article .con h2 {
+          font: 20px/1 "Montserrat";
+          color: #111;
+          margin-bottom: 40px; }
+        .community .inner .wrap article .con p {
+          font: 14px/1.6 "Montserrat";
+          color: #333;
+          margin-bottom: 30px; }
+        .community .inner .wrap article .con span {
+          display: block;
+          font: 12px/1 "Montserrat";
+          color: #555; }
+  .community .inner .pagination {
+    text-align: center;
+    font-size: 0; }
+    .community .inner .pagination a {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.4);
+      position: relative; }
+    .community .inner .pagination .prev span {
+      display: block;
+      width: 15px;
+      height: 2px;
+      background: #333;
       position: absolute;
       top: 50%;
-      right: 0;
-      margin-top: -20px; }
-    .community .inner .membership article:last-child {
-      margin-right: 0; }
-      .community .inner .membership article:last-child::after {
-        display: none; }
-    .community .inner .membership article i {
-      font-size: 50px;
-      margin-bottom: 30px;
-      color: #232D3A; }
-    .community .inner .membership article h3 {
-      font: 400 20px/1 "Gowun Batang";
-      color: #111;
-      margin-bottom: 20px; }
-    .community .inner .membership article p {
-      font: 400 14px/1.4 "Gowun Batang";
-      color: #333; }
-    .community .inner .membership article .btn {
-      display: block;
-      position: absolute;
       left: 50%;
-      bottom: 0;
-      transform: translateX(-50%);
-      font: 300 12px/1 "Gowun Batang";
-      color: #000;
-      letter-spacing: 1px;
-      transition: 0.6s; }
-      .community .inner .membership article .btn:hover {
-        font-weight: 500; }
+      transform: translate(-50%, -50%); }
+      .community .inner .pagination .prev span::before {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 2px;
+        background: inherit;
+        transform: rotate(-45deg);
+        transform-origin: left center;
+        position: absolute;
+        left: 0;
+        top: 0; }
+      .community .inner .pagination .prev span::after {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 2px;
+        background: inherit;
+        transform: rotate(45deg);
+        transform-origin: left center;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+    .community .inner .pagination .numbers {
+      display: inline-block;
+      font-size: 0;
+      vertical-align: top;
+      margin: 0 10px; }
+      .community .inner .pagination .numbers a {
+        border-right: none;
+        font: 15px/28px "Montserrat";
+        color: #333; }
+        .community .inner .pagination .numbers a:last-child {
+          border: 1px solid rgba(0, 0, 0, 0.4); }
+        .community .inner .pagination .numbers a.on {
+          background: #232D3A;
+          color: #fff; }
+    .community .inner .pagination .next span {
+      display: block;
+      width: 15px;
+      height: 2px;
+      background: #333;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .community .inner .pagination .next span::before {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 2px;
+        background: inherit;
+        transform: rotate(-45deg);
+        transform-origin: right center;
+        position: absolute;
+        right: 0;
+        top: 0; }
+      .community .inner .pagination .next span::after {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 2px;
+        background: inherit;
+        transform: rotate(45deg);
+        transform-origin: right center;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
 
 .department li,
 .department span {
@@ -1355,20 +1462,20 @@ fieldset {
   margin-bottom: 100px;
   text-align: center; }
   .department .summary h2 {
-    font: bold 20px/1 "Gowun Batang";
+    font: bold 20px/1 "Montserrat";
     color: #534847;
     margin-bottom: 30px; }
   .department .summary em {
     display: block;
-    font: bold 18px/1.2 "Gowun Batang";
+    font: bold 18px/1.2 "Montserrat";
     color: #335B75;
     margin-bottom: 50px; }
   .department .summary h3 {
-    font: normal 18px/1.2 "Gowun Batang";
+    font: normal 18px/1.2 "Montserrat";
     color: #9B8281;
     margin-bottom: 20px; }
   .department .summary p {
-    font: normal 18px/1.4 "Gowun Batang";
+    font: normal 18px/1.4 "Montserrat";
     color: #b19999; }
 .department .division {
   width: 100%;
@@ -1389,7 +1496,7 @@ fieldset {
     background: url(../img/map.png) no-repeat center/contain;
     opacity: 0.1; }
   .department .division .webtit {
-    font: bold 30px/1 "Gowun Batang";
+    font: bold 30px/1 "Montserrat";
     color: #9B8281;
     position: absolute;
     top: 325px;
@@ -1399,7 +1506,7 @@ fieldset {
   .department .division .motit {
     display: none;
     margin-bottom: 100px;
-    font: bold 20px/1 "Gowun Batang";
+    font: bold 20px/1 "Montserrat";
     color: #534847; }
   .department .division .div_tree {
     width: 100%;
@@ -1408,7 +1515,7 @@ fieldset {
       /* 2depth */ }
       .department .division .div_tree li span {
         display: inline-block;
-        font: bold 32px/160px "Gowun Batang";
+        font: bold 32px/160px "Montserrat";
         color: #534847;
         background-color: #fff;
         width: 200px;
@@ -1501,7 +1608,7 @@ fieldset {
           margin-bottom: 70px;
           width: 120px;
           height: 70px;
-          font: 20px/70px "Gowun Batang";
+          font: 20px/70px "Montserrat";
           color: #fff;
           background-color: #335B75;
           border: none;
@@ -1549,7 +1656,7 @@ fieldset {
             margin-bottom: 0;
             width: 100%;
             height: 100%;
-            font: 16px/30px "Gowun Batang";
+            font: 16px/30px "Montserrat";
             background-color: transparent;
             color: #9B8281; }
             .department .division .div_tree li ul li ul li span::before, .department .division .div_tree li ul li ul li span::after {
@@ -1562,7 +1669,7 @@ fieldset {
     text-align: right;
     padding-bottom: 50px; }
     .department .work .txt h2 {
-      font: 60px/1 "Gowun Batang";
+      font: 60px/1 "Montserrat";
       letter-spacing: 5px;
       color: #335B75;
       margin-bottom: 20px; }
@@ -1571,15 +1678,15 @@ fieldset {
         font-weight: bold; }
     .department .work .txt span {
       display: block;
-      font: bold 16px/1.2 "Gowun Batang";
+      font: bold 16px/1.2 "Montserrat";
       color: #534847;
       margin-bottom: 30px; }
     .department .work .txt p {
-      font: 300 12px/1.2 "Gowun Batang";
+      font: 300 12px/1.2 "Montserrat";
       color: #9B8281;
       margin-bottom: 50px; }
     .department .work .txt .btn {
-      font: bold 14px/1 "Gowun Batang";
+      font: bold 14px/1 "Montserrat";
       color: #9B8281;
       position: relative; }
       .department .work .txt .btn span {
@@ -1648,12 +1755,12 @@ fieldset {
       object-fit: cover;
       opacity: .6; }
 .department .vision h2 {
-  font: bold 20px/1 "Gowun Batang";
+  font: bold 20px/1 "Montserrat";
   color: #534847;
   text-align: center;
   margin-bottom: 30px; }
 .department .vision p {
-  font: bold 16px/1.2 "Gowun Batang";
+  font: bold 16px/1.2 "Montserrat";
   color: #335B75;
   text-align: center;
   margin-bottom: 50px; }
@@ -1670,7 +1777,7 @@ fieldset {
       width: 100%;
       height: 100px;
       margin-bottom: 20px;
-      font: bold 100px/1.4 "Gowun Batang";
+      font: bold 100px/1.4 "Montserrat";
       color: #b19999;
       overflow: hidden;
       position: relative; }
@@ -1684,11 +1791,11 @@ fieldset {
         bottom: -5px;
         left: 0; }
     .department .vision .wrap article h3 {
-      font: bold 18px/1 "Gowun Batang";
+      font: bold 18px/1 "Montserrat";
       color: #534847;
       margin-bottom: 30px; }
     .department .vision .wrap article p {
-      font: normal 14px/2 "Gowun Batang";
+      font: normal 14px/2 "Montserrat";
       color: #9B8281;
       margin-bottom: 30px; }
     .department .vision .wrap article i {
@@ -1750,7 +1857,7 @@ fieldset {
           border-radius: 0;
           background-color: #534847;
           color: #fff;
-          font: normal 19px/70px "Gowun Batang";
+          font: normal 19px/70px "Montserrat";
           margin-bottom: 30px; }
           .department .division .div_tree li span::before {
             margin-top: 0;
@@ -1781,7 +1888,7 @@ fieldset {
           .department .division .div_tree li ul li span {
             width: 100px;
             height: 50px;
-            font: bold 18px/40px "Gowun Batang";
+            font: bold 18px/40px "Montserrat";
             background-color: #fff;
             border: 5px solid #534847;
             border-radius: 25px;

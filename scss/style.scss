@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&Montserrat:wght@100&:wght@100;300;500&display=swap');
 @import 'reset';
 
-$font : 'Gowun Batang';
+$font : 'Montserrat';
 $tablet : 1179px;
 $mobile : 539px;
 
@@ -26,7 +26,7 @@ $mobile : 539px;
             font-size: 0;
 
             a{
-                font: 600 20px/1 $font;
+                font: 600 20px/1 "Gowun Batang";
                 color: #232D3A;
             }
         }
@@ -472,8 +472,8 @@ $mobile : 539px;
                 &.contact{
                     padding-left: 0;
 
-                    h2{
-                        font: 16px/1 $font;
+                    h1{
+                        font: 16px/1 "Gowun Batang";
                         color: #eee;
                         margin-bottom: 20px;
                         position: relative;
@@ -518,8 +518,8 @@ $mobile : 539px;
                     }
                 }
                 &.about{
-                    h2{
-                        font: 16px/1 $font;
+                    h1{
+                        font: 16px/1 "Gowun Batang";
                         color: #eee;
                         margin-bottom: 20px;
                         position: relative;
@@ -562,7 +562,7 @@ $mobile : 539px;
                     border-right: none;
 
                     h1{
-                        font: 20px/1 $font;
+                        font: 20px/1 "Gowun Batang";
                         color: #eee;
                         margin-bottom: 40px;
                     }
@@ -577,7 +577,7 @@ $mobile : 539px;
                         }
                     }
                     p{
-                        font: 300 14px/1.6 $font;
+                        font: 300 14px/1.6 "Gowun Batang";
                         color: #bbb;
 
                         span{display: block;}
