@@ -950,22 +950,21 @@ fieldset {
     height: 300px;
     background: #bbb;
     margin-bottom: 100px; }
-  .content h1 {
+  .content .title {
     font: bold 30px/1 "Montserrat";
     color: #333;
     text-align: center;
     margin-bottom: 100px; }
-    .content h1 span {
+    .content .title span {
       font-size: 16px;
       font-weight: normal;
       color: #888; }
-      .content h1 span::before {
+      .content .title span::before {
         content: '/';
         padding: 0 10px 0 15px; }
   .content .inner {
     width: 1180px;
     margin: 0 auto;
-    min-height: 500px;
     padding-bottom: 100px; }
 
 @media screen and (max-width: 1179px) {
@@ -1451,583 +1450,269 @@ fieldset {
         right: 0;
         bottom: 0; }
 
-.department li,
-.department span {
-  transition: 0.8s ease-in-out; }
-  .department li::before, .department li::after,
-  .department span::before,
-  .department span::after {
-    transition: 0.3s ease-in-out; }
-.department .summary {
-  margin-bottom: 100px;
-  text-align: center; }
-  .department .summary h2 {
-    font: bold 20px/1 "Montserrat";
-    color: #534847;
-    margin-bottom: 30px; }
-  .department .summary em {
-    display: block;
-    font: bold 18px/1.2 "Montserrat";
-    color: #335B75;
-    margin-bottom: 50px; }
-  .department .summary h3 {
-    font: normal 18px/1.2 "Montserrat";
-    color: #9B8281;
-    margin-bottom: 20px; }
-  .department .summary p {
-    font: normal 18px/1.4 "Montserrat";
-    color: #b19999; }
-.department .division {
-  width: 100%;
-  height: 750px;
-  padding-top: 60px;
-  text-align: center;
-  margin-bottom: 200px;
-  position: relative; }
-  .department .division::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    background: url(../img/map.png) no-repeat center/contain;
-    opacity: 0.1; }
-  .department .division .webtit {
-    font: bold 30px/1 "Montserrat";
-    color: #9B8281;
-    position: absolute;
-    top: 325px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: .8s; }
-  .department .division .motit {
-    display: none;
+.department .visual {
+  padding: 150px; }
+  .department .visual h1 {
+    text-align: center;
+    color: #ddd; }
+.department .icons {
+  padding-bottom: 100px; }
+  .department .icons h1 {
+    font: 600 28px/1 "Montserrat";
+    color: #111;
+    margin-bottom: 20px;
+    text-align: center; }
+  .department .icons h2 {
+    font: 400 14px/1 "Montserrat";
+    color: #888;
     margin-bottom: 100px;
-    font: bold 20px/1 "Montserrat";
-    color: #534847; }
-  .department .division .div_tree {
-    width: 100%;
-    /* 1depth */ }
-    .department .division .div_tree li {
-      /* 2depth */ }
-      .department .division .div_tree li span {
-        display: inline-block;
-        font: bold 32px/160px "Montserrat";
-        color: #534847;
-        background-color: #fff;
-        width: 200px;
-        height: 200px;
-        border: 20px solid #534847;
-        border-radius: 50%;
-        margin-bottom: 200px;
-        position: relative; }
-        .department .division .div_tree li span::before {
-          content: '';
-          display: block;
-          width: 1px;
-          height: 290px;
-          background-color: #534847;
-          position: absolute;
-          left: -12px;
-          top: 50%;
-          margin-top: -1px;
-          transform: rotate(59deg);
-          transform-origin: center top; }
-        .department .division .div_tree li span::after {
-          content: '';
-          display: block;
-          width: 1px;
-          height: 290px;
-          background-color: #534847;
-          position: absolute;
-          left: calc(100% + 10px);
-          top: 50%;
-          margin-top: -1px;
-          transform: rotate(-59deg);
-          transform-origin: center top; }
-      .department .division .div_tree li ul li {
-        display: inline-block;
-        margin-right: 100px;
-        vertical-align: top;
-        position: relative;
-        /* 3depth */ }
-        .department .division .div_tree li ul li::before {
-          content: '';
-          display: block;
-          width: 1px;
-          height: 35px;
-          background-color: #534847;
-          position: absolute;
-          left: 50%;
-          top: 105px;
-          margin-top: 0; }
-        .department .division .div_tree li ul li:nth-of-type(1)::after {
-          content: '';
-          display: block;
-          width: 1px;
-          height: 116px;
-          background-color: #534847;
-          position: absolute;
-          left: 100%;
-          top: 70px;
-          margin-top: 0;
-          transform: rotate(-64deg);
-          transform-origin: center top; }
-        .department .division .div_tree li ul li:nth-of-type(2)::after {
-          content: '';
-          display: block;
-          width: 1px;
-          height: 105px;
-          background-color: #534847;
-          position: absolute;
-          left: 100%;
-          top: 35px;
-          margin-top: 0;
-          transform: rotate(-90deg);
-          transform-origin: center top; }
-        .department .division .div_tree li ul li:nth-of-type(4)::after {
-          content: '';
-          display: block;
-          width: 1px;
-          height: 116px;
-          background-color: #534847;
-          position: absolute;
-          left: 0;
-          top: 70px;
-          margin-top: 0;
-          transform: rotate(64deg);
-          transform-origin: center top; }
-        .department .division .div_tree li ul li:last-of-type {
-          margin-right: 0; }
-        .department .division .div_tree li ul li:nth-of-type(1), .department .division .div_tree li ul li:nth-of-type(4) {
-          transform: translateY(-120px); }
-        .department .division .div_tree li ul li span {
-          margin-bottom: 70px;
-          width: 120px;
-          height: 70px;
-          font: 20px/70px "Montserrat";
-          color: #fff;
-          background-color: #335B75;
-          border: none;
-          border-radius: 0;
-          position: relative; }
-          .department .division .div_tree li ul li span::before {
-            content: '';
-            background-color: transparent;
-            transform: none;
-            margin-top: 0;
-            display: block;
-            width: 0;
-            height: 0;
-            border-bottom: 35px solid #335B75;
-            border-left: 60px solid transparent;
-            border-right: 60px solid transparent;
-            position: absolute;
-            top: -35px;
-            left: 0; }
-          .department .division .div_tree li ul li span::after {
-            content: '';
-            background-color: transparent;
-            transform: none;
-            margin-top: 0;
-            display: block;
-            width: 0;
-            height: 0;
-            border-top: 35px solid #335B75;
-            border-left: 60px solid transparent;
-            border-right: 60px solid transparent;
-            position: absolute;
-            top: 100%;
-            left: 0; }
-        .department .division .div_tree li ul li ul li {
-          display: block;
-          margin: 0 auto;
-          height: 30px; }
-          .department .division .div_tree li ul li ul li:last-of-type {
-            margin: 0 auto; }
-          .department .division .div_tree li ul li ul li:nth-of-type(n+1) {
-            transform: none; }
-          .department .division .div_tree li ul li ul li::before, .department .division .div_tree li ul li ul li:nth-of-type(n+1)::after {
-            display: none; }
-          .department .division .div_tree li ul li ul li span {
-            margin-bottom: 0;
-            width: 100%;
-            height: 100%;
-            font: 16px/30px "Montserrat";
-            background-color: transparent;
-            color: #9B8281; }
-            .department .division .div_tree li ul li ul li span::before, .department .division .div_tree li ul li ul li span::after {
-              display: none; }
-.department .work {
-  margin-bottom: 200px; }
-  .department .work .txt {
-    width: 580px;
+    text-align: center; }
+  .department .icons .wrap article {
     float: left;
-    text-align: right;
-    padding-bottom: 50px; }
-    .department .work .txt h2 {
-      font: 60px/1 "Montserrat";
-      letter-spacing: 5px;
-      color: #335B75;
+    width: 270px;
+    margin-right: 30px;
+    text-align: center; }
+    .department .icons .wrap article i {
+      font-size: 80px;
+      color: #111;
       margin-bottom: 20px; }
-      .department .work .txt h2 strong {
-        display: block;
-        font-weight: bold; }
-    .department .work .txt span {
-      display: block;
-      font: bold 16px/1.2 "Montserrat";
-      color: #534847;
-      margin-bottom: 30px; }
-    .department .work .txt p {
-      font: 300 12px/1.2 "Montserrat";
-      color: #9B8281;
-      margin-bottom: 50px; }
-    .department .work .txt .btn {
-      font: bold 14px/1 "Montserrat";
-      color: #9B8281;
-      position: relative; }
-      .department .work .txt .btn span {
-        display: block;
-        width: 0px;
-        height: 1px;
-        background-color: #534847;
-        position: absolute;
-        top: 50%;
-        left: -30px;
-        opacity: 0;
-        transition: .6s; }
-        .department .work .txt .btn span::before {
-          content: '';
-          display: block;
-          width: 8px;
-          height: 1px;
-          background-color: #534847;
-          position: absolute;
-          left: 0;
-          top: 0;
-          margin-top: 0;
-          transform-origin: right center;
-          transition: .6s; }
-        .department .work .txt .btn span::after {
-          content: '';
-          display: block;
-          width: 8px;
-          height: 1px;
-          background-color: #534847;
-          position: absolute;
-          left: 0;
-          top: 0;
-          margin-top: 0;
-          transform-origin: right center;
-          transition: .6s; }
-      .department .work .txt .btn:hover {
-        color: #000; }
-        .department .work .txt .btn:hover span {
-          width: 20px;
-          opacity: 1; }
-          .department .work .txt .btn:hover span::before {
-            left: 12px;
-            transform: rotate(45deg); }
-          .department .work .txt .btn:hover span::after {
-            left: 12px;
-            transform: rotate(-45deg); }
-  .department .work .pic {
-    width: 580px;
-    height: 400px;
-    float: right;
-    background-color: #9B8281;
+    .department .icons .wrap article h3 {
+      font: 600 20px/1 "Montserrat";
+      color: #111;
+      margin-bottom: 20px; }
+    .department .icons .wrap article p {
+      font: 100 12px/1.4 "Montserrat";
+      color: #888; }
+.department .chart {
+  padding: 250px 0;
+  position: relative;
+  background: #ddd; }
+  .department .chart .bar {
+    width: 90%;
+    margin: 0 auto;
+    height: 1px;
+    background: #888;
     position: relative; }
-    .department .work .pic::before {
+    .department .chart .bar::after {
       content: '';
       display: block;
-      width: 100%;
-      height: 100%;
-      background-color: #9B8281;
+      width: 75%;
+      height: 3px;
+      background: #232D3A;
       position: absolute;
-      top: -30px;
-      left: 30px; }
-    .department .work .pic img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      opacity: .6; }
-.department .vision h2 {
-  font: bold 20px/1 "Montserrat";
-  color: #534847;
-  text-align: center;
-  margin-bottom: 30px; }
-.department .vision p {
-  font: bold 16px/1.2 "Montserrat";
-  color: #335B75;
-  text-align: center;
-  margin-bottom: 50px; }
-.department .vision .wrap {
-  text-align: center; }
-  .department .vision .wrap article {
+      left: 0;
+      top: -1px; }
+    .department .chart .bar .left {
+      position: absolute;
+      top: 0;
+      left: -1px; }
+      .department .chart .bar .left::before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 3px;
+        background: #232D3A;
+        transform: rotate(-45deg);
+        transform-origin: left center;
+        position: absolute;
+        left: 0;
+        top: 0; }
+      .department .chart .bar .left::after {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 3px;
+        background: #232D3A;
+        transform: rotate(45deg);
+        transform-origin: left center;
+        position: absolute;
+        left: 0;
+        bottom: -1px; }
+    .department .chart .bar .right {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .department .chart .bar .right::before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 3px;
+        background: #232D3A;
+        transform: rotate(45deg);
+        transform-origin: right center;
+        position: absolute;
+        right: 0;
+        top: 0; }
+      .department .chart .bar .right::after {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 3px;
+        background: #232D3A;
+        transform: rotate(-45deg);
+        transform-origin: right center;
+        position: absolute;
+        right: 0;
+        bottom: -1px; }
+  .department .chart ul {
+    width: 90%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%); }
+    .department .chart ul li {
+      float: left;
+      width: 20%;
+      position: relative; }
+      .department .chart ul li::before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #232D3A;
+        position: absolute;
+        top: -33px;
+        left: 50%;
+        margin-left: -7px; }
+      .department .chart ul li::after {
+        content: '';
+        display: block;
+        width: 5px;
+        height: 5px;
+        background: #fff;
+        position: absolute;
+        top: -28px;
+        left: 50%;
+        margin-left: -2px; }
+      .department .chart ul li:nth-of-type(2n) h1 {
+        transform: translateY(-60px); }
+      .department .chart ul li:nth-of-type(2n) .li_inner {
+        transform: translateY(3px); }
+        .department .chart ul li:nth-of-type(2n) .li_inner::after {
+          bottom: auto;
+          top: -42px; }
+      .department .chart ul li:nth-of-type(1) .li_inner {
+        transform: translateY(-200px); }
+      .department .chart ul li h1 {
+        font: bold 16px/1 "Montserrat";
+        color: #111;
+        text-align: center; }
+      .department .chart ul li .li_inner {
+        padding: 20px;
+        background: #fff;
+        transform: translateY(-238px); }
+        .department .chart ul li .li_inner::after {
+          content: '';
+          display: block;
+          width: 1px;
+          height: 42px;
+          background: #fff;
+          position: absolute;
+          bottom: -42px;
+          left: 50%; }
+        .department .chart ul li .li_inner h2 {
+          font: bold 16px/1 "Montserrat";
+          color: #111;
+          margin-bottom: 20px; }
+        .department .chart ul li .li_inner p {
+          font: 300 12px/1.6 "Montserrat";
+          color: #888; }
+.department .team {
+  padding: 100px 0; }
+  .department .team h1 {
+    font: 600 28px/1 "Montserrat";
+    color: #111;
+    margin-bottom: 20px;
+    text-align: center; }
+  .department .team h2 {
+    font: 400 14px/1 "Montserrat";
+    color: #888;
+    margin-bottom: 100px;
+    text-align: center; }
+  .department .team .wrap article {
+    float: left;
     width: 280px;
     margin-right: 20px;
-    float: left;
-    padding: 15px; }
-    .department .vision .wrap article:last-child {
+    margin-bottom: 50px;
+    padding: 0 20px;
+    text-align: center; }
+    .department .team .wrap article:nth-of-type(4n) {
       margin-right: 0; }
-    .department .vision .wrap article .pic {
+    .department .team .wrap article .pic {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background: #bbb;
+      margin-bottom: 20px; }
+    .department .team .wrap article h3 {
+      font: 600 18px/1 "Montserrat";
+      color: #111;
+      margin-bottom: 10px; }
+    .department .team .wrap article em {
+      display: block;
+      font: 300 14px/1 "Montserrat";
+      color: #555;
+      margin-bottom: 30px; }
+    .department .team .wrap article p {
+      font: 300 14px/1.6 "Montserrat";
+      color: #888; }
+.department .skills {
+  width: 100%;
+  padding: 100px 0;
+  background: #eee; }
+  .department .skills .wrap .con {
+    float: left;
+    width: 40%; }
+    .department .skills .wrap .con h1 {
+      font: 600 30px/1 "Montserrat";
+      color: #111;
+      margin-bottom: 20px; }
+    .department .skills .wrap .con h2 {
+      font: 400 16px/1.4 "Montserrat";
+      color: #555;
+      margin-bottom: 30px; }
+    .department .skills .wrap .con p {
+      font: 300 14px/1.4 "Montserrat";
+      color: #888; }
+  .department .skills .wrap .bars {
+    float: right;
+    width: 50%;
+    padding-top: 30px; }
+    .department .skills .wrap .bars li {
       width: 100%;
-      height: 100px;
-      margin-bottom: 20px;
-      font: bold 100px/1.4 "Montserrat";
-      color: #b19999;
-      overflow: hidden;
-      position: relative; }
-      .department .vision .wrap article .pic::after {
+      font: 600 18px/1 "Montserrat";
+      color: #111;
+      position: relative;
+      margin-bottom: 40px; }
+      .department .skills .wrap .bars li span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 15px; }
+      .department .skills .wrap .bars li::before {
         content: '';
         display: block;
         width: 100%;
         height: 5px;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
         position: absolute;
-        bottom: -5px;
-        left: 0; }
-    .department .vision .wrap article h3 {
-      font: bold 18px/1 "Montserrat";
-      color: #534847;
-      margin-bottom: 30px; }
-    .department .vision .wrap article p {
-      font: normal 14px/2 "Montserrat";
-      color: #9B8281;
-      margin-bottom: 30px; }
-    .department .vision .wrap article i {
-      color: #335B75;
-      font-size: 40px; }
-
-@media screen and (max-width: 1179px) {
-  .department .division .webtit {
-    top: 280px; }
-  .department .division .div_tree li {
-    /* 1depth */
-    /* 2depth */ }
-    .department .division .div_tree li span {
-      width: 150px;
-      height: 150px;
-      border-width: 15px;
-      font-size: 24px;
-      line-height: 120px; }
-    .department .division .div_tree li ul li {
-      margin-right: 59px; }
-      .department .division .div_tree li ul li span {
-        font-size: 18px; }
-  .department .division .div_tree > li > ul > li:nth-of-type(1)::after {
-    transform: rotate(-52deg); }
-  .department .division .div_tree > li > ul > li:nth-of-type(4)::after {
-    transform: rotate(52deg);
-    height: 81px; }
-  .department .work .txt {
-    width: 49%;
-    margin-right: 2%; }
-    .department .work .txt h2 {
-      font-size: 50px; }
-  .department .work .pic {
-    width: 49%; }
-  .department .vision .wrap article {
-    width: 23.5%;
-    margin-right: 2%; }
-    .department .vision .wrap article:last-child {
-      margin-right: 0; } }
-@media screen and (max-width: 768px) {
-  .department .division {
-    padding: 0;
-    margin-bottom: 200px;
-    height: 800px; }
-    .department .division::before {
-      display: none; }
-    .department .division .webtit {
-      display: none; }
-    .department .division .motit {
-      display: block; }
-    .department .division .div_tree {
-      /* 1depth */ }
-      .department .division .div_tree li {
-        /* 2depth */ }
-        .department .division .div_tree li span {
-          width: 100px;
-          height: 70px;
-          border: none;
-          border-radius: 0;
-          background-color: #534847;
-          color: #fff;
-          font: normal 19px/70px "Montserrat";
-          margin-bottom: 30px; }
-          .department .division .div_tree li span::before {
-            margin-top: 0;
-            background-color: transparent;
-            transform: none;
-            top: -35px;
-            left: 0;
-            display: block;
-            width: 0;
-            height: 0;
-            border-bottom: 35px solid #534847;
-            border-left: 50px solid transparent;
-            border-right: 50px solid transparent; }
-          .department .division .div_tree li span::after {
-            transform: none;
-            width: 1px;
-            height: 407px;
-            left: 50%;
-            top: 100%; }
-        .department .division .div_tree li ul li {
-          margin-right: 0;
-          display: block;
-          /* 3depth */ }
-          .department .division .div_tree li ul li:nth-of-type(n+1) {
-            transform: none; }
-          .department .division .div_tree li ul li:nth-of-type(n+1)::before, .department .division .div_tree li ul li:nth-of-type(n+1)::after {
-            display: none; }
-          .department .division .div_tree li ul li span {
-            width: 100px;
-            height: 50px;
-            font: bold 18px/40px "Montserrat";
-            background-color: #fff;
-            border: 5px solid #534847;
-            border-radius: 25px;
-            color: #534847;
-            margin-bottom: 20px;
-            position: relative; }
-            .department .division .div_tree li ul li span::before {
-              border: none;
-              display: block;
-              width: 20px;
-              height: 1px;
-              background-color: #534847;
-              position: absolute;
-              left: -25px;
-              top: 50%;
-              margin-top: 0; }
-            .department .division .div_tree li ul li span::after {
-              border: none;
-              display: block;
-              width: 1px;
-              height: calc(21px + 40px * 3 + 15px);
-              background-color: #534847;
-              position: absolute;
-              left: 17px;
-              top: calc(100% + 5px);
-              margin-top: 0; }
-          .department .division .div_tree li ul li:nth-of-type(1) span {
-            transform: translateX(70px); }
-          .department .division .div_tree li ul li:nth-of-type(1) ul li span {
-            transform: translateX(107px); }
-            .department .division .div_tree li ul li:nth-of-type(1) ul li span::before {
-              left: -20px; }
-          .department .division .div_tree li ul li:nth-of-type(2) span {
-            transform: translateX(-70px) translateY(-140px); }
-            .department .division .div_tree li ul li:nth-of-type(2) span::before {
-              left: calc(100% + 5px); }
-            .department .division .div_tree li ul li:nth-of-type(2) span::after {
-              height: calc(21px + 40px + 15px);
-              left: calc(100% - 17px); }
-          .department .division .div_tree li ul li:nth-of-type(2) ul li span {
-            transform: translateX(-107px) translateY(-140px); }
-            .department .division .div_tree li ul li:nth-of-type(2) ul li span::before {
-              left: calc(100% + 1px); }
-          .department .division .div_tree li ul li:nth-of-type(3) span {
-            transform: translateX(70px) translateY(-110px); }
-            .department .division .div_tree li ul li:nth-of-type(3) span::after {
-              height: calc(21px + 40px * 2 + 15px); }
-          .department .division .div_tree li ul li:nth-of-type(3) ul li span {
-            transform: translateX(107px) translateY(-110px); }
-            .department .division .div_tree li ul li:nth-of-type(3) ul li span::before {
-              left: -20px; }
-          .department .division .div_tree li ul li:nth-of-type(4) span {
-            transform: translateX(-70px) translateY(-190px); }
-            .department .division .div_tree li ul li:nth-of-type(4) span::before {
-              left: calc(100% + 5px); }
-            .department .division .div_tree li ul li:nth-of-type(4) span::after {
-              left: calc(100% - 17px); }
-          .department .division .div_tree li ul li:nth-of-type(4) ul li span {
-            transform: translateX(-107px) translateY(-190px); }
-            .department .division .div_tree li ul li:nth-of-type(4) ul li span::before {
-              left: calc(100% + 1px); }
-          .department .division .div_tree li ul li ul li {
-            margin: 0;
-            margin-bottom: 10px; }
-            .department .division .div_tree li ul li ul li:last-of-type {
-              margin: 0; }
-            .department .division .div_tree li ul li ul li span {
-              border-radius: 5px;
-              width: 90px;
-              height: 30px;
-              font-size: 14px;
-              border: 1px solid #9B8281;
-              background-color: #f8f8fa;
-              margin-bottom: 10px; }
-              .department .division .div_tree li ul li ul li span::before {
-                content: '';
-                display: block;
-                width: 20px;
-                height: 1px;
-                background-color: #534847;
-                position: absolute;
-                left: -20px;
-                top: 50%;
-                margin-top: -0.5px; }
-  .department .work .txt {
-    width: 100%;
-    margin-right: 0; }
-  .department .work .pic {
-    width: 100%; }
-    .department .work .pic::before {
-      left: -20px;
-      top: -20px; }
-  .department .vision .wrap article {
-    width: 49%;
-    margin-right: 2%; }
-    .department .vision .wrap article:nth-of-type(2n) {
-      margin-right: 0; } }
-@media screen and (max-width: 539px) {
-  .department .inner .summary h2 {
-    font-size: 18px;
-    margin-bottom: 20px; }
-  .department .inner .summary strong {
-    font-size: 14px;
-    margin-bottom: 30px; }
-  .department .inner .summary h3 {
-    font-size: 16px;
-    margin-bottom: 10px; }
-  .department .inner .summary p {
-    font-size: 14px; }
-  .department .inner .division {
-    margin-bottom: 50px; }
-    .department .inner .division .motit {
-      font-size: 18px;
-      margin-bottom: 60px; }
-  .department .inner .work {
-    margin-bottom: 100px; }
-    .department .inner .work .txt h2 {
-      font-size: 36px;
-      letter-spacing: 0;
-      margin-bottom: 10px; }
-    .department .inner .work .txt span {
-      font-size: 14px;
-      margin-bottom: 20px; }
-    .department .inner .work .txt p {
-      margin-bottom: 30px; }
-    .department .inner .work .pic {
-      height: 60vmin; }
-  .department .inner .vision h2 {
-    font-size: 18px;
-    margin-bottom: 10px; }
-  .department .inner .vision p {
-    font-size: 14px;
-    margin-bottom: 20px; }
-  .department .inner .vision .wrap article .pic {
-    font-size: 80px;
-    line-height: 2; }
-  .department .inner .vision .wrap article p {
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 20px; } }
+        left: 0;
+        bottom: -12px; }
+      .department .skills .wrap .bars li::after {
+        content: '';
+        display: block;
+        width: 65%;
+        height: 7px;
+        background: #232D3A;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        bottom: -12px; }
+      .department .skills .wrap .bars li:nth-of-type(2)::after {
+        width: 85%; }
+      .department .skills .wrap .bars li:nth-of-type(3)::after {
+        width: 78%; }
 
 /*# sourceMappingURL=style.css.map */
