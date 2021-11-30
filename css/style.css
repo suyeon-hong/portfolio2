@@ -1210,7 +1210,7 @@ fieldset {
         margin-bottom: 50px;
         padding-left: 10px; }
         .join .inner table tr td input[type="text"]::placeholder, .join .inner table tr td input[type="password"]::placeholder {
-          font: 300 16px/1 "Montserrat";
+          font: 300 14px/1 "Montserrat";
           color: #888; }
     .join .inner table tr p {
       font: normal 13px/1 "Montserrat";
@@ -1245,7 +1245,7 @@ fieldset {
         background: url(../img/number.png) no-repeat center/contain;
         transition: .4s; }
         .join .inner .info tr:nth-of-type(7) td span:hover {
-          transform: scale(2) translate(10px, 8px); }
+          transform: scale(1.5) translate(10px, 8px); }
 .join .inner .address tr:nth-of-type(2) {
   position: relative;
   width: 19%;
@@ -1281,12 +1281,29 @@ fieldset {
   .join .inner .address tr input[type="button"] {
     left: calc(100% - 180px); } }
 @media screen and (max-width: 539px) {
+  .join .inner h2 {
+    font-size: 15px; }
   .join .inner .policy {
     padding: 10px;
-    font-size: 14px; }
+    font-size: 12px;
+    height: 200px; }
+  .join .inner label {
+    font-size: 12px;
+    margin-bottom: 50px; }
+  .join .inner table caption {
+    font-size: 15px; }
+  .join .inner table tr th {
+    margin-bottom: 0;
+    font-size: 13px; }
+  .join .inner table tr td input[type="text"], .join .inner table tr td input[type="password"] {
+    margin-bottom: 20px; }
   .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
     width: 100%;
     margin-right: 0; }
+  .join .inner .info tr:nth-of-type(5) td label {
+    margin-bottom: 30px; }
+  .join .inner .info tr:nth-of-type(7) td {
+    margin-bottom: 20px; }
   .join .inner .address tr:last-child {
     text-align: center; }
   .join .inner .address tr input[type="button"] {
