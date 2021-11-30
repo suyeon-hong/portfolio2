@@ -783,8 +783,9 @@ fieldset {
       text-align: center;
       padding-left: 0;
       border-right: none; }
-      #footer .inner .wrap > div.contact h2::after {
-        display: none; }
+      #footer .inner .wrap > div.contact h1::after {
+        margin: 0 auto;
+        margin-top: 10px; }
       #footer .inner .wrap > div.contact address {
         margin-bottom: 20px;
         line-height: 1.8; }
@@ -794,8 +795,9 @@ fieldset {
         display: inline-block; }
         #footer .inner .wrap > div.contact .sns li a {
           font-size: 16px; }
-      #footer .inner .wrap > div.about h2::after {
-        display: none; }
+      #footer .inner .wrap > div.about h1::after {
+        margin: 0 auto;
+        margin-top: 10px; }
       #footer .inner .wrap > div.about .wrap .left, #footer .inner .wrap > div.about .wrap .right {
         width: 100%;
         font-size: 0; }
@@ -1118,8 +1120,9 @@ fieldset {
       text-align: center;
       padding-left: 0;
       border-right: none; }
-      #footer_sub .inner .wrap > div.contact h2::after {
-        display: none; }
+      #footer_sub .inner .wrap > div.contact h1::after {
+        margin: 0 auto;
+        margin-top: 10px; }
       #footer_sub .inner .wrap > div.contact address {
         margin-bottom: 20px;
         line-height: 1.8; }
@@ -1129,8 +1132,9 @@ fieldset {
         display: inline-block; }
         #footer_sub .inner .wrap > div.contact .sns li a {
           font-size: 16px; }
-      #footer_sub .inner .wrap > div.about h2::after {
-        display: none; }
+      #footer_sub .inner .wrap > div.about h1::after {
+        margin: 0 auto;
+        margin-top: 10px; }
       #footer_sub .inner .wrap > div.about .wrap .left, #footer_sub .inner .wrap > div.about .wrap .right {
         width: 100%;
         font-size: 0; }

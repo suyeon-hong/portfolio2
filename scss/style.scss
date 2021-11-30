@@ -1040,7 +1040,7 @@ $mobile : 539px;
             border-right: none;
 
             &.contact{
-                h2::after{display: none;}
+                h1::after{margin: 0 auto;margin-top:10px}
                 address{
                     margin-bottom: 20px;
                     line-height: 1.8;
@@ -1054,7 +1054,7 @@ $mobile : 539px;
                 }
             }
             &.about{
-                h2::after{display: none;}
+                h1::after{margin: 0 auto;margin-top:10px}
                 .wrap{
                     .left, .right{
                         width: 100%;
