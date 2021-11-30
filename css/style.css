@@ -458,7 +458,7 @@ fieldset {
         #footer .inner .wrap > div.company h1 {
           font: 20px/1 "Gowun Batang";
           color: #eee;
-          margin-bottom: 40px; }
+          margin-bottom: 27px; }
         #footer .inner .wrap > div.company h2 {
           font: 300 16px/1 "Montserrat";
           color: #bbb;
@@ -947,21 +947,18 @@ fieldset {
   width: 100%; }
   .content .visual {
     width: 100%;
-    height: 300px;
-    background: #bbb;
-    margin-bottom: 100px; }
-  .content .title {
-    font: bold 30px/1 "Montserrat";
-    color: #333;
-    text-align: center;
-    margin-bottom: 100px; }
-    .content .title span {
-      font-size: 16px;
-      font-weight: normal;
-      color: #888; }
-      .content .title span::before {
-        content: '/';
-        padding: 0 10px 0 15px; }
+    background: #555;
+    margin-bottom: 100px;
+    padding: 100px; }
+    .content .visual h1 {
+      font: 600 40px/1 "Montserrat";
+      color: #ddd;
+      text-align: center;
+      margin-bottom: 14px; }
+    .content .visual p {
+      font: 100 14px/1 "Montserrat";
+      color: #ccc;
+      text-align: center; }
   .content .inner {
     width: 1180px;
     margin: 0 auto;
@@ -1054,7 +1051,7 @@ fieldset {
         #footer_sub .inner .wrap > div.company h1 {
           font: 20px/1 "Gowun Batang";
           color: #eee;
-          margin-bottom: 40px; }
+          margin-bottom: 27px; }
         #footer_sub .inner .wrap > div.company h2 {
           font: 300 16px/1 "Montserrat";
           color: #bbb;
@@ -1297,9 +1294,31 @@ fieldset {
     left: calc(100% - 100px); } }
 .community {
   position: relative; }
+  .community > h1 {
+    font: bold 28px/1 "Montserrat";
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative; }
+    .community > h1 span {
+      font-size: 14px;
+      font-weight: normal;
+      color: #888; }
+      .community > h1 span::before {
+        content: '/';
+        padding: 0 10px; }
+    .community > h1::after {
+      content: '';
+      display: block;
+      width: 2px;
+      height: 40px;
+      background: #eee;
+      position: absolute;
+      left: 50%;
+      bottom: -50px; }
   .community .tabs {
     position: absolute;
-    top: 270px;
+    top: 240px;
     left: 50%;
     transform: translateX(-50%);
     width: 1180px; }
@@ -1313,27 +1332,62 @@ fieldset {
       height: 60px;
       background: #28384d;
       font: 300 20px/60px "Montserrat";
-      color: #ddd;
+      color: #bbb;
       text-align: center;
       cursor: pointer; }
       .community .tabs li.on {
-        background: #232D3A; }
+        background: #232D3A;
+        color: #eee; }
   .community .search {
     width: 100%;
     background: #eee;
     padding: 40px 0;
     margin-bottom: 30px;
     text-align: center; }
-    .community .search input {
+    .community .search .wrap {
+      display: inline-block;
       width: 800px;
       height: 50px;
+      position: relative; }
+    .community .search input {
+      width: 100%;
+      height: 100%;
       font: 20px/1 "Montserrat";
       color: #333;
+      padding-left: 10px;
       background: transparent;
       border: none;
       border-bottom: 2px solid #000; }
       .community .search input::placeholder {
         color: #333; }
+    .community .search .icon {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 33px;
+      height: 33px;
+      cursor: pointer; }
+      .community .search .icon::before {
+        content: '';
+        display: block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border: 2px solid #111;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .community .search .icon::after {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 9px;
+        background: #111;
+        transform: rotate(-45deg);
+        transform-origin: center bottom;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
   .community .inner .wrap {
     margin-bottom: 30px; }
     .community .inner .wrap article {
@@ -1450,11 +1504,6 @@ fieldset {
         right: 0;
         bottom: 0; }
 
-.department .visual {
-  padding: 150px; }
-  .department .visual h1 {
-    text-align: center;
-    color: #ddd; }
 .department .icons {
   padding-bottom: 100px; }
   .department .icons h1 {
@@ -1715,8 +1764,6 @@ fieldset {
       .department .skills .wrap .bars li:nth-of-type(3)::after {
         width: 78%; }
 
-.gallery .visual h1 {
-  text-align: center; }
 .gallery .intro .wrap article {
   float: left;
   width: 33.333%;

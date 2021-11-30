@@ -1,9 +1,37 @@
 .community{
 	position: relative;
 
+    >h1{
+        font: bold 28px/1 $font;
+        color: #333;
+        text-align: center;
+        margin-bottom: 50px;
+		position: relative;
+        
+        span{
+            font-size: 14px;
+            font-weight: normal;
+            color: #888;
+
+            &::before{
+                content: '/';
+                padding: 0 10px;
+            }
+        }
+		&::after{
+			content: '';
+			display: block;
+			width: 2px;
+			height: 40px;
+			background: #eee;
+			position: absolute;
+			left: 50%;
+			bottom: -50px;
+		}
+    }
 	.tabs{
 		position: absolute;
-		top: 270px;
+		top: 240px;
 		left: 50%;
 		transform: translateX(-50%);
 		width: 1180px;
@@ -19,12 +47,13 @@
 			height: 60px;
 			background: #28384d;
 			font: 300 20px/60px $font;
-			color: #ddd;
+			color: #bbb;
 			text-align: center;
 			cursor: pointer;
 
 			&.on{
 				background: #232D3A;
+				color: #eee;
 			}
 		}
 	}
@@ -35,17 +64,56 @@
 		margin-bottom: 30px;
 		text-align: center;
 
-		input{
+		.wrap{
+			display: inline-block;
 			width: 800px;
 			height: 50px;
+			position: relative;
+		}
+		input{
+			width: 100%;
+			height: 100%;
 			font: 20px/1 $font;
 			color: #333;
+			padding-left: 10px;
 			background: transparent;
 			border: none;
 			border-bottom: 2px solid #000;
 
 			&::placeholder{
 				color: #333;
+			}
+		}
+		.icon{
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			width: 33px;
+			height: 33px;
+			cursor: pointer;
+
+			&::before{
+				content: '';
+				display: block;
+				width: 28px;
+				height: 28px;
+				border-radius: 50%;
+				border: 2px solid #111;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			&::after{
+				content:'';
+				display: block;
+				width: 2px;
+				height: 9px;
+				background: #111;
+				transform: rotate(-45deg);
+				transform-origin: center bottom;
+				position: absolute;
+				right: 0;
+				bottom: 0;
 			}
 		}
 	}
