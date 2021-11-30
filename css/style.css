@@ -139,7 +139,8 @@ fieldset {
     left: -100%;
     background: #19191a;
     opacity: 0;
-    transition: 1s; }
+    transition: 1s;
+    z-index: 10; }
     #header .gnbMo li {
       padding: 50px;
       border-bottom: 1px solid #444; }
@@ -918,7 +919,8 @@ fieldset {
     left: -100%;
     background: #19191a;
     opacity: 0;
-    transition: 1s; }
+    transition: 1s;
+    z-index: 10; }
     #header_sub .gnbMo li {
       padding: 50px;
       border-bottom: 1px solid #444; }
