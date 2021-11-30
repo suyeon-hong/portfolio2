@@ -321,3 +321,107 @@
 		}
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.community{
+		.tabs li{font-size: 15px;}
+		.search{
+			input{
+				font-size: 16px;
+
+				&::placeholder{
+					font-size: 16px;
+				}
+			}
+			.icon{
+				width: 27px;
+				height: 27px;
+
+				&::before{
+					width: 20px;
+					height: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $mobile) {
+	.community{
+		.tabs{
+			top: 225px;
+
+			li{
+				font-size: 13px;
+				height: 40px;
+				line-height: 40px;
+			}
+		}
+		>h1{
+			font-size: 20px;
+
+			span{font-size: 11px;}
+		}
+		.search{
+			padding: 20px 0;
+			margin-bottom: 20px;
+
+			.wrap{
+				height: 40px;
+			}
+			input{
+				font-size: 14px;
+				&::placeholder{font-size: 14px;}
+			}
+			.icon{
+				width: 22px;
+				height: 22px;
+
+				&::before{
+					width: 15px;
+					height: 15px;
+				}
+			}
+		}
+		.inner{
+			padding: 0 10px 50px;
+
+			.wrap article{
+				width: 49%;
+				margin-right: 2%;
+	
+				&:nth-of-type(2n){margin-right: 0;}
+				&:nth-of-type(3){margin-right: 2%;}
+				.pic{height: 120px;}
+				.con{
+					padding: 10px;
+	
+					h2{
+						font-size: 15px;
+						line-height: 1.2;
+						margin-bottom: 10px;
+					}
+					p{font-size: 12px;}
+					span{font-size: 10px;}
+				}
+			}
+			.pagination{
+				a{
+					width: 25px;
+					height: 25px;
+				}
+				.numbers a{
+					font-size: 14px;
+					line-height: 23px;
+				}
+				.prev, .next{
+					span{
+						width: 14px;
+						height: 1px;
+						&::before, &::after{width: 6px;height: 1px;}
+					}
+				}
+			}
+		}
+	}
+}

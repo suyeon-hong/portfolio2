@@ -1574,6 +1574,78 @@ fieldset {
           margin-bottom: 20px; }
         .community .inner .wrap article .con span {
           font-size: 11px; } }
+@media screen and (max-width: 768px) {
+  .community .tabs li {
+    font-size: 15px; }
+  .community .search input {
+    font-size: 16px; }
+    .community .search input::placeholder {
+      font-size: 16px; }
+  .community .search .icon {
+    width: 27px;
+    height: 27px; }
+    .community .search .icon::before {
+      width: 20px;
+      height: 20px; } }
+@media screen and (max-width: 539px) {
+  .community .tabs {
+    top: 225px; }
+    .community .tabs li {
+      font-size: 13px;
+      height: 40px;
+      line-height: 40px; }
+  .community > h1 {
+    font-size: 20px; }
+    .community > h1 span {
+      font-size: 11px; }
+  .community .search {
+    padding: 20px 0;
+    margin-bottom: 20px; }
+    .community .search .wrap {
+      height: 40px; }
+    .community .search input {
+      font-size: 14px; }
+      .community .search input::placeholder {
+        font-size: 14px; }
+    .community .search .icon {
+      width: 22px;
+      height: 22px; }
+      .community .search .icon::before {
+        width: 15px;
+        height: 15px; }
+  .community .inner {
+    padding: 0 10px 50px; }
+    .community .inner .wrap article {
+      width: 49%;
+      margin-right: 2%; }
+      .community .inner .wrap article:nth-of-type(2n) {
+        margin-right: 0; }
+      .community .inner .wrap article:nth-of-type(3) {
+        margin-right: 2%; }
+      .community .inner .wrap article .pic {
+        height: 120px; }
+      .community .inner .wrap article .con {
+        padding: 10px; }
+        .community .inner .wrap article .con h2 {
+          font-size: 15px;
+          line-height: 1.2;
+          margin-bottom: 10px; }
+        .community .inner .wrap article .con p {
+          font-size: 12px; }
+        .community .inner .wrap article .con span {
+          font-size: 10px; }
+    .community .inner .pagination a {
+      width: 25px;
+      height: 25px; }
+    .community .inner .pagination .numbers a {
+      font-size: 14px;
+      line-height: 23px; }
+    .community .inner .pagination .prev span, .community .inner .pagination .next span {
+      width: 14px;
+      height: 1px; }
+      .community .inner .pagination .prev span::before, .community .inner .pagination .prev span::after, .community .inner .pagination .next span::before, .community .inner .pagination .next span::after {
+        width: 6px;
+        height: 1px; } }
 .department .icons {
   padding-bottom: 100px; }
   .department .icons h1 {
