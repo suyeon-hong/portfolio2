@@ -1665,6 +1665,9 @@ fieldset {
           top: -42px; }
       .department .chart ul li:nth-of-type(1) .li_inner {
         transform: translateY(-200px); }
+        .department .chart ul li:nth-of-type(1) .li_inner p {
+          max-height: 38px;
+          overflow: hidden; }
       .department .chart ul li h1 {
         font: bold 16px/1 "Montserrat";
         color: #111;
@@ -1688,7 +1691,9 @@ fieldset {
           margin-bottom: 20px; }
         .department .chart ul li .li_inner p {
           font: 300 12px/1.6 "Montserrat";
-          color: #888; }
+          color: #888;
+          max-height: 76px;
+          overflow: hidden; }
 .department .team {
   padding: 100px 0; }
   .department .team h1 {
@@ -1786,6 +1791,34 @@ fieldset {
       .department .skills .wrap .bars li:nth-of-type(3)::after {
         width: 78%; }
 
+@media screen and (max-width: 1179px) {
+  .department .icons .inner {
+    padding: 0 30px; }
+  .department .icons .wrap article {
+    width: 24%;
+    margin-right: 1.333%; }
+  .department .chart ul li .li_inner {
+    padding: 10px; }
+    .department .chart ul li .li_inner h2 {
+      font-size: 14px; }
+    .department .chart ul li .li_inner::after {
+      bottom: -64px;
+      height: 64px; }
+  .department .team .inner {
+    padding: 0 30px; }
+  .department .team .wrap article {
+    width: 24%;
+    margin-right: 1.333%;
+    padding: 0 10px; }
+    .department .team .wrap article .pic {
+      width: 150px;
+      height: 150px; }
+    .department .team .wrap article em {
+      margin-bottom: 20px; }
+    .department .team .wrap article p {
+      line-height: 1.4; }
+  .department .skills .inner {
+    padding: 0 30px; } }
 .gallery .intro .wrap article {
   float: left;
   width: 33.333%;
