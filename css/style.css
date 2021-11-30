@@ -824,7 +824,7 @@ fieldset {
       transform: translateY(-50%);
       font-size: 0; }
       #header_sub .inner h1 a {
-        font: 600 20px/1 "Montserrat";
+        font: 600 20px/1 "Gowun Batang";
         color: #232D3A; }
     #header_sub .inner #gnb {
       position: absolute;
@@ -991,12 +991,12 @@ fieldset {
       border-right: 1px solid rgba(255, 255, 255, 0.1); }
       #footer_sub .inner .wrap > div.contact {
         padding-left: 0; }
-        #footer_sub .inner .wrap > div.contact h2 {
-          font: 16px/1 "Montserrat";
+        #footer_sub .inner .wrap > div.contact h1 {
+          font: 16px/1 "Gowun Batang";
           color: #eee;
           margin-bottom: 20px;
           position: relative; }
-          #footer_sub .inner .wrap > div.contact h2::after {
+          #footer_sub .inner .wrap > div.contact h1::after {
             content: '';
             display: block;
             width: 24px;
@@ -1022,12 +1022,12 @@ fieldset {
             transition: .4s; }
           #footer_sub .inner .wrap > div.contact .sns li:last-child a {
             margin-right: 0; }
-      #footer_sub .inner .wrap > div.about h2 {
-        font: 16px/1 "Montserrat";
+      #footer_sub .inner .wrap > div.about h1 {
+        font: 16px/1 "Gowun Batang";
         color: #eee;
         margin-bottom: 20px;
         position: relative; }
-        #footer_sub .inner .wrap > div.about h2::after {
+        #footer_sub .inner .wrap > div.about h1::after {
           content: '';
           display: block;
           width: 24px;
@@ -1052,7 +1052,7 @@ fieldset {
         margin-right: 0;
         border-right: none; }
         #footer_sub .inner .wrap > div.company h1 {
-          font: 20px/1 "Montserrat";
+          font: 20px/1 "Gowun Batang";
           color: #eee;
           margin-bottom: 40px; }
         #footer_sub .inner .wrap > div.company h2 {
@@ -1063,7 +1063,7 @@ fieldset {
             display: block;
             margin-bottom: 10px; }
         #footer_sub .inner .wrap > div.company p {
-          font: 300 14px/1.6 "Montserrat";
+          font: 300 14px/1.6 "Gowun Batang";
           color: #bbb; }
           #footer_sub .inner .wrap > div.company p span {
             display: block; }
