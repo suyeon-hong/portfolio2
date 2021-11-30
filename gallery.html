@@ -7,7 +7,18 @@
     <title>gallery</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/0c5c47f3c6.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script defer src="js/common.js"></script>
+    <script defer src="js/myfilckr.js"></script>
+    <script>
+        window.addEventListener("load", ()=>{
+            new Myflickr(".photos",{
+                key: "21be590b77fb11bd12a7266f99a2f2d8",
+                type: "interestiness",
+                page: 8
+            });
+        });
+    </script>
 </head>
 <body>
     <header id="header_sub">
@@ -40,9 +51,67 @@
     </header>
 
     <section class="content gallery">
-        <div class="visual"></div>
-        <div class="inner">
-            <h1 class="title">gallery</h1>
+        <div class="visual">
+            <h1>gallery</h1>
+        </div>
+        <div class="intro">
+            <div class="inner">
+                <div class="wrap">
+                    <article>
+                        <h1>
+                            Old Masters
+                            <a href="#"></a>
+                        </h1>
+                        <div class="pic"></div>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </article>
+                    <article>
+                        <h1>
+                            Old Masters
+                            <a href="#"></a>
+                        </h1>
+                        <div class="pic"></div>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </article>
+                    <article>
+                        <h1>
+                            Old Masters
+                            <a href="#"></a>
+                        </h1>
+                        <div class="pic"></div>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="history">
+            <div class="inner">
+                <div class="wrap">
+                    <div class="con">
+                        <h1>Welcome To The Art And History Meseum Ozeum</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci numquam quos corrupti asperiores! Quam eum itaque, reprehenderit aperiam vero perspiciatis!</p>
+                        <a href="#">VIEW ABOUT<span></span></a>
+                    </div>
+                    <div class="pic"></div>
+                </div>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="inner">
+                <h1>
+                    Collection
+                    <a href="#">VIEW ALL COLLECTIONS<span></span></a>
+                </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>Lorem ipsum dolor sit amet.</p>
+                <ul class="photos"></ul>
+                <a href="#" class="btn">VIEW MORE</a>
+            </div>
         </div>
     </section>
 

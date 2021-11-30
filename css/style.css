@@ -1715,4 +1715,218 @@ fieldset {
       .department .skills .wrap .bars li:nth-of-type(3)::after {
         width: 78%; }
 
+.gallery .visual h1 {
+  text-align: center; }
+.gallery .intro .wrap article {
+  float: left;
+  width: 33.333%;
+  padding: 0 50px;
+  border-right: 1px solid #eee; }
+  .gallery .intro .wrap article:nth-of-type(3) {
+    border-right: none; }
+  .gallery .intro .wrap article h1 {
+    font: 600 18px/1 "Montserrat";
+    color: #111;
+    margin-bottom: 15px;
+    position: relative; }
+    .gallery .intro .wrap article h1::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #111;
+      margin-top: 20px; }
+    .gallery .intro .wrap article h1 a {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 10px;
+      width: 25px;
+      height: 1px;
+      background: #555; }
+      .gallery .intro .wrap article h1 a::before {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 1px;
+        background: inherit;
+        transform: rotate(45deg);
+        transform-origin: right center;
+        position: absolute;
+        right: 0;
+        top: 0; }
+      .gallery .intro .wrap article h1 a::after {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 1px;
+        background: inherit;
+        transform: rotate(-45deg);
+        transform-origin: right center;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
+  .gallery .intro .wrap article .pic {
+    width: 100%;
+    height: 180px;
+    background: #bbb;
+    margin-bottom: 10px; }
+  .gallery .intro .wrap article p {
+    font: 400 14px/1 "Montserrat";
+    color: #555;
+    margin-bottom: 10px; }
+    .gallery .intro .wrap article p::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #ddd;
+      margin-top: 10px; }
+.gallery .history {
+  background: #ddd;
+  margin-bottom: 100px; }
+  .gallery .history .inner {
+    padding-bottom: 0; }
+    .gallery .history .inner .con {
+      float: left;
+      width: 50%;
+      padding: 100px;
+      text-align: center; }
+      .gallery .history .inner .con h1 {
+        font: 600 28px/1.2 "Montserrat";
+        color: #111;
+        margin-bottom: 30px; }
+      .gallery .history .inner .con p {
+        font: 100 14px/1.4 "Montserrat";
+        color: #888;
+        margin-bottom: 50px; }
+      .gallery .history .inner .con a {
+        display: inline-block;
+        font: 600 10px/1 "Montserrat";
+        color: #111;
+        position: absolute;
+        margin-left: -30px; }
+        .gallery .history .inner .con a span {
+          display: block;
+          position: absolute;
+          right: -30px;
+          top: 5px;
+          width: 25px;
+          height: 1px;
+          background: #111; }
+          .gallery .history .inner .con a span::before {
+            content: '';
+            display: block;
+            width: 6px;
+            height: 1px;
+            background: inherit;
+            transform: rotate(45deg);
+            transform-origin: right center;
+            position: absolute;
+            right: 0;
+            top: 0; }
+          .gallery .history .inner .con a span::after {
+            content: '';
+            display: block;
+            width: 6px;
+            height: 1px;
+            background: inherit;
+            transform: rotate(-45deg);
+            transform-origin: right center;
+            position: absolute;
+            right: 0;
+            bottom: 0; }
+    .gallery .history .inner .pic {
+      float: left;
+      width: 50%;
+      height: 420px;
+      background: #bbb; }
+.gallery .collection h1 {
+  font: 600 28px/1 "Montserrat";
+  color: #111;
+  margin-bottom: 10px;
+  position: relative; }
+  .gallery .collection h1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #111;
+    margin-top: 10px; }
+  .gallery .collection h1 a {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font: 600 10px/1 "Montserrat";
+    color: #111; }
+    .gallery .collection h1 a span {
+      display: block;
+      width: 25px;
+      height: 1px;
+      background: #111;
+      position: absolute;
+      top: 50%;
+      right: -30px; }
+      .gallery .collection h1 a span::before {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 1px;
+        background: #111;
+        transform: rotate(45deg);
+        transform-origin: right center;
+        position: absolute;
+        top: 0;
+        right: 0; }
+      .gallery .collection h1 a span::after {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 1px;
+        background: #111;
+        transform: rotate(-45deg);
+        transform-origin: right center;
+        position: absolute;
+        bottom: 0;
+        right: 0; }
+.gallery .collection p {
+  font: 100 11px/1.4 "Montserrat";
+  color: #888;
+  margin-bottom: 20px; }
+.gallery .collection .photos {
+  width: 100%;
+  min-height: 800px;
+  margin-bottom: 20px; }
+  .gallery .collection .photos li {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+    margin-bottom: 30px; }
+    .gallery .collection .photos li .li_inner {
+      width: 100%;
+      height: 100%; }
+      .gallery .collection .photos li .li_inner a {
+        display: block;
+        margin-bottom: 20px; }
+        .gallery .collection .photos li .li_inner a img {
+          width: 100%; }
+      .gallery .collection .photos li .li_inner h1 {
+        font: 400 14px/1 "Montserrat";
+        color: #111;
+        margin-bottom: 10px; }
+      .gallery .collection .photos li .li_inner h2 {
+        font: 300 11px/1 "Montserrat";
+        color: #888; }
+.gallery .collection .btn {
+  display: block;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background: #232D3A;
+  font: 400 14px/40px "Montserrat";
+  color: #fff;
+  text-align: center;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=style.css.map */
