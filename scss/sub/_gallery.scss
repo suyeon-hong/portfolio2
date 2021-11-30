@@ -290,3 +290,105 @@
         }
     }
 }
+
+@media screen and (max-width: $tablet) {
+    .gallery{
+        .intro{
+            .inner{
+                padding: 0 30px 100px;
+            }
+            .wrap article{
+                padding: 0 20px;
+            }
+        }
+        .history{
+            margin-bottom: 0px;
+
+            .inner{
+                padding: 100px 30px;
+
+                .con{
+                    padding: 50px;
+                }
+            }
+        }
+        .collection{
+            .photos{
+                min-height: 500px;
+
+                li{
+                    width: 33.333%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery{
+        .intro{
+            .wrap article{
+                padding: 0 10px;
+
+                h1{
+                    font-size: 15px;
+
+                    &::after{margin-top: 10px;}
+                }
+                .pic{
+                    height: 130px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 1.2;
+                }
+            }
+        }
+        .history{
+            .inner{
+                .con{
+                    padding: 40px;
+
+                    h1{font-size: 18px;}
+                }
+                .pic{height: 400px;}
+            }
+        }
+        .collection .photos li{
+            width: 50%;
+            padding: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .gallery{
+        .intro .inner{
+            padding: 0 10px 50px;
+
+            .wrap article .pic{
+                height: 80px;
+            }
+        }
+        .history .inner{
+            padding: 50px 10px;
+
+            .con{
+                width: 100%;
+                padding: 0 30px 50px;
+
+                h1{margin-bottom: 20px;}
+                p{font-size: 12px;margin-bottom: 30px;}
+                a{margin-left: -40px;}
+            }
+            .pic{
+                width: 100%;
+                height: 200px;
+            }
+        }
+        .collection .photos li{
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
