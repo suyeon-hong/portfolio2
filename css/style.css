@@ -949,7 +949,7 @@ fieldset {
     width: 100%;
     background: #555;
     margin-bottom: 100px;
-    padding: 100px; }
+    padding: 100px 0; }
     .content .visual h1 {
       font: 600 40px/1 "Montserrat";
       color: #ddd;
@@ -969,6 +969,11 @@ fieldset {
     width: 100%;
     padding: 100px 30px; } }
 @media screen and (max-width: 539px) {
+  .content .visual h1 {
+    font-size: 28px;
+    margin-bottom: 5px; }
+  .content .visual p {
+    font-size: 12px; }
   .content .inner {
     padding: 50px 20px; }
     .content .inner h1 {
