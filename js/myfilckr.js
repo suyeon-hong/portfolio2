@@ -9,6 +9,7 @@ class Myflickr{
     }
     init(selector, opt){
         this.photoBox = document.querySelector(selector);
+        this.loadingImg = document.querySelector(".loading");
         this.base = "https://www.flickr.com/services/rest/?";
         this.method = "flickr.interestingness.getList";
         this.api_key = opt.key;
@@ -62,6 +63,8 @@ class Myflickr{
                         columnWidth: ".item",
                         transitionDuration: ".5s"
                     });
+                    this.loadingImg.classList.add("off");
+                    this.photoBox.classList.add("on");
                 }
             });
         }
