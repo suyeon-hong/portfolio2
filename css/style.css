@@ -1351,7 +1351,8 @@ fieldset {
     top: 240px;
     left: 50%;
     transform: translateX(-50%);
-    width: 1180px; }
+    width: 1180px;
+    background: #28384d; }
     .community .tabs::after {
       content: '';
       display: block;
@@ -1534,6 +1535,45 @@ fieldset {
         right: 0;
         bottom: 0; }
 
+@media screen and (max-width: 1179px) {
+  .community .tabs {
+    width: 90%;
+    margin: 0 auto; }
+    .community .tabs li {
+      height: 50px;
+      line-height: 50px;
+      font-size: 17px; }
+  .community > h1 {
+    font-size: 24px; }
+    .community > h1 span {
+      font-size: 13px; }
+  .community .search .wrap {
+    width: 70%; }
+  .community .search .icon {
+    width: 31px;
+    height: 31px; }
+    .community .search .icon::before {
+      width: 24px;
+      height: 24px; }
+  .community .inner {
+    padding: 0 30px 100px; }
+    .community .inner .wrap article {
+      width: 32%;
+      margin-right: 1%;
+      margin-bottom: 10px; }
+      .community .inner .wrap article .pic {
+        height: 170px; }
+      .community .inner .wrap article .con {
+        padding: 20px; }
+        .community .inner .wrap article .con h2 {
+          font-size: 18px;
+          margin-bottom: 20px; }
+        .community .inner .wrap article .con p {
+          font-size: 13px;
+          line-height: 1.4;
+          margin-bottom: 20px; }
+        .community .inner .wrap article .con span {
+          font-size: 11px; } }
 .department .icons {
   padding-bottom: 100px; }
   .department .icons h1 {
