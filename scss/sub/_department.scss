@@ -379,10 +379,185 @@
 }
 
 @media screen and (max-width: 768px) {
-    .department{}
+    .department{
+        .chart{
+            padding: 200px 0;
+
+            ul li{
+                &::before{top: -29px}
+                &::after{top: -24px}
+                &:nth-of-type(1) .li_inner{
+                    transform: translateY(-135px);
+                }
+                .li_inner{
+                    height: 48px;
+                    transform: translateY(-135px);
+                    
+                    &::after{bottom: -47px;height: 47px;}
+                    h2{margin-bottom: 0;}
+                    p{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .team{
+            .wrap article{
+                margin-bottom: 30px;
+
+                .pic{
+                    width: 100px;
+                    height: 100px;
+                }
+                h3{font-size: 15px;margin-bottom: 5px;}
+                em{font-size:12px;margin-bottom: 0;}
+                p{display: none;}
+            }
+        }
+    }
 }
 
 
 @media screen and (max-width: $mobile) {
-    .department{}
+    .department{
+        .icons{
+            padding-bottom: 50px;
+
+            .inner{padding: 0 10px}
+            h1{font-size: 22px;margin-bottom: 10px;}
+            h2{font-size: 13px;margin-bottom: 50px;}
+            .wrap article{
+                width: 49%;
+                margin-right: 2%;
+                margin-bottom: 20px;
+
+                &:nth-of-type(2n){margin-right: 0;}
+                i{font-size: 50px;}
+                h3{font-size: 16px;margin-bottom: 10px;}
+                p{font-size: 11px;}
+            }
+        }
+        .chart{
+            padding: 50px 0;
+
+            .bar{
+                width: 1px;
+                height: 400px;
+
+                .left{
+                    transform: rotate(90deg);
+                    left: 1px;
+                }
+                .right{
+                    transform: rotate(90deg);
+                    top: auto;
+                    bottom: 0;
+                }
+            }
+            ul{
+                width: 100%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+
+                li{
+                    float: none;
+                    width: 100%;
+                    height: 70px;
+
+                    &::before{
+                        top: 50%;
+                        left: 52%;
+                        transform: translate(-50%, -50%);
+                    }
+                    &::after{
+                        top: 50%;
+                        left: 50.5%;
+                        transform: translate(-50%, -50%);
+                    }
+                    &:nth-of-type(1) .li_inner{
+                        transform: translateX(200px);
+                    }
+                    &:nth-of-type(2n){
+                        .li_inner{
+                            transform: translateX(10px);
+
+                            &::after{
+                                top: 18px;
+                                left: auto;
+                                right: -24px;
+                            }
+                        }
+
+                        h1{
+                            transform: translateX(40px);
+                        }
+                    }
+                    &:nth-of-type(4){
+                        .li_inner::after{right: -48px;width: 48px;}
+                    }
+                    h1{transform:translateX(-40px)}
+                    .li_inner{
+                        display: inline-block;
+                        height: auto;
+                        transform: translateX(200px);
+
+                        &::after{
+                            width: 32px;
+                            height: 1px;
+                            top: 18px;
+                            left: -32px;
+                        }
+                    }
+                }
+            }
+        }
+        .team{
+            padding: 50px 0;
+            
+            .inner{
+                padding: 0 10px;
+            }
+            h1{font-size: 22px;margin-bottom: 10px;}
+            h2{font-size: 13px;margin-bottom: 50px;}
+            .wrap article{
+                width: 32%;
+                margin-right: 2%;
+                margin-bottom: 20px;
+
+                &:nth-of-type(3n){margin-right: 0;}
+                &:nth-of-type(4n){margin-right: 2%;}
+                &:nth-of-type(n+7){display: none;}
+                .pic{
+                    width: 80px;
+                    height: 80px;
+                    margin-bottom: 10px;
+                }
+                h3{font-size: 13px;}
+                em{font-size: 11px;}
+            }
+        }
+        .skills{
+            padding: 50px 0;
+
+            .inner{padding: 0 10px}
+            .wrap{
+                .con{
+                    width: 100%;
+
+                    h1{font-size: 24px;margin-bottom: 10px;}
+                    h2{font-size: 14px;margin-bottom: 15px;}
+                    p{font-size: 11px;}
+                }
+                .bars{
+                    width: 100%;
+
+                    li{
+                        font-size: 14px;
+
+                        span{font-size: 12px;}
+                    }
+                }
+            }
+        }
+    }
 }
