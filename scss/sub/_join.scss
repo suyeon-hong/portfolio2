@@ -1,5 +1,11 @@
 .join{
     .inner{
+        p{
+            font: 300 11px/1 $font;
+            color: tomato;
+            margin-top: 5px;
+        }
+        .policyBox{margin-bottom: 100px;}
         h2{
             font: bold 16px/1 $font;
             color: #000;
@@ -33,18 +39,17 @@
             display: none;
 
             &:checked + label{
-                color: tomato;
+                color: #333;
             }
             &:checked + label::before{
-                border-color: tomato;
-                background-color: tomato;
+                border-color: #333;
+                background-color: #333;
             }
         }
         label{
             font: bold 13px/1 $font;
             color: #555;
             display: inline-block;
-            margin-bottom: 100px;
             cursor: pointer;
 
             &::before{
@@ -82,6 +87,7 @@
                 td{
                     width: 100%;
                     display: block;
+                    margin-bottom: 50px;
 
                     input[type="text"], input[type="password"]{
                         width: 100%;
@@ -90,7 +96,6 @@
                         border-bottom: 1px solid #888;
                         font: bold 16px/1 $font;
                         color: #555;
-                        margin-bottom: 50px;
                         padding-left: 10px;
                         
                         &::placeholder{
@@ -98,10 +103,6 @@
                             color: #888;
                         }
                     }
-                }
-                p{
-                    font: normal 13px/1 $font;
-                    color: tomato;
                 }
             }
         }
@@ -119,9 +120,6 @@
                 &:nth-of-type(5){
                     input[type="text"]{
                         margin-bottom: 5px;
-                    }
-                    td label{
-                        margin-bottom: 50px;
                     }
                 }
                 &:nth-of-type(6){
@@ -175,7 +173,7 @@
                     border: 1px solid #888;
                     font: bold 13px/40px $font;
                     color: #111;
-                    background: transparent;
+                    background: #eee;
                     margin-bottom: 50px;
                     transition: background-color 0.6s;
                     cursor: pointer;
@@ -214,22 +212,19 @@
 
 @media screen and (max-width: $mobile) {
     .join .inner{
+        .policyBox{margin-bottom: 50px;}
         h2{font-size: 15px;}
         .policy{
             padding: 10px;
             font-size: 12px;
             height: 200px;
         }
-        label{font-size: 12px;margin-bottom: 50px;}
+        label{font-size: 12px;}
         table{
             caption{font-size: 15px;}
             tr{
                 th{margin-bottom: 0;font-size: 13px;}
-                td{
-                    input[type="text"],input[type="password"]{
-                        margin-bottom: 20px;
-                    }
-                }
+                td{margin-bottom: 20px;}
             }
         }
         .info tr{
@@ -237,7 +232,6 @@
                 width: 100%;
                 margin-right: 0;
             }
-            &:nth-of-type(5) td label{margin-bottom: 30px;}
             &:nth-of-type(7) td{margin-bottom: 20px;}
         }
         .address{
@@ -248,6 +242,7 @@
                 input[type="button"]{
                     width: 100px;
                     left: calc(100% - 100px);
+                    margin-bottom: 20px;
                 }
             }
         }

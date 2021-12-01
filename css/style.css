@@ -972,7 +972,7 @@ fieldset {
 @media screen and (max-width: 1179px) {
   .content .inner {
     width: 100%;
-    padding: 100px 30px; } }
+    padding: 0 30px 100px; } }
 @media screen and (max-width: 539px) {
   .content .visual {
     margin-bottom: 50px; }
@@ -982,7 +982,7 @@ fieldset {
     .content .visual p {
       font-size: 12px; }
   .content .inner {
-    padding: 50px 20px; }
+    padding: 0 10px 50px; }
     .content .inner h1 {
       margin-bottom: 50px; } }
 #footer_sub {
@@ -1149,6 +1149,12 @@ fieldset {
         #footer_sub .inner .wrap > div.company h2 span {
           margin-right: 5px;
           font-size: 12px; } }
+.join .inner p {
+  font: 300 11px/1 "Montserrat";
+  color: tomato;
+  margin-top: 5px; }
+.join .inner .policyBox {
+  margin-bottom: 100px; }
 .join .inner h2 {
   font: bold 16px/1 "Montserrat";
   color: #000;
@@ -1175,15 +1181,14 @@ fieldset {
 .join .inner input[type="checkbox"] {
   display: none; }
   .join .inner input[type="checkbox"]:checked + label {
-    color: tomato; }
+    color: #333; }
   .join .inner input[type="checkbox"]:checked + label::before {
-    border-color: tomato;
-    background-color: tomato; }
+    border-color: #333;
+    background-color: #333; }
 .join .inner label {
   font: bold 13px/1 "Montserrat";
   color: #555;
   display: inline-block;
-  margin-bottom: 100px;
   cursor: pointer; }
   .join .inner label::before {
     content: '';
@@ -1213,7 +1218,8 @@ fieldset {
       display: block; }
     .join .inner table tr td {
       width: 100%;
-      display: block; }
+      display: block;
+      margin-bottom: 50px; }
       .join .inner table tr td input[type="text"], .join .inner table tr td input[type="password"] {
         width: 100%;
         height: 40px;
@@ -1221,14 +1227,10 @@ fieldset {
         border-bottom: 1px solid #888;
         font: bold 16px/1 "Montserrat";
         color: #555;
-        margin-bottom: 50px;
         padding-left: 10px; }
         .join .inner table tr td input[type="text"]::placeholder, .join .inner table tr td input[type="password"]::placeholder {
           font: 300 14px/1 "Montserrat";
           color: #888; }
-    .join .inner table tr p {
-      font: normal 13px/1 "Montserrat";
-      color: tomato; }
 .join .inner .info {
   margin-bottom: 50px; }
   .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
@@ -1238,8 +1240,6 @@ fieldset {
     margin-right: 0; }
   .join .inner .info tr:nth-of-type(5) input[type="text"] {
     margin-bottom: 5px; }
-  .join .inner .info tr:nth-of-type(5) td label {
-    margin-bottom: 50px; }
   .join .inner .info tr:nth-of-type(6) {
     width: 34%;
     margin-right: 1%; }
@@ -1276,7 +1276,7 @@ fieldset {
   border: 1px solid #888;
   font: bold 13px/40px "Montserrat";
   color: #111;
-  background: transparent;
+  background: #eee;
   margin-bottom: 50px;
   transition: background-color 0.6s;
   cursor: pointer; }
@@ -1295,6 +1295,8 @@ fieldset {
   .join .inner .address tr input[type="button"] {
     left: calc(100% - 180px); } }
 @media screen and (max-width: 539px) {
+  .join .inner .policyBox {
+    margin-bottom: 50px; }
   .join .inner h2 {
     font-size: 15px; }
   .join .inner .policy {
@@ -1302,27 +1304,25 @@ fieldset {
     font-size: 12px;
     height: 200px; }
   .join .inner label {
-    font-size: 12px;
-    margin-bottom: 50px; }
+    font-size: 12px; }
   .join .inner table caption {
     font-size: 15px; }
   .join .inner table tr th {
     margin-bottom: 0;
     font-size: 13px; }
-  .join .inner table tr td input[type="text"], .join .inner table tr td input[type="password"] {
+  .join .inner table tr td {
     margin-bottom: 20px; }
   .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
     width: 100%;
     margin-right: 0; }
-  .join .inner .info tr:nth-of-type(5) td label {
-    margin-bottom: 30px; }
   .join .inner .info tr:nth-of-type(7) td {
     margin-bottom: 20px; }
   .join .inner .address tr:last-child {
     text-align: center; }
   .join .inner .address tr input[type="button"] {
     width: 100px;
-    left: calc(100% - 100px); } }
+    left: calc(100% - 100px);
+    margin-bottom: 20px; } }
 .community {
   position: relative; }
   .community > h1 {
@@ -2337,6 +2337,8 @@ fieldset {
       padding: 100px 30px; }
       .gallery .history .inner .con {
         padding: 50px; }
+  .gallery .collection .inner {
+    padding: 100px 30px; }
   .gallery .collection .photos {
     min-height: 500px; }
     .gallery .collection .photos li {
@@ -2382,6 +2384,8 @@ fieldset {
     .gallery .history .inner .pic {
       width: 100%;
       height: 200px; }
+  .gallery .collection .inner {
+    padding: 50px 30px; }
   .gallery .collection .photos li {
     width: 100%;
     padding: 0; } }

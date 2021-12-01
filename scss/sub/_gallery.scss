@@ -313,6 +313,7 @@
             }
         }
         .collection{
+            .inner{padding: 100px 30px}
             .photos{
                 min-height: 500px;
 
@@ -354,9 +355,11 @@
                 .pic{height: 400px;}
             }
         }
-        .collection .photos li{
-            width: 50%;
-            padding: 10px;
+        .collection{
+            .photos li{
+                width: 50%;
+                padding: 10px;
+            }
         }
     }
 }
@@ -386,9 +389,12 @@
                 height: 200px;
             }
         }
-        .collection .photos li{
-            width: 100%;
-            padding: 0;
+        .collection{
+            .inner{padding: 50px 30px}
+            .photos li{
+                width: 100%;
+                padding: 0;
+            }
         }
     }
 }
