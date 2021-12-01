@@ -1679,142 +1679,146 @@ fieldset {
   padding: 250px 0;
   position: relative;
   background: #ddd; }
-  .department .chart .bar {
+  .department .chart .chart_inner {
     width: 90%;
     margin: 0 auto;
-    height: 1px;
-    background: #888;
     position: relative; }
-    .department .chart .bar::after {
-      content: '';
-      display: block;
-      width: 75%;
-      height: 3px;
-      background: #232D3A;
-      position: absolute;
-      left: 0;
-      top: -1px; }
-    .department .chart .bar .left {
-      position: absolute;
-      top: 0;
-      left: -1px; }
-      .department .chart .bar .left::before {
-        content: '';
-        display: block;
-        width: 15px;
-        height: 3px;
-        background: #232D3A;
-        transform: rotate(-45deg);
-        transform-origin: left center;
-        position: absolute;
-        left: 0;
-        top: 0; }
-      .department .chart .bar .left::after {
-        content: '';
-        display: block;
-        width: 15px;
-        height: 3px;
-        background: #232D3A;
-        transform: rotate(45deg);
-        transform-origin: left center;
-        position: absolute;
-        left: 0;
-        bottom: -1px; }
-    .department .chart .bar .right {
-      position: absolute;
-      top: 0;
-      right: 0; }
-      .department .chart .bar .right::before {
-        content: '';
-        display: block;
-        width: 15px;
-        height: 3px;
-        background: #232D3A;
-        transform: rotate(45deg);
-        transform-origin: right center;
-        position: absolute;
-        right: 0;
-        top: 0; }
-      .department .chart .bar .right::after {
-        content: '';
-        display: block;
-        width: 15px;
-        height: 3px;
-        background: #232D3A;
-        transform: rotate(-45deg);
-        transform-origin: right center;
-        position: absolute;
-        right: 0;
-        bottom: -1px; }
-  .department .chart ul {
-    width: 90%;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translateX(-50%); }
-    .department .chart ul li {
-      float: left;
-      width: 20%;
+    .department .chart .chart_inner .bar {
+      width: 100%;
+      height: 1px;
+      background: #888;
       position: relative; }
-      .department .chart ul li::before {
+      .department .chart .chart_inner .bar::before {
         content: '';
         display: block;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
+        width: 75%;
+        height: 3px;
         background: #232D3A;
         position: absolute;
-        top: -33px;
-        left: 50%;
-        margin-left: -7px; }
-      .department .chart ul li::after {
-        content: '';
-        display: block;
-        width: 5px;
-        height: 5px;
-        background: #fff;
+        left: 0;
+        top: -1px; }
+      .department .chart .chart_inner .bar .left {
         position: absolute;
-        top: -28px;
-        left: 50%;
-        margin-left: -2px; }
-      .department .chart ul li:nth-of-type(2n) h1 {
-        transform: translateY(-60px); }
-      .department .chart ul li:nth-of-type(2n) .li_inner {
-        transform: translateY(3px); }
-        .department .chart ul li:nth-of-type(2n) .li_inner::after {
-          bottom: auto;
-          top: -42px; }
-      .department .chart ul li:nth-of-type(1) .li_inner {
-        transform: translateY(-200px); }
-        .department .chart ul li:nth-of-type(1) .li_inner p {
-          max-height: 38px;
-          overflow: hidden; }
-      .department .chart ul li h1 {
-        font: bold 16px/1 "Montserrat";
-        color: #111;
-        text-align: center; }
-      .department .chart ul li .li_inner {
-        padding: 20px;
-        background: #fff;
-        transform: translateY(-238px); }
-        .department .chart ul li .li_inner::after {
+        top: 0;
+        left: -1px; }
+        .department .chart .chart_inner .bar .left::before {
           content: '';
           display: block;
-          width: 1px;
-          height: 42px;
+          width: 15px;
+          height: 3px;
+          background: #232D3A;
+          transform: rotate(-45deg);
+          transform-origin: left center;
+          position: absolute;
+          left: 0;
+          top: 0; }
+        .department .chart .chart_inner .bar .left::after {
+          content: '';
+          display: block;
+          width: 15px;
+          height: 3px;
+          background: #232D3A;
+          transform: rotate(45deg);
+          transform-origin: left center;
+          position: absolute;
+          left: 0;
+          bottom: -1px; }
+      .department .chart .chart_inner .bar .right {
+        position: absolute;
+        top: 0;
+        right: 0; }
+        .department .chart .chart_inner .bar .right::before {
+          content: '';
+          display: block;
+          width: 15px;
+          height: 3px;
+          background: #232D3A;
+          transform: rotate(45deg);
+          transform-origin: right center;
+          position: absolute;
+          right: 0;
+          top: 0; }
+        .department .chart .chart_inner .bar .right::after {
+          content: '';
+          display: block;
+          width: 15px;
+          height: 3px;
+          background: #232D3A;
+          transform: rotate(-45deg);
+          transform-origin: right center;
+          position: absolute;
+          right: 0;
+          bottom: -1px; }
+    .department .chart .chart_inner ul {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .department .chart .chart_inner ul li {
+        float: left;
+        width: 20%;
+        position: relative;
+        transform: translateY(110px); }
+        .department .chart .chart_inner ul li::before {
+          content: '';
+          display: block;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background: #232D3A;
+          position: absolute;
+          top: -33px;
+          left: 50%;
+          margin-left: -7px; }
+        .department .chart .chart_inner ul li::after {
+          content: '';
+          display: block;
+          width: 5px;
+          height: 5px;
           background: #fff;
           position: absolute;
-          bottom: -42px;
-          left: 50%; }
-        .department .chart ul li .li_inner h2 {
+          top: -28px;
+          left: 50%;
+          margin-left: -2px; }
+        .department .chart .chart_inner ul li:nth-of-type(2n) h1 {
+          transform: translateY(-60px); }
+        .department .chart .chart_inner ul li:nth-of-type(2n) .li_inner {
+          transform: translateY(3px); }
+          .department .chart .chart_inner ul li:nth-of-type(2n) .li_inner::after {
+            bottom: auto;
+            top: -42px; }
+        .department .chart .chart_inner ul li:nth-of-type(1) .li_inner {
+          transform: translateY(-200px); }
+          .department .chart .chart_inner ul li:nth-of-type(1) .li_inner p {
+            max-height: 38px;
+            overflow: hidden; }
+        .department .chart .chart_inner ul li h1 {
           font: bold 16px/1 "Montserrat";
           color: #111;
-          margin-bottom: 20px; }
-        .department .chart ul li .li_inner p {
-          font: 300 12px/1.6 "Montserrat";
-          color: #888;
-          max-height: 76px;
-          overflow: hidden; }
+          text-align: center; }
+        .department .chart .chart_inner ul li .li_inner {
+          padding: 20px;
+          background: #fff;
+          transform: translateY(-238px); }
+          .department .chart .chart_inner ul li .li_inner::after {
+            content: '';
+            display: block;
+            width: 1px;
+            height: 42px;
+            background: #fff;
+            position: absolute;
+            bottom: -42px;
+            left: 50%; }
+          .department .chart .chart_inner ul li .li_inner h2 {
+            font: bold 16px/1 "Montserrat";
+            color: #111;
+            margin-bottom: 20px; }
+          .department .chart .chart_inner ul li .li_inner p {
+            font: 300 12px/1.6 "Montserrat";
+            color: #888;
+            max-height: 76px;
+            overflow: hidden; }
 .department .team {
   padding: 100px 0; }
   .department .team h1 {
@@ -1918,13 +1922,15 @@ fieldset {
   .department .icons .wrap article {
     width: 24%;
     margin-right: 1.333%; }
-  .department .chart ul li .li_inner {
-    padding: 10px; }
-    .department .chart ul li .li_inner h2 {
-      font-size: 14px; }
-    .department .chart ul li .li_inner::after {
-      bottom: -64px;
-      height: 64px; }
+  .department .chart .chart_inner ul li {
+    transform: translateY(100px); }
+    .department .chart .chart_inner ul li .li_inner {
+      padding: 10px; }
+      .department .chart .chart_inner ul li .li_inner h2 {
+        font-size: 14px; }
+      .department .chart .chart_inner ul li .li_inner::after {
+        bottom: -64px;
+        height: 64px; }
   .department .team .inner {
     padding: 0 30px; }
   .department .team .wrap article {
@@ -1943,22 +1949,24 @@ fieldset {
 @media screen and (max-width: 768px) {
   .department .chart {
     padding: 200px 0; }
-    .department .chart ul li::before {
-      top: -29px; }
-    .department .chart ul li::after {
-      top: -24px; }
-    .department .chart ul li:nth-of-type(1) .li_inner {
-      transform: translateY(-135px); }
-    .department .chart ul li .li_inner {
-      height: 48px;
-      transform: translateY(-135px); }
-      .department .chart ul li .li_inner::after {
-        bottom: -47px;
-        height: 47px; }
-      .department .chart ul li .li_inner h2 {
-        margin-bottom: 0; }
-      .department .chart ul li .li_inner p {
-        display: none; }
+    .department .chart .chart_inner ul li {
+      transform: translateY(53px); }
+      .department .chart .chart_inner ul li::before {
+        top: -29px; }
+      .department .chart .chart_inner ul li::after {
+        top: -24px; }
+      .department .chart .chart_inner ul li:nth-of-type(1) .li_inner {
+        transform: translateY(-135px); }
+      .department .chart .chart_inner ul li .li_inner {
+        height: 48px;
+        transform: translateY(-135px); }
+        .department .chart .chart_inner ul li .li_inner::after {
+          bottom: -47px;
+          height: 47px; }
+        .department .chart .chart_inner ul li .li_inner h2 {
+          margin-bottom: 0; }
+        .department .chart .chart_inner ul li .li_inner p {
+          display: none; }
   .department .team .wrap article {
     margin-bottom: 30px; }
     .department .team .wrap article .pic {
@@ -1998,56 +2006,58 @@ fieldset {
         font-size: 11px; }
   .department .chart {
     padding: 50px 0; }
-    .department .chart .bar {
+    .department .chart .chart_inner .bar {
       width: 1px;
-      height: 400px; }
-      .department .chart .bar .left {
+      height: 400px;
+      margin: 0 auto; }
+      .department .chart .chart_inner .bar .left {
         transform: rotate(90deg);
         left: 1px; }
-      .department .chart .bar .right {
+      .department .chart .chart_inner .bar .right {
         transform: rotate(90deg);
         top: auto;
         bottom: 0; }
-    .department .chart ul {
+    .department .chart .chart_inner ul li {
+      float: none;
       width: 100%;
-      top: 50%;
-      transform: translate(-50%, -50%); }
-      .department .chart ul li {
-        float: none;
-        width: 100%;
-        height: 70px; }
-        .department .chart ul li::before {
-          top: 50%;
-          left: 52%;
-          transform: translate(-50%, -50%); }
-        .department .chart ul li::after {
-          top: 50%;
-          left: 50.5%;
-          transform: translate(-50%, -50%); }
-        .department .chart ul li:nth-of-type(1) .li_inner {
-          transform: translateX(200px); }
-        .department .chart ul li:nth-of-type(2n) .li_inner {
-          transform: translateX(10px); }
-          .department .chart ul li:nth-of-type(2n) .li_inner::after {
-            top: 18px;
-            left: auto;
-            right: -24px; }
-        .department .chart ul li:nth-of-type(2n) h1 {
-          transform: translateX(40px); }
-        .department .chart ul li:nth-of-type(4) .li_inner::after {
-          right: -48px;
-          width: 48px; }
-        .department .chart ul li h1 {
-          transform: translateX(-40px); }
-        .department .chart ul li .li_inner {
-          display: inline-block;
-          height: auto;
-          transform: translateX(200px); }
-          .department .chart ul li .li_inner::after {
-            width: 32px;
-            height: 1px;
-            top: 18px;
-            left: -32px; }
+      height: 70px;
+      transform: translateY(0px); }
+      .department .chart .chart_inner ul li::before {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 0; }
+      .department .chart .chart_inner ul li::after {
+        top: 50%;
+        left: 50.5%;
+        transform: translate(-50%, -50%); }
+      .department .chart .chart_inner ul li:nth-of-type(1) .li_inner {
+        transform: translateX(52vw); }
+      .department .chart .chart_inner ul li:nth-of-type(2n) .li_inner {
+        transform: translateX(0); }
+        .department .chart .chart_inner ul li:nth-of-type(2n) .li_inner::after {
+          width: 19vw;
+          top: 18px;
+          left: 24vw; }
+      .department .chart .chart_inner ul li:nth-of-type(2n) h1 {
+        transform: translate(50px, 26px); }
+      .department .chart .chart_inner ul li:nth-of-type(4) .li_inner::after {
+        width: 23vw;
+        left: 20vw; }
+      .department .chart .chart_inner ul li h1 {
+        transform: translate(-50px, 26px); }
+      .department .chart .chart_inner ul li .li_inner {
+        display: inline-block;
+        height: auto;
+        transform: translateX(52vw); }
+        .department .chart .chart_inner ul li .li_inner::after {
+          width: 8vw;
+          height: 1px;
+          top: 18px;
+          left: -8vw; }
+        .department .chart .chart_inner ul li .li_inner h2 {
+          position: relative;
+          z-index: 2; }
   .department .team {
     padding: 50px 0; }
     .department .team .inner {
