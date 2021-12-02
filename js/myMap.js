@@ -1,16 +1,3 @@
-
-
-window.addEventListener("load", ()=>{
-    new myMap("#map1", {
-        center: [33.450701, 126.570667],
-        level: 3
-    });
-    new myMap("#map2", {
-        center: [33.450701, 126.570667],
-        level: 3
-    });
-})
-
 class myMap{
     constructor(selector, opt){
         this.container = document.querySelector(selector);
@@ -28,11 +15,11 @@ class myMap{
         map.addControl(zoomControl, kakao.maps.ControlPosition.TOPLEFT);
 
         const imageSrc = '../img/marker.png', 
-        imageSize = new kakao.maps.Size(64, 69),
-        imageOption = {offset: new kakao.maps.Point(27, 69)};
+        imageSize = new kakao.maps.Size(70, 69),
+        imageOption = {offset: new kakao.maps.Point(35, 69)};
         
         const markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
-            markerPosition = new kakao.maps.LatLng(33.450701, 126.570667);
+            markerPosition = this.options.center;
 
         const marker = new kakao.maps.Marker({
             position: markerPosition, 
@@ -45,7 +32,7 @@ class myMap{
         })
     }
     panTo(map) {
-        const moveLatLon = new kakao.maps.LatLng(33.450701, 126.570667);
+        const moveLatLon = this.options.center;
         map.panTo(moveLatLon);            
     }
 }

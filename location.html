@@ -11,7 +11,16 @@
     <script defer src="js/common.js"></script>
     <script defer src="js/myMap.js"></script>
     <script>
-        
+        window.addEventListener("load", ()=>{
+            new myMap("#map1", {
+                center: [37.56004712306045, 126.98272302483775],
+                level: 3
+            });
+            new myMap("#map2", {
+                center: [37.558470528862024, 126.94594056323088],
+                level: 3
+            });
+        });
     </script>
 </head>
 <body>
@@ -74,7 +83,7 @@
                 <div class="wrap">
                     <div>
                         <div id="map1"></div>
-                        <h2>Gangnam</h2>
+                        <h2>스타벅스코리아 본사</h2>
                         <div class="wrap">
                             <address>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, repudiandae!</address>
                             <p>Tel: (82)000-0000<br>Fax: (82)000-0000</p>
@@ -82,7 +91,7 @@
                     </div>
                     <div>
                         <div id="map2"></div>
-                        <h2>Songpa</h2>
+                        <h2>스타벅스 이대점</h2>
                         <address>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, repudiandae!</address>
                     </div>
                 </div>
