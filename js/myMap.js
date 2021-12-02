@@ -1,9 +1,4 @@
-const map1 = document.querySelector("#map1");
-const map2 = document.querySelector("#map2");
-const options = {
-    center: new kakao.maps.LatLng(33.450701, 126.570667),
-    level: 3
-};
+
 
 window.addEventListener("load", ()=>{
     new myMap("#map1", {
@@ -30,11 +25,18 @@ class myMap{
         map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
 
         const zoomControl = new kakao.maps.ZoomControl();
-        map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+        map.addControl(zoomControl, kakao.maps.ControlPosition.TOPLEFT);
 
-        const markerPosition  = new kakao.maps.LatLng(33.450701, 126.570667);
+        const imageSrc = '../img/marker.png', 
+        imageSize = new kakao.maps.Size(64, 69),
+        imageOption = {offset: new kakao.maps.Point(27, 69)};
+        
+        const markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+            markerPosition = new kakao.maps.LatLng(33.450701, 126.570667);
+
         const marker = new kakao.maps.Marker({
-            position: markerPosition
+            position: markerPosition, 
+            image: markerImage
         });
 
         marker.setMap(map);
