@@ -2236,16 +2236,16 @@ fieldset {
       width: 33.333%;
       padding: 50px 70px; }
       .location .info > .wrap article h1 {
-        font: 600 20px/1 "Montserrat";
+        font: 600 24px/1 "Montserrat";
         color: #111;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         letter-spacing: -1px; }
       .location .info > .wrap article h2 {
         font: 500 18px/1 "Montserrat";
         color: #333;
         text-decoration: underline;
         letter-spacing: -1px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         cursor: pointer; }
       .location .info > .wrap article h3 {
         font: 600 14px/1 "Montserrat";

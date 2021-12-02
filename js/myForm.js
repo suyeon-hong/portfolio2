@@ -22,6 +22,14 @@ class MyForm{
                 }
             });
         });
+        this.btnSubmit.addEventListener("click", e=>{
+            let errMsgs = this.frame.querySelectorAll(".inner p");
+            if(errMsgs.length > 0){
+                e.preventDefault();
+                alert("필수입력사항을 확인 해 주세요");
+                window.scrollTo(0,0);
+            }
+        })
     }
     isCheck(name, tit){
         const checkbox = document.querySelector(`[name=${name}]`);
