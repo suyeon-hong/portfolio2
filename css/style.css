@@ -2329,12 +2329,10 @@ fieldset {
     font: 600 15px/1 "Montserrat";
     color: #777;
     position: relative;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     cursor: pointer; }
-    .location .faq .wrap .right ul li.on {
-      border-bottom: 1px solid #ddd; }
-      .location .faq .wrap .right ul li.on a {
-        transform: rotate(180deg); }
+    .location .faq .wrap .right ul li.on a {
+      transform: rotate(180deg); }
     .location .faq .wrap .right ul li a {
       display: block;
       width: 15px;
@@ -2372,7 +2370,8 @@ fieldset {
       width: 100%;
       padding: 20px;
       font: 500 14px/1 "Montserrat";
-      color: #888; }
+      color: #888;
+      border-bottom: 1px solid #ddd; }
 
 @media screen and (max-width: 1179px) {
   .location .info .wrap {
@@ -2425,7 +2424,7 @@ fieldset {
     .location .faq .wrap .right p {
       line-height: 1.6; }
     .location .faq .wrap .right ul li {
-      margin-bottom: 30px; } }
+      padding-bottom: 30px; } }
 @media screen and (max-width: 539px) {
   .location .info {
     margin-bottom: 50px; }
