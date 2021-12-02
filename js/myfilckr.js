@@ -8,6 +8,7 @@ class Myflickr{
         this.bindingEvent();
     }
     init(selector, opt){
+        this.frame = document.querySelector(".gallery");
         this.photoBox = document.querySelector(selector);
         this.loadingImg = document.querySelector(".loading");
         this.base = "https://www.flickr.com/services/rest/?";
@@ -19,6 +20,35 @@ class Myflickr{
     }
     bindingEvent(){
         this.callData();
+
+        this.photoBox.addEventListener("click", e=>{
+            e.preventDefault();
+
+            let target = e.target.closest(".item");
+            if(target !== null){
+                if(e.target !== target.querySelector("img")) return;
+
+                const imgSrc = target.querySelector("a").getAttribute("href");
+                const pop = document.createElement("aside");
+                const htmls = `
+                    <img src=${imgSrc}>
+                    <span class="close">CLOSE</span>
+                `;
+                pop.innerHTML = htmls;
+                this.frame.append(pop);
+            }
+        });
+
+        this.frame.addEventListener("click", e=>{
+            e.preventDefault();
+
+            let target = e.target.closest("aside");
+
+            if(target !== null){
+                const btnClose = target.querySelector(".close");
+                if(e.target == btnClose) target.remove();
+            }
+        })
     }
     callData(){
         fetch(this.url)

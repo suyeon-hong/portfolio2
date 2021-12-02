@@ -289,6 +289,30 @@
             margin: 0 auto;
         }
     }
+    aside{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        padding:200px;
+        background: rgba(0,0,0,0.9);
+        z-index: 2;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .close{
+            font: 500 18px/1 $font;
+            color: #fff;
+            position: absolute;
+            top: 100px;
+            right: 100px;
+            cursor: pointer;
+        }
+    }
 }
 
 @media screen and (max-width: $tablet) {
