@@ -3,19 +3,23 @@
         border-bottom: 1px solid #ddd;
         margin-bottom: 100px;
 
-        .wrap{
+        >.wrap{
+            width: 80%;
+            margin: 0 auto;
+
             article{
                 float: left;
                 width: 33.333%;
-                padding: 50px;
+                padding: 50px 70px;
 
                 h1{
-                    font: 600 16px/1 $font;
+                    font: 600 20px/1 $font;
                     color: #111;
                     margin-bottom: 20px;
+                    letter-spacing: -1px;
                 }
                 h2{
-                    font: 500 15px/1 $font;
+                    font: 500 18px/1 $font;
                     color: #333;
                     text-decoration: underline;
                     letter-spacing: -1px;
@@ -51,8 +55,10 @@
         }
     }
     .maps{
+        margin-bottom: 150px;
+
         h1{
-            font: 600 30px/1 $font;
+            font: 500 20px/1 "Gowun Batang";
             color: #111;
             margin-bottom: 20px;
         }
@@ -84,7 +90,7 @@
                 }
                 address{
                     float: left;
-                    width: 30%;
+                    width: 50%;
                     font: 500 16px/1.4 $font;
                     color: #333;
                 }
@@ -94,6 +100,90 @@
                     font: 500 16px/1.4 $font;
                     color: #333;
                     text-align: right;
+                }
+            }
+        }
+    }
+    .faq{
+        .wrap{
+            .left{
+                float:left;
+                width: 50%;
+
+                h1{
+                    font: 500 16px/1 "Gowun Batang";
+                    color: #333;
+                }
+                h2{
+                    font: 600 70px/1.1 $font;
+                    color: #111;
+
+                    span{font-size: 95px;}
+                }
+            }
+            .right{
+                float: left;
+                width: 50%;
+
+                h3{
+                    font: 600 16px/1 $font;
+                    color: #111;
+                    margin-bottom: 30px;
+                }
+                p{
+                    width: 80%;
+                    font: 300 14px/1.8 $font;
+                    color: #888;
+                    margin-bottom: 30px;
+                }
+                ul li{
+                    font: 600 15px/1 $font;
+                    color: #777;
+                    position: relative;
+                    margin-bottom: 40px;
+
+                    a{
+                        display: block;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        background: #232D3A;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+
+                        &::before{
+                            content: '';
+                            display: block;
+                            width: 5px;
+                            height: 1px;
+                            background: #fff;
+                            transform: rotate(45deg);
+                            transform-origin: left center;
+                            position: absolute;
+                            top: 6px;
+                            left: 4px;
+                        }
+                        &::after{
+                            content: '';
+                            display: block;
+                            width: 5px;
+                            height: 1px;
+                            background: #fff;
+                            transform: rotate(-45deg);
+                            transform-origin: right center;
+                            position: absolute;
+                            top: 6px;
+                            right: 4px;
+                        }
+                    }
+                    div{
+                        display: none;
+                        width: 100%;
+                        padding: 20px 0;
+                        font: 500 14px/1 $font;
+                        color: #888;
+                    }
                 }
             }
         }

@@ -2228,76 +2228,147 @@ fieldset {
 .location .info {
   border-bottom: 1px solid #ddd;
   margin-bottom: 100px; }
-  .location .info .wrap article {
-    float: left;
-    width: 33.333%;
-    padding: 50px; }
-    .location .info .wrap article h1 {
-      font: 600 16px/1 "Montserrat";
-      color: #111;
-      margin-bottom: 20px; }
-    .location .info .wrap article h2 {
-      font: 500 15px/1 "Montserrat";
-      color: #333;
-      text-decoration: underline;
-      letter-spacing: -1px;
-      margin-bottom: 20px;
-      cursor: pointer; }
-    .location .info .wrap article h3 {
-      font: 600 14px/1 "Montserrat";
-      color: #333; }
-      .location .info .wrap article h3 i {
-        font-size: 20px;
+  .location .info > .wrap {
+    width: 80%;
+    margin: 0 auto; }
+    .location .info > .wrap article {
+      float: left;
+      width: 33.333%;
+      padding: 50px 70px; }
+      .location .info > .wrap article h1 {
+        font: 600 20px/1 "Montserrat";
         color: #111;
-        vertical-align: middle;
-        margin-right: 10px; }
-    .location .info .wrap article a {
-      display: block;
-      width: 150px;
-      height: 35px;
-      background: #232D3A;
-      font: 600 13px/35px "Montserrat";
-      color: #ddd;
-      text-align: center;
-      margin-top: -10px; }
-      .location .info .wrap article a:hover {
-        color: #fff; }
-.location .maps h1 {
-  font: 600 30px/1 "Montserrat";
-  color: #111;
-  margin-bottom: 20px; }
-.location .maps .wrap > div {
-  float: left;
-  width: 48%; }
-  .location .maps .wrap > div:nth-of-type(1) {
-    margin-right: 4%; }
-  .location .maps .wrap > div #map1, .location .maps .wrap > div #map2 {
-    width: 100%;
-    height: 400px;
-    margin-bottom: 30px;
-    filter: saturate(50%); }
-  .location .maps .wrap > div h2 {
-    font: 600 18px/1 "Montserrat";
+        margin-bottom: 20px;
+        letter-spacing: -1px; }
+      .location .info > .wrap article h2 {
+        font: 500 18px/1 "Montserrat";
+        color: #333;
+        text-decoration: underline;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+        cursor: pointer; }
+      .location .info > .wrap article h3 {
+        font: 600 14px/1 "Montserrat";
+        color: #333; }
+        .location .info > .wrap article h3 i {
+          font-size: 20px;
+          color: #111;
+          vertical-align: middle;
+          margin-right: 10px; }
+      .location .info > .wrap article a {
+        display: block;
+        width: 150px;
+        height: 35px;
+        background: #232D3A;
+        font: 600 13px/35px "Montserrat";
+        color: #ddd;
+        text-align: center;
+        margin-top: -10px; }
+        .location .info > .wrap article a:hover {
+          color: #fff; }
+.location .maps {
+  margin-bottom: 150px; }
+  .location .maps h1 {
+    font: 500 20px/1 "Gowun Batang";
     color: #111;
     margin-bottom: 20px; }
-    .location .maps .wrap > div h2::after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 1px;
-      background: #ddd;
-      margin-top: 20px; }
-  .location .maps .wrap > div address {
+  .location .maps .wrap > div {
     float: left;
-    width: 30%;
-    font: 500 16px/1.4 "Montserrat";
+    width: 48%; }
+    .location .maps .wrap > div:nth-of-type(1) {
+      margin-right: 4%; }
+    .location .maps .wrap > div #map1, .location .maps .wrap > div #map2 {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 30px;
+      filter: saturate(50%); }
+    .location .maps .wrap > div h2 {
+      font: 600 18px/1 "Montserrat";
+      color: #111;
+      margin-bottom: 20px; }
+      .location .maps .wrap > div h2::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #ddd;
+        margin-top: 20px; }
+    .location .maps .wrap > div address {
+      float: left;
+      width: 50%;
+      font: 500 16px/1.4 "Montserrat";
+      color: #333; }
+    .location .maps .wrap > div p {
+      float: right;
+      width: 30%;
+      font: 500 16px/1.4 "Montserrat";
+      color: #333;
+      text-align: right; }
+.location .faq .wrap .left {
+  float: left;
+  width: 50%; }
+  .location .faq .wrap .left h1 {
+    font: 500 16px/1 "Gowun Batang";
     color: #333; }
-  .location .maps .wrap > div p {
-    float: right;
-    width: 30%;
-    font: 500 16px/1.4 "Montserrat";
-    color: #333;
-    text-align: right; }
+  .location .faq .wrap .left h2 {
+    font: 600 70px/1.1 "Montserrat";
+    color: #111; }
+    .location .faq .wrap .left h2 span {
+      font-size: 95px; }
+.location .faq .wrap .right {
+  float: left;
+  width: 50%; }
+  .location .faq .wrap .right h3 {
+    font: 600 16px/1 "Montserrat";
+    color: #111;
+    margin-bottom: 30px; }
+  .location .faq .wrap .right p {
+    width: 80%;
+    font: 300 14px/1.8 "Montserrat";
+    color: #888;
+    margin-bottom: 30px; }
+  .location .faq .wrap .right ul li {
+    font: 600 15px/1 "Montserrat";
+    color: #777;
+    position: relative;
+    margin-bottom: 40px; }
+    .location .faq .wrap .right ul li a {
+      display: block;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #232D3A;
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .location .faq .wrap .right ul li a::before {
+        content: '';
+        display: block;
+        width: 5px;
+        height: 1px;
+        background: #fff;
+        transform: rotate(45deg);
+        transform-origin: left center;
+        position: absolute;
+        top: 6px;
+        left: 4px; }
+      .location .faq .wrap .right ul li a::after {
+        content: '';
+        display: block;
+        width: 5px;
+        height: 1px;
+        background: #fff;
+        transform: rotate(-45deg);
+        transform-origin: right center;
+        position: absolute;
+        top: 6px;
+        right: 4px; }
+    .location .faq .wrap .right ul li div {
+      display: none;
+      width: 100%;
+      padding: 20px 0;
+      font: 500 14px/1 "Montserrat";
+      color: #888; }
 
 .join .inner p {
   font: 300 11px/1 "Montserrat";
