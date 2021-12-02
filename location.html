@@ -9,7 +9,8 @@
     <script src="https://kit.fontawesome.com/0c5c47f3c6.js" crossorigin="anonymous"></script>
     <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0fe4cca24146cd788e517536c350a66f"></script>
     <script defer src="js/common.js"></script>
-    <script defer src="js/myMap.js"></script>
+    <script defer src="js/tabbox.js"></script>
+    <script src="js/myMap.js"></script>
     <script>
         window.addEventListener("load", ()=>{
             new myMap("#map1", {
@@ -100,7 +101,11 @@
                 <div class="wrap">
                     <div class="left">
                         <h1>FAQ.</h1>
-                        <h2><span>F</span>requently<br><span>A</span>sked<br><span>Q</span>uestions</h2>
+                        <h2>
+                            <p><span>F</span>requently</p>
+                            <p><span>A</span>sked</p>
+                            <p><span>Q</span>uestions</p>
+                        </h2>
                     </div>
                     <div class="right">
                         <h3>Lorem ipsum dolor sit amet.</h3>
@@ -109,22 +114,22 @@
                             <li>
                                 Lorem ipsum dolor sit?
                                 <a href="#"></a>
-                                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, eius.</div>
+                                <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, eius.</div>
                             </li>
                             <li>
                                 Lorem ipsum dolor?
                                 <a href="#"></a>
-                                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, eius.</div>
+                                <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, eius.</div>
                             </li>
                             <li>
                                 Lorem ipsum dolor sit amet?
                                 <a href="#"></a>
-                                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, eius.</div>
+                                <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, eius.</div>
                             </li>
                             <li>
                                 Lorem ipsum dolor sit?
                                 <a href="#"></a>
-                                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, eius.</div>
+                                <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, eius.</div>
                             </li>
                         </ul>
                     </div>

@@ -982,9 +982,7 @@ fieldset {
     .content .visual p {
       font-size: 12px; }
   .content .inner {
-    padding: 0 10px 50px; }
-    .content .inner h1 {
-      margin-bottom: 50px; } }
+    padding: 0 10px 50px; } }
 #footer_sub {
   width: 100%;
   padding: 100px 0;
@@ -2300,7 +2298,7 @@ fieldset {
       color: #333; }
     .location .maps .wrap > div p {
       float: right;
-      width: 30%;
+      width: 40%;
       font: 500 16px/1.4 "Montserrat";
       color: #333;
       text-align: right; }
@@ -2311,10 +2309,10 @@ fieldset {
     font: 500 16px/1 "Gowun Batang";
     color: #333; }
   .location .faq .wrap .left h2 {
-    font: 600 70px/1.1 "Montserrat";
+    font: 600 60px/1.2 "Montserrat";
     color: #111; }
     .location .faq .wrap .left h2 span {
-      font-size: 95px; }
+      font-size: 80px; }
 .location .faq .wrap .right {
   float: left;
   width: 50%; }
@@ -2331,7 +2329,12 @@ fieldset {
     font: 600 15px/1 "Montserrat";
     color: #777;
     position: relative;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    cursor: pointer; }
+    .location .faq .wrap .right ul li.on {
+      border-bottom: 1px solid #ddd; }
+      .location .faq .wrap .right ul li.on a {
+        transform: rotate(180deg); }
     .location .faq .wrap .right ul li a {
       display: block;
       width: 15px;
@@ -2340,7 +2343,8 @@ fieldset {
       background: #232D3A;
       position: absolute;
       top: 0;
-      right: 0; }
+      right: 0;
+      transition: .6s; }
       .location .faq .wrap .right ul li a::before {
         content: '';
         display: block;
@@ -2366,10 +2370,102 @@ fieldset {
     .location .faq .wrap .right ul li div {
       display: none;
       width: 100%;
-      padding: 20px 0;
+      padding: 20px;
       font: 500 14px/1 "Montserrat";
       color: #888; }
 
+@media screen and (max-width: 1179px) {
+  .location .info .wrap {
+    width: 100%; }
+    .location .info .wrap article {
+      padding: 5vw; }
+  .location .faq .wrap .right p {
+    width: 100%; } }
+@media screen and (max-width: 768px) {
+  .location .info .wrap article {
+    padding: 0 10px 30px; }
+    .location .info .wrap article h1 {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .location .info .wrap article h2 {
+      font-size: 15px;
+      margin-bottom: 20px; }
+    .location .info .wrap article h3 {
+      font-size: 13px; }
+      .location .info .wrap article h3 i {
+        font-size: 16px; }
+    .location .info .wrap article a {
+      width: 130px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 11px; }
+  .location .maps .wrap > div address {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px; }
+  .location .maps .wrap > div p {
+    width: 100%;
+    font-size: 12px; }
+  .location .faq .wrap .left {
+    width: 100%;
+    margin-bottom: 40px; }
+    .location .faq .wrap .left h1 {
+      font-size: 14px; }
+    .location .faq .wrap .left h2 {
+      font-size: 40px;
+      line-height: 1; }
+      .location .faq .wrap .left h2 p {
+        display: inline-block; }
+      .location .faq .wrap .left h2 span {
+        font-size: 50px; }
+  .location .faq .wrap .right {
+    width: 100%; }
+    .location .faq .wrap .right h3 {
+      margin-bottom: 10px; }
+    .location .faq .wrap .right p {
+      line-height: 1.6; }
+    .location .faq .wrap .right ul li {
+      margin-bottom: 30px; } }
+@media screen and (max-width: 539px) {
+  .location .info {
+    margin-bottom: 50px; }
+    .location .info .wrap article h1 {
+      font-size: 14px;
+      margin-bottom: 15px; }
+    .location .info .wrap article h2 {
+      font-size: 12px;
+      margin-bottom: 10px; }
+    .location .info .wrap article h3 {
+      font-size: 11px; }
+      .location .info .wrap article h3 i {
+        font-size: 12px;
+        margin-right: 2px; }
+    .location .info .wrap article a {
+      width: 90px;
+      height: 25px;
+      line-height: 25px;
+      font-weight: 500;
+      font-size: 10px;
+      margin-top: -5px; }
+  .location .maps {
+    margin-bottom: 50px; }
+    .location .maps h1 {
+      font-size: 18px;
+      margin-bottom: 10px; }
+    .location .maps .wrap > div {
+      width: 100%;
+      margin-bottom: 30px; }
+      .location .maps .wrap > div #map1, .location .maps .wrap > div #map2 {
+        height: 200px;
+        margin-bottom: 20px; }
+      .location .maps .wrap > div h2 {
+        font-size: 14px;
+        margin-bottom: 10px; }
+        .location .maps .wrap > div h2::after {
+          margin-top: 10px; }
+      .location .maps .wrap > div address {
+        font-size: 12px;
+        margin-bottom: 10px; } }
 .join .inner p {
   font: 300 11px/1 "Montserrat";
   color: tomato;
