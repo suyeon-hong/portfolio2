@@ -14,7 +14,7 @@ class myMap{
         const zoomControl = new kakao.maps.ZoomControl();
         map.addControl(zoomControl, kakao.maps.ControlPosition.TOPLEFT);
 
-        const imageSrc = '../img/marker.png', 
+        const imageSrc = 'img/marker.png', 
         imageSize = new kakao.maps.Size(70, 69),
         imageOption = {offset: new kakao.maps.Point(35, 69)};
         
