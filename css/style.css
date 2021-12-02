@@ -1149,504 +1149,6 @@ fieldset {
         #footer_sub .inner .wrap > div.company h2 span {
           margin-right: 5px;
           font-size: 12px; } }
-.join .inner p {
-  font: 300 11px/1 "Montserrat";
-  color: tomato;
-  margin-top: 5px; }
-.join .inner .policyBox {
-  margin-bottom: 100px; }
-.join .inner h2 {
-  font: bold 16px/1 "Montserrat";
-  color: #000;
-  margin-bottom: 15px; }
-.join .inner .policy {
-  width: 100%;
-  height: 300px;
-  overflow-y: scroll;
-  padding: 20px;
-  font: 300 16px/1.4 "Montserrat";
-  border: 1px solid #bbb;
-  color: #333;
-  margin-bottom: 5px; }
-  .join .inner .policy::-webkit-scrollbar {
-    width: 13px; }
-  .join .inner .policy::-webkit-scrollbar-thumb {
-    background-color: #777;
-    background-clip: padding-box;
-    border: 1px solid transparent;
-    border-left: 2px solid transparent;
-    border-radius: 5px; }
-  .join .inner .policy::-webkit-scrollbar-track {
-    background-color: #ddd; }
-.join .inner input[type="checkbox"] {
-  display: none; }
-  .join .inner input[type="checkbox"]:checked + label {
-    color: #333; }
-  .join .inner input[type="checkbox"]:checked + label::before {
-    border-color: #333;
-    background-color: #333; }
-.join .inner label {
-  font: bold 13px/1 "Montserrat";
-  color: #555;
-  display: inline-block;
-  cursor: pointer; }
-  .join .inner label::before {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #555;
-    border-radius: 50%;
-    margin-right: 5px;
-    cursor: pointer; }
-.join .inner table {
-  width: 100%;
-  text-align: left; }
-  .join .inner table caption {
-    text-align: left;
-    font: bold 16px/1 "Montserrat";
-    color: #000;
-    margin-bottom: 20px; }
-  .join .inner table tr {
-    width: 100%;
-    display: inline-block; }
-    .join .inner table tr th {
-      font: bold 14px/1 "Montserrat";
-      color: #333;
-      width: 100%;
-      margin-bottom: 5px;
-      display: block; }
-    .join .inner table tr td {
-      width: 100%;
-      display: block;
-      margin-bottom: 50px; }
-      .join .inner table tr td input[type="text"], .join .inner table tr td input[type="password"] {
-        width: 100%;
-        height: 40px;
-        border: none;
-        border-bottom: 1px solid #888;
-        font: bold 16px/1 "Montserrat";
-        color: #555;
-        padding-left: 10px; }
-        .join .inner table tr td input[type="text"]::placeholder, .join .inner table tr td input[type="password"]::placeholder {
-          font: 300 14px/1 "Montserrat";
-          color: #888; }
-.join .inner .info {
-  margin-bottom: 50px; }
-  .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
-    width: 49.5%;
-    margin-right: 1%; }
-  .join .inner .info tr:nth-of-type(3) {
-    margin-right: 0; }
-  .join .inner .info tr:nth-of-type(5) input[type="text"] {
-    margin-bottom: 5px; }
-  .join .inner .info tr:nth-of-type(6) {
-    width: 34%;
-    margin-right: 1%; }
-  .join .inner .info tr:nth-of-type(7) {
-    width: 65%; }
-    .join .inner .info tr:nth-of-type(7) td {
-      width: 100%;
-      height: 40px;
-      border-bottom: 1px solid #888;
-      font-size: 18px;
-      margin-bottom: 50px;
-      font-weight: bold; }
-      .join .inner .info tr:nth-of-type(7) td span {
-        display: block;
-        width: 100px;
-        height: 100%;
-        background: url(../img/number.png) no-repeat center/contain;
-        transition: .4s; }
-        .join .inner .info tr:nth-of-type(7) td span:hover {
-          transform: scale(1.5) translate(10px, 8px); }
-.join .inner .address tr:nth-of-type(2) {
-  position: relative;
-  width: 19%;
-  margin-right: 1%; }
-.join .inner .address tr:nth-of-type(3) {
-  width: 64%; }
-.join .inner .address tr input[type="button"] {
-  position: absolute;
-  bottom: 0;
-  left: calc(1180px - 180px); }
-.join .inner .address tr input[type="button"], .join .inner .address tr input[type="submit"] {
-  width: 180px;
-  height: 40px;
-  border: 1px solid #888;
-  font: bold 13px/40px "Montserrat";
-  color: #111;
-  background: #eee;
-  margin-bottom: 50px;
-  transition: background-color 0.6s;
-  cursor: pointer; }
-  .join .inner .address tr input[type="button"]:hover, .join .inner .address tr input[type="submit"]:hover {
-    background-color: #232D3A;
-    color: #fff; }
-.join .inner .address tr input[type="submit"] {
-  margin-bottom: 0; }
-.join .inner .address tr:last-child {
-  text-align: right; }
-
-@media screen and (max-width: 1179px) {
-  .join .inner .address tr:nth-of-type(2), .join .inner .address tr:nth-of-type(3) {
-    width: 100%;
-    margin-right: 0; }
-  .join .inner .address tr input[type="button"] {
-    left: calc(100% - 180px); } }
-@media screen and (max-width: 539px) {
-  .join .inner .policyBox {
-    margin-bottom: 50px; }
-  .join .inner h2 {
-    font-size: 15px; }
-  .join .inner .policy {
-    padding: 10px;
-    font-size: 12px;
-    height: 200px; }
-  .join .inner label {
-    font-size: 12px; }
-  .join .inner table caption {
-    font-size: 15px; }
-  .join .inner table tr th {
-    margin-bottom: 0;
-    font-size: 13px; }
-  .join .inner table tr td {
-    margin-bottom: 20px; }
-  .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
-    width: 100%;
-    margin-right: 0; }
-  .join .inner .info tr:nth-of-type(7) td {
-    margin-bottom: 20px; }
-  .join .inner .address tr:last-child {
-    text-align: center; }
-  .join .inner .address tr input[type="button"] {
-    width: 100px;
-    left: calc(100% - 100px);
-    margin-bottom: 20px; } }
-.community {
-  position: relative; }
-  .community > h1 {
-    font: bold 28px/1 "Montserrat";
-    color: #333;
-    text-align: center;
-    margin-bottom: 50px;
-    position: relative; }
-    .community > h1 span {
-      font-size: 14px;
-      font-weight: normal;
-      color: #888; }
-      .community > h1 span::before {
-        content: '/';
-        padding: 0 10px; }
-    .community > h1::after {
-      content: '';
-      display: block;
-      width: 2px;
-      height: 40px;
-      background: #eee;
-      position: absolute;
-      left: 50%;
-      bottom: -50px; }
-  .community .tabs {
-    position: absolute;
-    top: 240px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1180px;
-    background: #28384d; }
-    .community .tabs::after {
-      content: '';
-      display: block;
-      clear: both; }
-    .community .tabs li {
-      float: left;
-      width: 25%;
-      height: 60px;
-      background: #28384d;
-      font: 300 20px/60px "Montserrat";
-      color: #bbb;
-      text-align: center;
-      cursor: pointer; }
-      .community .tabs li.on {
-        background: #232D3A;
-        color: #eee; }
-  .community .search {
-    width: 100%;
-    background: #eee;
-    padding: 40px 0;
-    margin-bottom: 30px;
-    text-align: center; }
-    .community .search .wrap {
-      display: inline-block;
-      width: 800px;
-      height: 50px;
-      position: relative; }
-    .community .search input {
-      width: 100%;
-      height: 100%;
-      font: 20px/1 "Montserrat";
-      color: #333;
-      padding-left: 10px;
-      background: transparent;
-      border: none;
-      border-bottom: 2px solid #000; }
-      .community .search input::placeholder {
-        color: #333; }
-    .community .search .icon {
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      width: 33px;
-      height: 33px;
-      cursor: pointer; }
-      .community .search .icon::before {
-        content: '';
-        display: block;
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-        border: 2px solid #111;
-        position: absolute;
-        top: 0;
-        left: 0; }
-      .community .search .icon::after {
-        content: '';
-        display: block;
-        width: 2px;
-        height: 9px;
-        background: #111;
-        transform: rotate(-45deg);
-        transform-origin: center bottom;
-        position: absolute;
-        right: 0;
-        bottom: 0; }
-  .community .inner .wrap {
-    margin-bottom: 30px; }
-    .community .inner .wrap article {
-      float: left;
-      width: 380px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      border: 1px solid #555;
-      box-sizing: border-box; }
-      .community .inner .wrap article:nth-of-type(3n) {
-        margin-right: 0; }
-      .community .inner .wrap article .pic {
-        width: 100%;
-        height: 200px;
-        background: #bbb; }
-      .community .inner .wrap article .con {
-        width: 100%;
-        padding: 30px; }
-        .community .inner .wrap article .con h2 {
-          font: 20px/1 "Montserrat";
-          color: #111;
-          margin-bottom: 40px; }
-        .community .inner .wrap article .con p {
-          font: 14px/1.6 "Montserrat";
-          color: #333;
-          margin-bottom: 30px; }
-        .community .inner .wrap article .con span {
-          display: block;
-          font: 12px/1 "Montserrat";
-          color: #555; }
-  .community .inner .pagination {
-    text-align: center;
-    font-size: 0; }
-    .community .inner .pagination a {
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-      border: 1px solid rgba(0, 0, 0, 0.4);
-      position: relative; }
-    .community .inner .pagination .prev span {
-      display: block;
-      width: 15px;
-      height: 2px;
-      background: #333;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      .community .inner .pagination .prev span::before {
-        content: '';
-        display: block;
-        width: 7px;
-        height: 2px;
-        background: inherit;
-        transform: rotate(-45deg);
-        transform-origin: left center;
-        position: absolute;
-        left: 0;
-        top: 0; }
-      .community .inner .pagination .prev span::after {
-        content: '';
-        display: block;
-        width: 7px;
-        height: 2px;
-        background: inherit;
-        transform: rotate(45deg);
-        transform-origin: left center;
-        position: absolute;
-        left: 0;
-        bottom: 0; }
-    .community .inner .pagination .numbers {
-      display: inline-block;
-      font-size: 0;
-      vertical-align: top;
-      margin: 0 10px; }
-      .community .inner .pagination .numbers a {
-        border-right: none;
-        font: 15px/28px "Montserrat";
-        color: #333; }
-        .community .inner .pagination .numbers a:last-child {
-          border: 1px solid rgba(0, 0, 0, 0.4); }
-        .community .inner .pagination .numbers a.on {
-          background: #232D3A;
-          color: #fff; }
-    .community .inner .pagination .next span {
-      display: block;
-      width: 15px;
-      height: 2px;
-      background: #333;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      .community .inner .pagination .next span::before {
-        content: '';
-        display: block;
-        width: 7px;
-        height: 2px;
-        background: inherit;
-        transform: rotate(-45deg);
-        transform-origin: right center;
-        position: absolute;
-        right: 0;
-        top: 0; }
-      .community .inner .pagination .next span::after {
-        content: '';
-        display: block;
-        width: 7px;
-        height: 2px;
-        background: inherit;
-        transform: rotate(45deg);
-        transform-origin: right center;
-        position: absolute;
-        right: 0;
-        bottom: 0; }
-
-@media screen and (max-width: 1179px) {
-  .community .tabs {
-    width: 90%;
-    margin: 0 auto; }
-    .community .tabs li {
-      height: 50px;
-      line-height: 50px;
-      font-size: 17px; }
-  .community > h1 {
-    font-size: 24px; }
-    .community > h1 span {
-      font-size: 13px; }
-  .community .search .wrap {
-    width: 70%; }
-  .community .search .icon {
-    width: 31px;
-    height: 31px; }
-    .community .search .icon::before {
-      width: 24px;
-      height: 24px; }
-  .community .inner {
-    padding: 0 30px 100px; }
-    .community .inner .wrap article {
-      width: 32%;
-      margin-right: 1%;
-      margin-bottom: 10px; }
-      .community .inner .wrap article .pic {
-        height: 170px; }
-      .community .inner .wrap article .con {
-        padding: 20px; }
-        .community .inner .wrap article .con h2 {
-          font-size: 18px;
-          margin-bottom: 20px; }
-        .community .inner .wrap article .con p {
-          font-size: 13px;
-          line-height: 1.4;
-          margin-bottom: 20px; }
-        .community .inner .wrap article .con span {
-          font-size: 11px; } }
-@media screen and (max-width: 768px) {
-  .community .tabs li {
-    font-size: 15px; }
-  .community .search input {
-    font-size: 16px; }
-    .community .search input::placeholder {
-      font-size: 16px; }
-  .community .search .icon {
-    width: 27px;
-    height: 27px; }
-    .community .search .icon::before {
-      width: 20px;
-      height: 20px; } }
-@media screen and (max-width: 539px) {
-  .community .tabs {
-    top: 225px; }
-    .community .tabs li {
-      font-size: 13px;
-      height: 40px;
-      line-height: 40px; }
-  .community > h1 {
-    font-size: 20px; }
-    .community > h1 span {
-      font-size: 11px; }
-  .community .search {
-    padding: 20px 0;
-    margin-bottom: 20px; }
-    .community .search .wrap {
-      height: 40px; }
-    .community .search input {
-      font-size: 14px; }
-      .community .search input::placeholder {
-        font-size: 14px; }
-    .community .search .icon {
-      width: 22px;
-      height: 22px; }
-      .community .search .icon::before {
-        width: 15px;
-        height: 15px; }
-  .community .inner {
-    padding: 0 10px 50px; }
-    .community .inner .wrap article {
-      width: 49%;
-      margin-right: 2%; }
-      .community .inner .wrap article:nth-of-type(2n) {
-        margin-right: 0; }
-      .community .inner .wrap article:nth-of-type(3) {
-        margin-right: 2%; }
-      .community .inner .wrap article .pic {
-        height: 120px; }
-      .community .inner .wrap article .con {
-        padding: 10px; }
-        .community .inner .wrap article .con h2 {
-          font-size: 15px;
-          line-height: 1.2;
-          margin-bottom: 10px; }
-        .community .inner .wrap article .con p {
-          font-size: 12px; }
-        .community .inner .wrap article .con span {
-          font-size: 10px; }
-    .community .inner .pagination a {
-      width: 25px;
-      height: 25px; }
-    .community .inner .pagination .numbers a {
-      font-size: 14px;
-      line-height: 23px; }
-    .community .inner .pagination .prev span, .community .inner .pagination .next span {
-      width: 14px;
-      height: 1px; }
-      .community .inner .pagination .prev span::before, .community .inner .pagination .prev span::after, .community .inner .pagination .next span::before, .community .inner .pagination .next span::after {
-        width: 6px;
-        height: 1px; } }
 .department .icons {
   padding-bottom: 100px; }
   .department .icons h1 {
@@ -2106,6 +1608,330 @@ fieldset {
         font-size: 14px; }
         .department .skills .wrap .bars li span {
           font-size: 12px; } }
+.community {
+  position: relative; }
+  .community > h1 {
+    font: bold 28px/1 "Montserrat";
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative; }
+    .community > h1 span {
+      font-size: 14px;
+      font-weight: normal;
+      color: #888; }
+      .community > h1 span::before {
+        content: '/';
+        padding: 0 10px; }
+    .community > h1::after {
+      content: '';
+      display: block;
+      width: 2px;
+      height: 40px;
+      background: #eee;
+      position: absolute;
+      left: 50%;
+      bottom: -50px; }
+  .community .tabs {
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1180px;
+    background: #28384d; }
+    .community .tabs::after {
+      content: '';
+      display: block;
+      clear: both; }
+    .community .tabs li {
+      float: left;
+      width: 25%;
+      height: 60px;
+      background: #28384d;
+      font: 300 20px/60px "Montserrat";
+      color: #bbb;
+      text-align: center;
+      cursor: pointer; }
+      .community .tabs li.on {
+        background: #232D3A;
+        color: #eee; }
+  .community .search {
+    width: 100%;
+    background: #eee;
+    padding: 40px 0;
+    margin-bottom: 30px;
+    text-align: center; }
+    .community .search .wrap {
+      display: inline-block;
+      width: 800px;
+      height: 50px;
+      position: relative; }
+    .community .search input {
+      width: 100%;
+      height: 100%;
+      font: 20px/1 "Montserrat";
+      color: #333;
+      padding-left: 10px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #000; }
+      .community .search input::placeholder {
+        color: #333; }
+    .community .search .icon {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 33px;
+      height: 33px;
+      cursor: pointer; }
+      .community .search .icon::before {
+        content: '';
+        display: block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border: 2px solid #111;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .community .search .icon::after {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 9px;
+        background: #111;
+        transform: rotate(-45deg);
+        transform-origin: center bottom;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
+  .community .inner .wrap {
+    margin-bottom: 30px; }
+    .community .inner .wrap article {
+      float: left;
+      width: 380px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #555;
+      box-sizing: border-box; }
+      .community .inner .wrap article:nth-of-type(3n) {
+        margin-right: 0; }
+      .community .inner .wrap article .pic {
+        width: 100%;
+        height: 200px;
+        background: #bbb; }
+      .community .inner .wrap article .con {
+        width: 100%;
+        padding: 30px; }
+        .community .inner .wrap article .con h2 {
+          font: 20px/1 "Montserrat";
+          color: #111;
+          margin-bottom: 40px; }
+        .community .inner .wrap article .con p {
+          font: 14px/1.6 "Montserrat";
+          color: #333;
+          margin-bottom: 30px; }
+        .community .inner .wrap article .con span {
+          display: block;
+          font: 12px/1 "Montserrat";
+          color: #555; }
+  .community .inner .pagination {
+    text-align: center;
+    font-size: 0; }
+    .community .inner .pagination a {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.4);
+      position: relative; }
+    .community .inner .pagination .prev span {
+      display: block;
+      width: 15px;
+      height: 2px;
+      background: #333;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .community .inner .pagination .prev span::before {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 2px;
+        background: inherit;
+        transform: rotate(-45deg);
+        transform-origin: left center;
+        position: absolute;
+        left: 0;
+        top: 0; }
+      .community .inner .pagination .prev span::after {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 2px;
+        background: inherit;
+        transform: rotate(45deg);
+        transform-origin: left center;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+    .community .inner .pagination .numbers {
+      display: inline-block;
+      font-size: 0;
+      vertical-align: top;
+      margin: 0 10px; }
+      .community .inner .pagination .numbers a {
+        border-right: none;
+        font: 15px/28px "Montserrat";
+        color: #333; }
+        .community .inner .pagination .numbers a:last-child {
+          border: 1px solid rgba(0, 0, 0, 0.4); }
+        .community .inner .pagination .numbers a.on {
+          background: #232D3A;
+          color: #fff; }
+    .community .inner .pagination .next span {
+      display: block;
+      width: 15px;
+      height: 2px;
+      background: #333;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .community .inner .pagination .next span::before {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 2px;
+        background: inherit;
+        transform: rotate(-45deg);
+        transform-origin: right center;
+        position: absolute;
+        right: 0;
+        top: 0; }
+      .community .inner .pagination .next span::after {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 2px;
+        background: inherit;
+        transform: rotate(45deg);
+        transform-origin: right center;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
+
+@media screen and (max-width: 1179px) {
+  .community .tabs {
+    width: 90%;
+    margin: 0 auto; }
+    .community .tabs li {
+      height: 50px;
+      line-height: 50px;
+      font-size: 17px; }
+  .community > h1 {
+    font-size: 24px; }
+    .community > h1 span {
+      font-size: 13px; }
+  .community .search .wrap {
+    width: 70%; }
+  .community .search .icon {
+    width: 31px;
+    height: 31px; }
+    .community .search .icon::before {
+      width: 24px;
+      height: 24px; }
+  .community .inner {
+    padding: 0 30px 100px; }
+    .community .inner .wrap article {
+      width: 32%;
+      margin-right: 1%;
+      margin-bottom: 10px; }
+      .community .inner .wrap article .pic {
+        height: 170px; }
+      .community .inner .wrap article .con {
+        padding: 20px; }
+        .community .inner .wrap article .con h2 {
+          font-size: 18px;
+          margin-bottom: 20px; }
+        .community .inner .wrap article .con p {
+          font-size: 13px;
+          line-height: 1.4;
+          margin-bottom: 20px; }
+        .community .inner .wrap article .con span {
+          font-size: 11px; } }
+@media screen and (max-width: 768px) {
+  .community .tabs li {
+    font-size: 15px; }
+  .community .search input {
+    font-size: 16px; }
+    .community .search input::placeholder {
+      font-size: 16px; }
+  .community .search .icon {
+    width: 27px;
+    height: 27px; }
+    .community .search .icon::before {
+      width: 20px;
+      height: 20px; } }
+@media screen and (max-width: 539px) {
+  .community .tabs {
+    top: 225px; }
+    .community .tabs li {
+      font-size: 13px;
+      height: 40px;
+      line-height: 40px; }
+  .community > h1 {
+    font-size: 20px; }
+    .community > h1 span {
+      font-size: 11px; }
+  .community .search {
+    padding: 20px 0;
+    margin-bottom: 20px; }
+    .community .search .wrap {
+      height: 40px; }
+    .community .search input {
+      font-size: 14px; }
+      .community .search input::placeholder {
+        font-size: 14px; }
+    .community .search .icon {
+      width: 22px;
+      height: 22px; }
+      .community .search .icon::before {
+        width: 15px;
+        height: 15px; }
+  .community .inner {
+    padding: 0 10px 50px; }
+    .community .inner .wrap article {
+      width: 49%;
+      margin-right: 2%; }
+      .community .inner .wrap article:nth-of-type(2n) {
+        margin-right: 0; }
+      .community .inner .wrap article:nth-of-type(3) {
+        margin-right: 2%; }
+      .community .inner .wrap article .pic {
+        height: 120px; }
+      .community .inner .wrap article .con {
+        padding: 10px; }
+        .community .inner .wrap article .con h2 {
+          font-size: 15px;
+          line-height: 1.2;
+          margin-bottom: 10px; }
+        .community .inner .wrap article .con p {
+          font-size: 12px; }
+        .community .inner .wrap article .con span {
+          font-size: 10px; }
+    .community .inner .pagination a {
+      width: 25px;
+      height: 25px; }
+    .community .inner .pagination .numbers a {
+      font-size: 14px;
+      line-height: 23px; }
+    .community .inner .pagination .prev span, .community .inner .pagination .next span {
+      width: 14px;
+      height: 1px; }
+      .community .inner .pagination .prev span::before, .community .inner .pagination .prev span::after, .community .inner .pagination .next span::before, .community .inner .pagination .next span::after {
+        width: 6px;
+        height: 1px; } }
 .gallery .intro .wrap article {
   float: left;
   width: 33.333%;
@@ -2399,5 +2225,252 @@ fieldset {
   .gallery .collection .photos li {
     width: 100%;
     padding: 0; } }
+.location .info {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 100px; }
+  .location .info .wrap article {
+    float: left;
+    width: 33.333%;
+    padding: 50px; }
+    .location .info .wrap article h1 {
+      font: 600 16px/1 "Montserrat";
+      color: #111;
+      margin-bottom: 20px; }
+    .location .info .wrap article h2 {
+      font: 500 15px/1 "Montserrat";
+      color: #333;
+      text-decoration: underline;
+      letter-spacing: -1px;
+      margin-bottom: 20px;
+      cursor: pointer; }
+    .location .info .wrap article h3 {
+      font: 600 14px/1 "Montserrat";
+      color: #333; }
+      .location .info .wrap article h3 i {
+        font-size: 20px;
+        color: #111;
+        vertical-align: middle;
+        margin-right: 10px; }
+    .location .info .wrap article a {
+      display: block;
+      width: 150px;
+      height: 35px;
+      background: #232D3A;
+      font: 600 13px/35px "Montserrat";
+      color: #ddd;
+      text-align: center;
+      margin-top: -10px; }
+      .location .info .wrap article a:hover {
+        color: #fff; }
+.location .maps h1 {
+  font: 600 30px/1 "Montserrat";
+  color: #111;
+  margin-bottom: 20px; }
+.location .maps .wrap > div {
+  float: left;
+  width: 48%; }
+  .location .maps .wrap > div:nth-of-type(1) {
+    margin-right: 4%; }
+  .location .maps .wrap > div #map1, .location .maps .wrap > div #map2 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px; }
+  .location .maps .wrap > div h2 {
+    font: 600 18px/1 "Montserrat";
+    color: #111;
+    margin-bottom: 20px; }
+    .location .maps .wrap > div h2::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #ddd;
+      margin-top: 20px; }
+  .location .maps .wrap > div address {
+    float: left;
+    width: 30%;
+    font: 500 16px/1.4 "Montserrat";
+    color: #333; }
+  .location .maps .wrap > div p {
+    float: right;
+    width: 30%;
+    font: 500 16px/1.4 "Montserrat";
+    color: #333;
+    text-align: right; }
+
+.join .inner p {
+  font: 300 11px/1 "Montserrat";
+  color: tomato;
+  margin-top: 5px; }
+.join .inner .policyBox {
+  margin-bottom: 100px; }
+.join .inner h2 {
+  font: bold 16px/1 "Montserrat";
+  color: #000;
+  margin-bottom: 15px; }
+.join .inner .policy {
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+  padding: 20px;
+  font: 300 16px/1.4 "Montserrat";
+  border: 1px solid #bbb;
+  color: #333;
+  margin-bottom: 5px; }
+  .join .inner .policy::-webkit-scrollbar {
+    width: 13px; }
+  .join .inner .policy::-webkit-scrollbar-thumb {
+    background-color: #777;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-left: 2px solid transparent;
+    border-radius: 5px; }
+  .join .inner .policy::-webkit-scrollbar-track {
+    background-color: #ddd; }
+.join .inner input[type="checkbox"] {
+  display: none; }
+  .join .inner input[type="checkbox"]:checked + label {
+    color: #333; }
+  .join .inner input[type="checkbox"]:checked + label::before {
+    border-color: #333;
+    background-color: #333; }
+.join .inner label {
+  font: bold 13px/1 "Montserrat";
+  color: #555;
+  display: inline-block;
+  cursor: pointer; }
+  .join .inner label::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #555;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer; }
+.join .inner table {
+  width: 100%;
+  text-align: left; }
+  .join .inner table caption {
+    text-align: left;
+    font: bold 16px/1 "Montserrat";
+    color: #000;
+    margin-bottom: 20px; }
+  .join .inner table tr {
+    width: 100%;
+    display: inline-block; }
+    .join .inner table tr th {
+      font: bold 14px/1 "Montserrat";
+      color: #333;
+      width: 100%;
+      margin-bottom: 5px;
+      display: block; }
+    .join .inner table tr td {
+      width: 100%;
+      display: block;
+      margin-bottom: 50px; }
+      .join .inner table tr td input[type="text"], .join .inner table tr td input[type="password"] {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid #888;
+        font: bold 16px/1 "Montserrat";
+        color: #555;
+        padding-left: 10px; }
+        .join .inner table tr td input[type="text"]::placeholder, .join .inner table tr td input[type="password"]::placeholder {
+          font: 300 14px/1 "Montserrat";
+          color: #888; }
+.join .inner .info {
+  margin-bottom: 50px; }
+  .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
+    width: 49.5%;
+    margin-right: 1%; }
+  .join .inner .info tr:nth-of-type(3) {
+    margin-right: 0; }
+  .join .inner .info tr:nth-of-type(5) input[type="text"] {
+    margin-bottom: 5px; }
+  .join .inner .info tr:nth-of-type(6) {
+    width: 34%;
+    margin-right: 1%; }
+  .join .inner .info tr:nth-of-type(7) {
+    width: 65%; }
+    .join .inner .info tr:nth-of-type(7) td {
+      width: 100%;
+      height: 40px;
+      border-bottom: 1px solid #888;
+      font-size: 18px;
+      margin-bottom: 50px;
+      font-weight: bold; }
+      .join .inner .info tr:nth-of-type(7) td span {
+        display: block;
+        width: 100px;
+        height: 100%;
+        background: url(../img/number.png) no-repeat center/contain;
+        transition: .4s; }
+        .join .inner .info tr:nth-of-type(7) td span:hover {
+          transform: scale(1.5) translate(10px, 8px); }
+.join .inner .address tr:nth-of-type(2) {
+  position: relative;
+  width: 19%;
+  margin-right: 1%; }
+.join .inner .address tr:nth-of-type(3) {
+  width: 64%; }
+.join .inner .address tr input[type="button"] {
+  position: absolute;
+  bottom: 0;
+  left: calc(1180px - 180px); }
+.join .inner .address tr input[type="button"], .join .inner .address tr input[type="submit"] {
+  width: 180px;
+  height: 40px;
+  border: 1px solid #888;
+  font: bold 13px/40px "Montserrat";
+  color: #111;
+  background: #eee;
+  margin-bottom: 50px;
+  transition: background-color 0.6s;
+  cursor: pointer; }
+  .join .inner .address tr input[type="button"]:hover, .join .inner .address tr input[type="submit"]:hover {
+    background-color: #232D3A;
+    color: #fff; }
+.join .inner .address tr input[type="submit"] {
+  margin-bottom: 0; }
+.join .inner .address tr:last-child {
+  text-align: right; }
+
+@media screen and (max-width: 1179px) {
+  .join .inner .address tr:nth-of-type(2), .join .inner .address tr:nth-of-type(3) {
+    width: 100%;
+    margin-right: 0; }
+  .join .inner .address tr input[type="button"] {
+    left: calc(100% - 180px); } }
+@media screen and (max-width: 539px) {
+  .join .inner .policyBox {
+    margin-bottom: 50px; }
+  .join .inner h2 {
+    font-size: 15px; }
+  .join .inner .policy {
+    padding: 10px;
+    font-size: 12px;
+    height: 200px; }
+  .join .inner label {
+    font-size: 12px; }
+  .join .inner table caption {
+    font-size: 15px; }
+  .join .inner table tr th {
+    margin-bottom: 0;
+    font-size: 13px; }
+  .join .inner table tr td {
+    margin-bottom: 20px; }
+  .join .inner .info tr:nth-of-type(2), .join .inner .info tr:nth-of-type(3) {
+    width: 100%;
+    margin-right: 0; }
+  .join .inner .info tr:nth-of-type(7) td {
+    margin-bottom: 20px; }
+  .join .inner .address tr:last-child {
+    text-align: center; }
+  .join .inner .address tr input[type="button"] {
+    width: 100px;
+    left: calc(100% - 100px);
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

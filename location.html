@@ -7,7 +7,12 @@
     <title>location</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/0c5c47f3c6.js" crossorigin="anonymous"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0fe4cca24146cd788e517536c350a66f"></script>
     <script defer src="js/common.js"></script>
+    <script defer src="js/myMap.js"></script>
+    <script>
+        
+    </script>
 </head>
 <body>
     <header id="header_sub">
@@ -41,10 +46,47 @@
 
     <section class="content location">
         <div class="visual">
-            <h1>Location</h1>
+            <h1>Drop us a line.</h1>
             <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="inner">
+            <div class="info">
+                <div class="wrap">
+                    <article>
+                        <h1>General</h1>
+                        <h2>info@lorem.com</h2>
+                        <h3><i class="fas fa-phone-alt"></i>[82]000-0000</h3>
+                    </article>
+                    <article>
+                        <h1>New Business</h1>
+                        <h2>business@lorem.com</h2>
+                        <h3><i class="fas fa-phone-alt"></i>[82]000-0000</h3>
+                    </article>
+                    <article>
+                        <h1>Careers</h1>
+                        <h2>careers@lorem.com</h2>
+                        <a href="#">VIEW CAREERS</a>
+                    </article>
+                </div>
+            </div>
+            <div class="maps">
+                <h1>Our Offices.</h1>
+                <div class="wrap">
+                    <div>
+                        <div id="map1"></div>
+                        <h2>Gangnam</h2>
+                        <div class="wrap">
+                            <address>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, repudiandae!</address>
+                            <p>Tel: (82)000-0000<br>Fax: (82)000-0000</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="map2"></div>
+                        <h2>Songpa</h2>
+                        <address>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, repudiandae!</address>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
