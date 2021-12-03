@@ -12,7 +12,7 @@
 
             em{
                 display: block;
-                font: 500 100px/1 $font;
+                font: 500 100px/1 "Gowun Batang";
                 color: #bbb;
                 margin-bottom: 10px;
             }
@@ -81,8 +81,9 @@
             &#vids2, &#vids4{
                 article{
                     width: 16%;
-                    margin-right: 1.666%;
+                    margin-right: 0.8%;
 
+                    &:last-child{margin-right: 0;}
                     .pic .con{
                         padding: 60px 20px;
 

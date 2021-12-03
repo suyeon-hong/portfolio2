@@ -144,6 +144,8 @@
                     cursor: pointer;
 
                     &.on{
+                        color: #555;
+
                         a{
                             transform: rotate(180deg);
                         }

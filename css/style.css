@@ -1940,7 +1940,7 @@ fieldset {
   padding-top: 20px; }
   .youtube .box p em {
     display: block;
-    font: 500 100px/1 "Montserrat";
+    font: 500 100px/1 "Gowun Batang";
     color: #bbb;
     margin-bottom: 10px; }
   .youtube .box p span {
@@ -1992,7 +1992,9 @@ fieldset {
           color: #ddd; }
   .youtube .box > div#vids2 article, .youtube .box > div#vids4 article {
     width: 16%;
-    margin-right: 1.666%; }
+    margin-right: 0.8%; }
+    .youtube .box > div#vids2 article:last-child, .youtube .box > div#vids4 article:last-child {
+      margin-right: 0; }
     .youtube .box > div#vids2 article .pic .con, .youtube .box > div#vids4 article .pic .con {
       padding: 60px 20px; }
       .youtube .box > div#vids2 article .pic .con h2, .youtube .box > div#vids4 article .pic .con h2 {
@@ -2211,7 +2213,7 @@ aside {
       opacity: 0; }
   .gallery .collection .photos {
     width: 100%;
-    min-height: 800px;
+    min-height: 500px;
     margin-bottom: 20px;
     transform: translateY(100px);
     opacity: 0;
@@ -2283,10 +2285,8 @@ aside {
         padding: 50px; }
   .gallery .collection .inner {
     padding: 100px 30px; }
-  .gallery .collection .photos {
-    min-height: 500px; }
-    .gallery .collection .photos li {
-      width: 33.333%; } }
+  .gallery .collection .photos li {
+    width: 33.333%; } }
 @media screen and (max-width: 768px) {
   .gallery .intro .wrap article {
     padding: 0 10px; }
@@ -2441,8 +2441,10 @@ aside {
     position: relative;
     padding-bottom: 40px;
     cursor: pointer; }
-    .location .faq .wrap .right ul li.on a {
-      transform: rotate(180deg); }
+    .location .faq .wrap .right ul li.on {
+      color: #555; }
+      .location .faq .wrap .right ul li.on a {
+        transform: rotate(180deg); }
     .location .faq .wrap .right ul li a {
       display: block;
       width: 15px;

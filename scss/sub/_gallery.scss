@@ -237,7 +237,7 @@
         }
         .photos{
             width: 100%;
-            min-height: 800px;
+            min-height: 500px;
             margin-bottom: 20px;
             transform: translateY(100px);
             opacity: 0;
@@ -339,8 +339,6 @@
         .collection{
             .inner{padding: 100px 30px}
             .photos{
-                min-height: 500px;
-
                 li{
                     width: 33.333%;
                 }

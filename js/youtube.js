@@ -30,7 +30,7 @@ class MyYoutube{
                 let tit = item.snippet.title;
                 let desc = item.snippet.description;
                 const date = item.snippet.publishedAt.split("T")[0];
-                const imgSrc = item.snippet.thumbnails.standard.url;
+                const imgSrc = item.snippet.thumbnails.medium.url;
         
                 if(tit.length > 30) tit = tit.substr(0, 30) + "...";
                 if(desc.length > 150) desc = desc.substr(0, 150) + "...";
