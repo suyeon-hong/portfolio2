@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/0c5c47f3c6.js" crossorigin="anonymous"></script>
     <script defer src="js/common.js"></script>
-    <script defer src="js/youtube.js"></script>
+    <script src="js/youtube.js"></script>
     <script>
         window.addEventListener("load", ()=>{
-
+            new MyYoutube("#vids1", {
+                key: "AIzaSyBiHz7c5hPNxp0P81utsPpEVutfeuY-OR8",
+                playlistId: "PLbO44G2j_RJzSSLK5KKfW45QZY1QzUr0b",
+                num: 3
+            })
         });
     </script>
 </head>
@@ -51,6 +55,7 @@
             <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="inner">
+            <div id="vids1"></div>
         </div>
     </section>
 
