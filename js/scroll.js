@@ -1,3 +1,4 @@
+const visual = document.querySelector("#visual");
 const myscrolls = document.querySelectorAll(".myscroll");
 const navis = document.querySelectorAll("#navi li");
 const navis_arr = Array.from(navis);
@@ -14,6 +15,19 @@ window.addEventListener("scroll", ()=>{
         if(scroll >= posArr[index]){
             activation(navis, index);
             activation(myscrolls, index);
+        }
+        if(scroll >= posArr[0]){
+            const size = 60 + scroll/10;
+            const h1_top = 40 - scroll/10
+            const con_top = 60 - scroll/20;
+
+            console.log(top);
+            visual.querySelector(".circle").style.width = `${size}vw`;
+            visual.querySelector(".circle").style.height = `${size}vw`;
+            visual.querySelector("h1").style.top = `${h1_top}%`;
+            visual.querySelector(".con").style.top = `${con_top}%`;
+        }else{
+            visual.classList.add("off");
         }
     });
 });

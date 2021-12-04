@@ -32,8 +32,8 @@ fieldset {
 
 #header {
   width: 100%;
-  background: #fff;
-  border-bottom: 1px solid #bbb;
+  background: #000;
+  border-bottom: 1px solid #333;
   position: relative; }
   #header .inner {
     width: 1180px;
@@ -48,7 +48,7 @@ fieldset {
       font-size: 0; }
       #header .inner h1 a {
         font: 600 20px/1 "Gowun Batang";
-        color: #232D3A; }
+        color: #ddd; }
     #header .inner #gnb {
       position: absolute;
       left: 50%;
@@ -60,7 +60,7 @@ fieldset {
         position: relative; }
         #header .inner #gnb li a {
           font: 500 16px/1 'Montserrat';
-          color: #666;
+          color: #bbb;
           display: inline-block;
           padding: 20px; }
         #header .inner #gnb li:last-child a {
@@ -80,7 +80,7 @@ fieldset {
         margin-left: 10px; }
         #header .inner .lan li a {
           font: 400 13px/1 'Montserrat';
-          color: #555; }
+          color: #bbb; }
     #header .inner .btnMo {
       display: none;
       width: 18px;
@@ -154,7 +154,57 @@ fieldset {
 #visual {
   width: 100%;
   height: calc(100vh - 81px);
-  background-color: #ddd; }
+  background-color: #000;
+  position: relative;
+  overflow: hidden; }
+  #visual .circle {
+    width: 60vw;
+    height: 60vw;
+    border-radius: 50%;
+    background: #bbb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #visual .circle .inner {
+      width: 60%;
+      height: 60%;
+      border-radius: 50%;
+      background: #000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+  #visual h1 {
+    width: 85%;
+    font: 600 11vw/1 "Montserrat";
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #visual h1 span {
+      color: transparent;
+      -webkit-text-stroke: 2px #fff; }
+  #visual .con {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw; }
+    #visual .con h2 {
+      font: 100 14px/1 "Montserrat";
+      color: #fff;
+      letter-spacing: 2px;
+      text-align: center;
+      margin-bottom: 20px;
+      opacity: 0.3; }
+    #visual .con p {
+      font: 300 14px/2 "Montserrat";
+      color: #fff;
+      letter-spacing: 2px;
+      text-align: center;
+      opacity: 0.4; }
 
 #content {
   width: 100%; }
