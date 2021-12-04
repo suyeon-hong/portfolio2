@@ -179,23 +179,40 @@ $mobile : 539px;
         width: 100%;
         height: 100vh;
         padding: 100px 0;
+        overflow: hidden;
 
+        &.on{
+            .box{
+                opacity: 1;
+
+                >div{
+                    left: 100px;
+                }
+            }
+            .wrap article{
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
         .box{
             width: 100%;
             height: 400px;
             background: #555;
             position: relative;
             margin-bottom: 60px;
+            opacity: 0;
+            transition: .8s;
 
             >div{
                 width: 300px;
                 height: 110%;
                 background: #251F28;
                 position: absolute;
-                left: 100px;
+                left: 700px;
                 top: -5%;
                 padding: 60px;
                 border-radius: 5px;
+                transition: 1s;
 
                 h1{
                     font: 400 18px/1 $font;
@@ -244,7 +261,12 @@ $mobile : 539px;
                 float: left;
                 text-align: center;
                 padding: 0 50px;
+                transform: translateY(100px);
+                opacity: 0;
+                transition: .6s;
 
+                &:nth-of-type(2){transition-delay: .2s;}
+                &:nth-of-type(3){transition-delay: .4s;}
                 .pic{
                     display: inline-block;
                     width: 200px;
@@ -269,22 +291,35 @@ $mobile : 539px;
         width: 100%;
         height: 100vh;
         padding: 200px 0;
+        overflow: hidden;
 
+        &.on{
+            .bg{
+                opacity: 1;
+
+                .box{
+                    right: 20vw;
+                }
+            }
+        }
         .bg{
             width: 100%;
             height: 500px;
             background: #000;
             position: relative;
+            opacity: 0;
+            transition: .6s;
 
             .box{
                 width: 300px;
                 height: 110%;
                 background: #251F28;
                 position: absolute;
-                right: 20vw;
+                right: 70%;
                 top: -5%;
                 padding: 60px;
                 border-radius: 5px;
+                transition: .8s;
         
                 h1{
                     font: 400 18px/1 $font;
@@ -330,12 +365,24 @@ $mobile : 539px;
         height: 100vh;
         padding: 100px 0;
         background: #F5F5F5;
+        overflow: hidden;
 
+        &.on{
+            .pic{
+                opacity: 1;
+            }
+            .wrap article{
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
         .pic{
             width: 100%;
             height: 400px;
             background: #000;
             margin-bottom: 70px;
+            opacity: 0;
+            transition: 1s;
         }
         .wrap{
             width: 80%;
@@ -346,7 +393,12 @@ $mobile : 539px;
                 float: left;
                 text-align: center;
                 padding: 0 50px;
+                transform: translateY(200px);
+                opacity: 0;
+                transition: .6s;
 
+                &:nth-of-type(2){transition-delay: 0.2s;}
+                &:nth-of-type(3){transition-delay: 0.4s;}
                 .pic{
                     display: inline-block;
                     width: 180px;
@@ -369,14 +421,30 @@ $mobile : 539px;
     }
     .cs{
         width: 100%;
-        padding: 100px 0;
+        height: 100vh;
+        padding: 200px 0;
+        overflow: hidden;
 
+        &.on{
+            .pic{
+                opacity: 1;
+            }
+            article{
+                opacity: 1;
+
+                &:nth-of-type(1), &:nth-of-type(2){
+                    transform: translateY(0px);
+                }
+            }
+        }
         .pic{
             width: 100%;
-            height: 400px;
+            height: 500px;
             background: #000;
             padding: 100px 70px;
             padding-right: 70%;
+            opacity: 0;
+            transition: .8s;
 
             h1{
                 font: 100 30px/1 $font;
@@ -396,16 +464,22 @@ $mobile : 539px;
             height: 50%;
             background: #251F28;
             border-radius: 5px;
-            padding: 60px 0;
+            padding: 80px 0;
             padding-left: 180px;
+            opacity: 0;
+            transition: 1s;
 
+            &:nth-of-type(1){
+                transform: translateY(-100px);
+            }
             &:nth-of-type(2){
                 top: auto;
                 bottom: -5%;
+                transform: translateY(100px);
             }
             .icon{
                 position: absolute;
-                top: 50px;
+                top: 70px;
                 left: 50px;
                 width: 100px;
                 height: 100px;
@@ -768,6 +842,8 @@ $mobile : 539px;
 @media screen and (max-width: 980px){
     #content{
         .cs{
+            padding: 100px 0;
+
             .inner{font-size: 0;}
             .pic{
                 height: 300px;
@@ -963,6 +1039,8 @@ $mobile : 539px;
             }
         }
         .cs{
+            height: auto;
+
             .pic{
                 height: 200px;
                 padding: 20px;
