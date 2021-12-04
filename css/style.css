@@ -650,7 +650,10 @@ fieldset {
       width: 100%; }
       #footer .inner .wrap > div {
         width: 33%;
-        margin-right: 0; } }
+        margin-right: 0; }
+
+  #navi {
+    right: 10px; } }
 @media screen and (max-width: 980px) {
   #content .cs {
     padding: 100px 0; }

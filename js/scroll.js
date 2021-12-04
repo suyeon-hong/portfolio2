@@ -3,6 +3,7 @@ const navis = document.querySelectorAll("#navi li");
 const navis_arr = Array.from(navis);
 const speed = 500;
 let posArr;
+let enableClick = true;
 
 setPos();
 
@@ -42,8 +43,12 @@ window.addEventListener("mousewheel", e=>{
 
 navis.forEach((navi,index)=>{
     navi.addEventListener("click", ()=>{
-        activation(navis,index);
-        movingScroll(index);
+        if(enableClick){
+            enableClick = false;
+            
+            activation(navis,index);
+            movingScroll(index);
+        }
     });
 });
 
@@ -51,7 +56,10 @@ function movingScroll(index){
     new Anim(window, {
         prop: "scroll",
         value: posArr[index],
-        duration: speed
+        duration: speed,
+        callback: ()=>{
+            enableClick = true;
+        }
     });
 }
 
