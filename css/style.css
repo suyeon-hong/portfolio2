@@ -156,30 +156,23 @@ fieldset {
   height: calc(100vh - 81px);
   background-color: #ddd; }
 
-#intro {
-  width: 100%;
-  padding: 100px 0;
-  margin-bottom: 100px; }
-  #intro .inner {
+#content {
+  width: 100%; }
+  #content .inner {
     width: 1180px;
-    margin: 0 auto; }
-    #intro .inner h1 {
-      font: 100 30px/1 "Montserrat";
-      color: #555;
-      text-align: center;
-      margin-bottom: 20px; }
-    #intro .inner h2 {
-      font: 300 20px/1.4 "Montserrat";
-      color: #333;
-      text-align: center;
-      margin-bottom: 100px; }
-    #intro .inner .box {
+    margin: 0 auto;
+    position: relative; }
+  #content .intro {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0; }
+    #content .intro .box {
       width: 100%;
       height: 400px;
       background: #555;
       position: relative;
-      margin-bottom: 100px; }
-      #intro .inner .box > div {
+      margin-bottom: 60px; }
+      #content .intro .box > div {
         width: 300px;
         height: 110%;
         background: #251F28;
@@ -188,13 +181,13 @@ fieldset {
         top: -5%;
         padding: 60px;
         border-radius: 5px; }
-        #intro .inner .box > div h3 {
+        #content .intro .box > div h1 {
           font: 400 18px/1 "Montserrat";
           color: #eee;
           text-align: center;
           letter-spacing: 2px;
           margin-bottom: 40px; }
-          #intro .inner .box > div h3::after {
+          #content .intro .box > div h1::after {
             content: '';
             display: block;
             width: 34px;
@@ -202,156 +195,141 @@ fieldset {
             background: #eee;
             margin-top: 30px;
             margin-left: calc(50% - 17px); }
-        #intro .inner .box > div .pic {
+        #content .intro .box > div .pic {
           width: 100px;
           height: 100px;
           border-radius: 50%;
           background: #bbb;
           margin: 0 auto;
           margin-bottom: 30px; }
-        #intro .inner .box > div h4 {
+        #content .intro .box > div h2 {
           font: 300 18px/1 "Montserrat";
           color: #ddd;
           text-align: center;
           margin-bottom: 15px; }
-        #intro .inner .box > div p {
+        #content .intro .box > div p {
           font: 200 16px/1.4 "Montserrat";
           color: #ddd;
           text-align: center; }
-    #intro .inner .wrap {
+    #content .intro .wrap {
       width: 80%;
       margin: 0 auto; }
-      #intro .inner .wrap article {
+      #content .intro .wrap article {
         width: 33.333%;
         float: left;
         text-align: center;
         padding: 0 50px; }
-        #intro .inner .wrap article .pic {
+        #content .intro .wrap article .pic {
           display: inline-block;
           width: 200px;
           height: 200px;
           border-radius: 50%;
           background: #bbb;
           margin-bottom: 20px; }
-        #intro .inner .wrap article h3 {
+        #content .intro .wrap article h3 {
           font: 400 18px/1 "Montserrat";
           color: #333;
           margin-bottom: 10px; }
-        #intro .inner .wrap article p {
+        #content .intro .wrap article p {
           font: 200 16px/1.4 "Montserrat";
           color: #444; }
-
-#service {
-  width: 100%;
-  height: 400px;
-  background: #000;
-  position: relative; }
-  #service > div {
-    width: 300px;
-    height: 110%;
-    background: #251F28;
-    position: absolute;
-    right: 20vw;
-    top: -5%;
-    padding: 60px;
-    border-radius: 5px; }
-    #service > div h1 {
-      font: 400 18px/1 "Montserrat";
-      color: #eee;
-      text-align: center;
-      letter-spacing: 2px;
-      margin-bottom: 40px; }
-      #service > div h1::after {
-        content: '';
-        display: block;
-        width: 34px;
-        height: 1px;
-        background: #eee;
-        margin-top: 30px;
-        margin-left: calc(50% - 17px); }
-    #service > div .pic {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background: #bbb;
-      margin: 0 auto;
-      margin-bottom: 30px; }
-    #service > div h2 {
-      font: 300 18px/1 "Montserrat";
-      color: #ddd;
-      text-align: center;
-      margin-bottom: 15px; }
-    #service > div p {
-      font: 200 16px/1.4 "Montserrat";
-      color: #ddd;
-      text-align: center; }
-
-#news {
-  width: 100%;
-  padding: 200px 0 100px;
-  background: #F5F5F5; }
-  #news .inner {
-    width: 1180px;
-    margin: 0 auto; }
-    #news .inner h1 {
-      font: 100 30px/1 "Montserrat";
-      color: #555;
-      text-align: center;
-      margin-bottom: 20px; }
-    #news .inner h2 {
-      font: 300 20px/1.4 "Montserrat";
-      color: #333;
-      text-align: center;
-      margin-bottom: 100px; }
-    #news .inner .pic {
+  #content .service {
+    width: 100%;
+    height: 100vh;
+    padding: 200px 0; }
+    #content .service .bg {
+      width: 100%;
+      height: 500px;
+      background: #000;
+      position: relative; }
+      #content .service .bg .box {
+        width: 300px;
+        height: 110%;
+        background: #251F28;
+        position: absolute;
+        right: 20vw;
+        top: -5%;
+        padding: 60px;
+        border-radius: 5px; }
+        #content .service .bg .box h1 {
+          font: 400 18px/1 "Montserrat";
+          color: #eee;
+          text-align: center;
+          letter-spacing: 2px;
+          margin-bottom: 40px; }
+          #content .service .bg .box h1::after {
+            content: '';
+            display: block;
+            width: 34px;
+            height: 1px;
+            background: #eee;
+            margin-top: 30px;
+            margin-left: calc(50% - 17px); }
+        #content .service .bg .box .pic {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background: #bbb;
+          margin: 0 auto;
+          margin-bottom: 30px; }
+        #content .service .bg .box h2 {
+          font: 300 18px/1 "Montserrat";
+          color: #ddd;
+          text-align: center;
+          margin-bottom: 15px; }
+        #content .service .bg .box p {
+          font: 200 16px/1.4 "Montserrat";
+          color: #ddd;
+          text-align: center; }
+  #content .news {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    background: #F5F5F5; }
+    #content .news .pic {
       width: 100%;
       height: 400px;
       background: #000;
-      margin-bottom: 100px; }
-    #news .inner .wrap {
+      margin-bottom: 70px; }
+    #content .news .wrap {
       width: 80%;
       margin: 0 auto; }
-      #news .inner .wrap article {
+      #content .news .wrap article {
         width: 33.333%;
         float: left;
         text-align: center;
         padding: 0 50px; }
-        #news .inner .wrap article .pic {
+        #content .news .wrap article .pic {
           display: inline-block;
           width: 180px;
           height: 180px;
           border-radius: 5px;
           background: #bbb;
           margin-bottom: 20px; }
-        #news .inner .wrap article h3 {
+        #content .news .wrap article h1 {
           font: 400 18px/1 "Montserrat";
           color: #333;
           margin-bottom: 10px; }
-        #news .inner .wrap article p {
+        #content .news .wrap article p {
           font: 200 16px/1.4 "Montserrat";
           color: #444; }
-
-#cs {
-  width: 100%;
-  padding: 100px 0; }
-  #cs .inner {
-    width: 1180px;
-    margin: 0 auto;
-    position: relative; }
-    #cs .inner .pic {
+  #content .cs {
+    width: 100%;
+    padding: 100px 0; }
+    #content .cs .pic {
       width: 100%;
       height: 400px;
       background: #000;
       padding: 100px 70px;
       padding-right: 70%; }
-      #cs .inner .pic h1 {
+      #content .cs .pic h1 {
         font: 100 30px/1 "Montserrat";
         color: #ddd;
         margin-bottom: 30px; }
-      #cs .inner .pic > p {
+      #content .cs .pic > p {
         font: 300 18px/1.6 "Montserrat";
         color: #ddd; }
-    #cs .inner article {
+    #content .cs article {
       position: absolute;
       top: -5%;
       right: 100px;
@@ -361,10 +339,10 @@ fieldset {
       border-radius: 5px;
       padding: 60px 0;
       padding-left: 180px; }
-      #cs .inner article:nth-of-type(2) {
+      #content .cs article:nth-of-type(2) {
         top: auto;
         bottom: -5%; }
-      #cs .inner article .icon {
+      #content .cs article .icon {
         position: absolute;
         top: 50px;
         left: 50px;
@@ -373,17 +351,17 @@ fieldset {
         border-radius: 50%;
         background: #322D35;
         border: 1px solid #4e4a50; }
-      #cs .inner article h2 {
+      #content .cs article h2 {
         font: 300 18px/1 "Montserrat";
         color: #ddd;
         margin-bottom: 15px; }
-      #cs .inner article p {
+      #content .cs article p {
         font: 200 16px/1.6 "Montserrat";
         color: #ddd; }
 
 #footer {
   width: 100%;
-  padding: 100px 0;
+  padding: 80px 0;
   background: #232D3A; }
   #footer .inner {
     width: 1180px;
