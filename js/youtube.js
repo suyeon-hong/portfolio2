@@ -29,7 +29,6 @@ class MyYoutube{
             items.forEach(item=>{
                 let tit = item.snippet.title;
                 let desc = item.snippet.description;
-                const date = item.snippet.publishedAt.split("T")[0];
                 const imgSrc = item.snippet.thumbnails.medium.url;
         
                 if(tit.length > 30) tit = tit.substr(0, 30) + "...";
@@ -37,11 +36,10 @@ class MyYoutube{
         
                 results += `
                     <article>
-                        <h1>${date}</h1>
                         <div class="pic">
                             <a href="${item.snippet.resourceId.videoId}"><img src=${imgSrc}></a>
                             <div class="con">
-                                <h2>${tit}</h2>
+                                <h1>${tit}</h1>
                                 <p>${desc}</p>
                             </div>
                         </div>
