@@ -710,42 +710,47 @@ $mobile : 539px;
         }
     }
 
-    #intro{
+    #content{
         .inner{
             width: 100%;
             padding: 0 30px;
-
+        }
+        .intro{
             .box{margin-bottom: 70px;}
             .wrap{
-                width: 100%;
+                width: 90%;
+
+                article{
+                    padding: 0 30px;
+
+                    .pic{
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
             }
         }
-    }
-
-    #service{
-        >div{right: 10vw}
-    }
-
-    #news{
-        .inner{
-            width: 100%;
-            padding: 0 30px;
-
+        .service{
+            .bg .box{right: 10vw;}
+        }
+        .news{
             .wrap{
-                width: 100%;
-            }
-        }
-    }
+                width: 90%;
 
-    #cs{
-        .inner{
-            width: 100%;
-            padding: 0 30px;
+                article{
+                    padding: 0 30px;
+
+                    .pic{
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+            }
         }
     }
 
     #footer{
-        padding: 100px 30px;
+        padding: 80px 30px;
     
         .inner{
             width: 100%;
@@ -761,58 +766,25 @@ $mobile : 539px;
 }
 
 @media screen and (max-width: 980px){
-    #intro{
-        .inner{
-            .wrap{
-                article{
-                    padding: 0 20px;
-
-                    .pic{
-                        width: 120px;
-                        height: 120px;
-                    }
-                } 
-            }
-        }
-    }
-
-    #news{
-        .inner{
-            .pic{
-                height: 300px;
-                margin-bottom: 30px;
-            }
-            .wrap article{
-                padding: 0 20px;
-
-                .pic{
-                    width: 120px;
-                    height: 120px;
-                }
-            }
-        }
-    }
-
-    #cs{
-        .inner{
-            font-size: 0;
-
+    #content{
+        .cs{
+            .inner{font-size: 0;}
             .pic{
                 height: 300px;
                 padding: 70px;
                 margin-bottom: 20px;
             }
             article{
-                display: inline-block;
                 width: 49%;
                 height: 400px;
-                position: relative;
-                top: auto;
-                right: auto;
                 padding: 0 20px;
                 padding-top: 200px;
                 text-align: center;
                 margin-bottom: 20px;
+                position: relative;
+                right: auto;
+                top: auto;
+                display: inline-block;
 
                 &:nth-of-type(1){margin-right: 2%;}
                 .icon{
@@ -868,6 +840,40 @@ $mobile : 539px;
     }
 }
 
+@media screen and (max-width: 768px){
+    #content{
+        .intro{
+            .wrap{
+                width: 100%;
+
+                article{
+                    padding: 0 10px;
+
+                    .pic{
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+        .news{
+            .pic{margin-bottom: 50px;}
+            .wrap{
+                width: 100%;
+
+                article{
+                    padding: 0 10px;
+
+                    .pic{
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: $mobile){
     #header{
         padding: 0 10px;
@@ -883,22 +889,11 @@ $mobile : 539px;
         height: 300px;
     }
 
-    #intro{
-        padding: 50px 0;
-        margin-bottom: 50px;
+    #content{
+        .inner{padding: 0 10px}
+        .intro{
+            height: auto;
 
-        .inner{
-            padding: 0 10px;
-
-            h1{
-                font-size: 24px;
-                margin-bottom: 10px;
-            }
-            h2{
-                font-size: 16px;
-                line-height: 1.2;
-                margin-bottom: 50px;
-            }
             .box{
                 margin-bottom: 50px;
 
@@ -908,12 +903,17 @@ $mobile : 539px;
                 }
             }
             .wrap article{
-                padding: 0;
+                width: 100%;
+                padding: 25px 0 25px 120px;
+                position: relative;
+                text-align: left;
 
                 .pic{
-                    width: 100px;
-                    height: 100px;
-                    margin-bottom: 15px;
+                    width: 90px;
+                    height: 90px;
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
                 }
                 h3{
                     font-size: 16px;
@@ -925,41 +925,32 @@ $mobile : 539px;
                 }
             }
         }
-    }
+        .service{
+            height: auto;
+            padding: 100px 0;
 
-    #service{
-        >div{
-            width: 90%;
-            right: 5%;
+            .bg .box{
+                width: 90%;
+                right: 5%;
+            }
         }
-    }
+        .news{
+            padding: 70px 0;
+            height: auto;
 
-    #news{
-        padding: 100px 0;
-
-        .inner{
-            padding: 0 10px;
-
-            h1{
-                font-size: 24px;
-                margin-bottom: 10px;
-            }
-            h2{
-                font-size: 16px;
-                line-height: 1.2;
-                margin-bottom: 50px;
-            }
-            .pic{
-                height: 200px;
-                margin-bottom: 20px;
-            }
+            .pic{margin-bottom: 30px;}
             .wrap article{
-                padding: 0;
+                width: 100%;
+                padding: 25px 0 25px 120px;
+                position: relative;
+                text-align: left;
 
                 .pic{
-                    width: 100px;
-                    height: 100px;
-                    margin-bottom: 15px;
+                    width: 90px;
+                    height: 90px;
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
                 }
                 h3{
                     font-size: 16px;
@@ -971,14 +962,7 @@ $mobile : 539px;
                 }
             }
         }
-    }
-
-    #cs{
-        padding: 50px 0;
-
-        .inner{
-            padding: 0 10px;
-
+        .cs{
             .pic{
                 height: 200px;
                 padding: 20px;
@@ -1053,6 +1037,8 @@ $mobile : 539px;
             }
         }
     }
+
+    #navi{display: none}
 }
 
 
