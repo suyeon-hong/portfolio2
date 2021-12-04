@@ -1,11 +1,16 @@
 .youtube{
     .box{
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #eee;
+
         &::after{
             content: '';
             display: block;
             clear: both;
         }
-        p{
+        &:last-child{border:none}
+        >p{
             float: left;
             width: 10%;
             padding-top: 20px;
@@ -26,7 +31,6 @@
         >div{
             float: right;
             width: 80%;
-            margin-bottom: 100px;
 
             article{
                 float: left;
@@ -35,7 +39,7 @@
 
                 &:last-child{margin-right: 0;}
                 h1{
-                    font: 600 13px/1 $font;
+                    font: 500 13px/1 $font;
                     color: #111;
                     margin-bottom: 10px;
                 }
