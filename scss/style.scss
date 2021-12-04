@@ -805,7 +805,7 @@ $mobile : 539px;
             }
         }
         .service{
-            .bg .box{right: 10vw;}
+            &.on .bg .box{right: 10vw;}
         }
         .news{
             .wrap{
@@ -970,17 +970,22 @@ $mobile : 539px;
         .intro{
             height: auto;
 
+            &.on{
+                .box >div{
+                    left: 5%;
+                }
+            }
             .box{
                 margin-bottom: 50px;
 
                 >div{
                     width: 90%;
-                    left: 5%;
                 }
             }
             .wrap article{
                 width: 100%;
                 padding: 25px 0 25px 120px;
+                margin-bottom: 10px;
                 position: relative;
                 text-align: left;
 
@@ -1005,9 +1010,11 @@ $mobile : 539px;
             height: auto;
             padding: 100px 0;
 
+            &.on{
+                .bg .box{right: 5%;}
+            }
             .bg .box{
                 width: 90%;
-                right: 5%;
             }
         }
         .news{

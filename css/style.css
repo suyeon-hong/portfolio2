@@ -634,7 +634,7 @@ fieldset {
       #content .intro .wrap article .pic {
         width: 150px;
         height: 150px; }
-  #content .service .bg .box {
+  #content .service.on .bg .box {
     right: 10vw; }
   #content .news .wrap {
     width: 90%; }
@@ -737,14 +737,16 @@ fieldset {
     padding: 0 10px; }
   #content .intro {
     height: auto; }
+    #content .intro.on .box > div {
+      left: 5%; }
     #content .intro .box {
       margin-bottom: 50px; }
       #content .intro .box > div {
-        width: 90%;
-        left: 5%; }
+        width: 90%; }
     #content .intro .wrap article {
       width: 100%;
       padding: 25px 0 25px 120px;
+      margin-bottom: 10px;
       position: relative;
       text-align: left; }
       #content .intro .wrap article .pic {
@@ -762,9 +764,10 @@ fieldset {
   #content .service {
     height: auto;
     padding: 100px 0; }
-    #content .service .bg .box {
-      width: 90%;
+    #content .service.on .bg .box {
       right: 5%; }
+    #content .service .bg .box {
+      width: 90%; }
   #content .news {
     padding: 70px 0;
     height: auto; }
