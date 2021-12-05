@@ -1042,6 +1042,51 @@ $mobile : 539px;
             }
         }
     }
+    
+    .popup{
+        width: 320px;
+
+        .pic{height: 150px;}
+        .con{
+            padding: 20px 30px 40px;
+
+            h1{
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 15px;
+                margin-bottom: 20px;
+            }
+            input[type="text"]{
+                width: 250px;
+                height: 40px;
+                font-size: 14px;
+                line-height: 40px;
+                margin-bottom: 5px;
+
+                &::placeholder{
+                    font-size: 14px;
+                }
+            }
+            button{
+                width: 250px;
+                height: 40px;
+                font-size: 14px;
+                line-height: 40px;
+            }
+        }
+        .cookieCk{
+            input[type=checkbox]{
+                width: 10px;
+                height: 10px;
+                margin-right: -2px;
+            }
+            label{
+                font-size: 11px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: $mobile){

@@ -797,7 +797,39 @@ fieldset {
       padding: 0 10px; }
       #content .news .wrap article .pic {
         width: 120px;
-        height: 120px; } }
+        height: 120px; }
+
+  .popup {
+    width: 320px; }
+    .popup .pic {
+      height: 150px; }
+    .popup .con {
+      padding: 20px 30px 40px; }
+      .popup .con h1 {
+        font-size: 20px;
+        margin-bottom: 10px; }
+      .popup .con p {
+        font-size: 15px;
+        margin-bottom: 20px; }
+      .popup .con input[type="text"] {
+        width: 250px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        margin-bottom: 5px; }
+        .popup .con input[type="text"]::placeholder {
+          font-size: 14px; }
+      .popup .con button {
+        width: 250px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px; }
+    .popup .cookieCk input[type=checkbox] {
+      width: 10px;
+      height: 10px;
+      margin-right: -2px; }
+    .popup .cookieCk label {
+      font-size: 11px; } }
 @media screen and (max-width: 539px) {
   #header {
     padding: 0 10px; }
