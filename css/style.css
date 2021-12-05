@@ -607,7 +607,8 @@ fieldset {
   .popup .pic {
     width: 100%;
     height: 220px;
-    background: #bbb; }
+    background: url(../img/cookiePopup.jpg) no-repeat center/cover;
+    opacity: 1; }
   .popup .con {
     padding: 30px 50px 50px;
     text-align: center; }

@@ -761,7 +761,8 @@ $mobile : 539px;
     .pic{
         width: 100%;
         height: 220px;
-        background: #bbb;
+        background: url(../img/cookiePopup.jpg) no-repeat center/cover;
+        opacity: 1;
     }
     .con{
         padding: 30px 50px 50px;
