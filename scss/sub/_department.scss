@@ -248,6 +248,13 @@
                     border-radius: 50%;
                     background: #bbb;
                     margin-bottom: 20px;
+                    overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
                 }
                 h3{
                     font: 600 18px/1 $font;
