@@ -172,7 +172,7 @@ $mobile : 539px;
         width: 60vw;
         height: 60vw;
         border-radius: 50%;
-        background: #bbb;
+        background: #bbb url(../img/visual.jpg) no-repeat center/cover;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -258,7 +258,7 @@ $mobile : 539px;
         .box{
             width: 100%;
             height: 400px;
-            background: #555;
+            background: #555 url(../img/bg1.jpg) no-repeat center/cover;
             position: relative;
             margin-bottom: 60px;
             opacity: 0;
@@ -299,6 +299,13 @@ $mobile : 539px;
                     background: #bbb;
                     margin: 0 auto;
                     margin-bottom: 30px;
+                    overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
                 }
                 h2{
                     font: 300 18px/1 $font;
@@ -335,6 +342,13 @@ $mobile : 539px;
                     border-radius: 50%;
                     background: #bbb;
                     margin-bottom: 20px;
+                    overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
                 }
                 h3{
                     font: 400 18px/1 $font;
@@ -366,7 +380,7 @@ $mobile : 539px;
         .bg{
             width: 100%;
             height: 500px;
-            background: #000;
+            background: #000 url(../img/bg2.jpg) no-repeat center/cover fixed;
             position: relative;
             opacity: 0;
             transition: .6s;
@@ -406,6 +420,13 @@ $mobile : 539px;
                     background: #bbb;
                     margin: 0 auto;
                     margin-bottom: 30px;
+                    overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
                 }
                 h2{
                     font: 300 18px/1 $font;
@@ -440,7 +461,7 @@ $mobile : 539px;
         .pic{
             width: 100%;
             height: 400px;
-            background: #000;
+            background: #000 url(../img/bg3.jpg) no-repeat center/cover;
             margin-bottom: 70px;
             opacity: 0;
             transition: 1s;
@@ -467,6 +488,13 @@ $mobile : 539px;
                     border-radius: 5px;
                     background: #bbb;
                     margin-bottom: 20px;
+                    overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
                 }
                 h1{
                     font: 400 18px/1 $font;
@@ -501,7 +529,7 @@ $mobile : 539px;
         .pic{
             width: 100%;
             height: 500px;
-            background: #000;
+            background: #000 url(../img/bg4.jpg) no-repeat center/cover;
             padding: 100px 70px;
             padding-right: 70%;
             opacity: 0;
@@ -707,14 +735,14 @@ $mobile : 539px;
         width: 15px;
         height: 15px;
         border-radius: 10px;
-        background: #bbb;
+        background: #aaa;
         margin-bottom: 10px;
         cursor: pointer;
         transition: .6s;
 
         &.on{
             height: 60px;
-            background: #555;
+            background: #251F28;
         }
     }
 }
