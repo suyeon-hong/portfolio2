@@ -12,11 +12,11 @@ class Myflickr{
         this.photoBox = document.querySelector(selector);
         this.loadingImg = document.querySelector(".loading");
         this.base = "https://www.flickr.com/services/rest/?";
-        this.method = "flickr.interestingness.getList";
+        this.method = "flickr.photos.search";
         this.api_key = opt.key;
         this.format = "json";
         this.per_page = opt.page;
-        this.url = `${this.base}method=${this.method}&api_key=${this.api_key}&format=${this.format}&per_page=${this.per_page}&nojsoncallback=1`;
+        this.url = `${this.base}method=${this.method}&api_key=${this.api_key}&format=${this.format}&per_page=${this.per_page}&nojsoncallback=1&tags="music_studio"`;
     }
     bindingEvent(){
         this.callData();

@@ -2294,6 +2294,10 @@ aside {
     height: 180px;
     background: #bbb;
     margin-bottom: 10px; }
+    .gallery .intro .wrap article .pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
   .gallery .intro .wrap article p {
     font: 400 14px/1 "Montserrat";
     color: #555;
@@ -2363,7 +2367,8 @@ aside {
       float: left;
       width: 50%;
       height: 420px;
-      background: #bbb; }
+      background: #bbb url(../img/gallery4.jpg) no-repeat center/cover;
+      opacity: 0.8; }
 .gallery .collection {
   position: relative; }
   .gallery .collection h1 {
