@@ -1096,6 +1096,9 @@ fieldset {
   .content .visual {
     width: 100%;
     background: #555;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 100px;
     padding: 100px 0; }
     .content .visual h1 {
@@ -1291,6 +1294,8 @@ fieldset {
         #footer_sub .inner .wrap > div.company h2 span {
           margin-right: 5px;
           font-size: 12px; } }
+.department .visual {
+  background-image: url(../img/sub1.jpg); }
 .department .icons {
   padding-bottom: 100px; }
   .department .icons h1 {
@@ -1757,6 +1762,8 @@ fieldset {
           font-size: 12px; } }
 .community {
   position: relative; }
+  .community .visual {
+    background-image: url(../img/sub2.jpg); }
   .community > h1 {
     font: bold 28px/1 "Montserrat";
     color: #333;
@@ -2084,6 +2091,8 @@ fieldset {
       .community .inner .pagination .prev span::before, .community .inner .pagination .prev span::after, .community .inner .pagination .next span::before, .community .inner .pagination .next span::after {
         width: 6px;
         height: 1px; } }
+.youtube .visual {
+  background-image: url(../img/sub3.jpg); }
 .youtube .box {
   padding-bottom: 50px;
   margin-bottom: 50px;
@@ -2240,6 +2249,8 @@ aside {
         margin-bottom: 20px; }
       .youtube .box > div#vids2 article .pic .con p, .youtube .box > div#vids4 article .pic .con p {
         display: block; } }
+.gallery .visual {
+  background-image: url(../img/sub4.jpg); }
 .gallery .intro .wrap article {
   float: left;
   width: 33.333%;
@@ -2556,6 +2567,8 @@ aside {
   .gallery .collection .photos li {
     width: 100%;
     padding: 0; } }
+.location .visual {
+  background-image: url(../img/sub5.jpg); }
 .location .info {
   border-bottom: 1px solid #ddd;
   margin-bottom: 100px; }
@@ -2800,6 +2813,8 @@ aside {
       .location .maps .wrap > div address {
         font-size: 12px;
         margin-bottom: 10px; } }
+.join .visual {
+  background-image: url(../img/sub6.jpg); }
 .join .inner p {
   font: 300 11px/1 "Montserrat";
   color: tomato;
