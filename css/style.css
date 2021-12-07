@@ -626,13 +626,41 @@ fieldset {
     width: 15px;
     height: 15px;
     border-radius: 10px;
-    background: #aaa;
-    margin-bottom: 10px;
+    background: #939ead;
+    margin-bottom: 30px;
     cursor: pointer;
-    transition: .6s; }
+    transition: .6s;
+    position: relative; }
+    #navi li::before {
+      content: '';
+      display: none;
+      width: 130%;
+      height: 130%;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: .6s; }
+    #navi li::after {
+      content: '';
+      display: block;
+      width: 2px;
+      height: 30px;
+      background: inherit;
+      position: relative;
+      top: 100%;
+      left: 50%;
+      margin-left: -2px;
+      transition: .6s; }
+    #navi li:last-child::after {
+      display: none; }
     #navi li.on {
-      height: 60px;
-      background: #251F28; }
+      background: #232D3A; }
+      #navi li.on::before {
+        display: block;
+        border-color: #232D3A; }
 
 .popup {
   width: 500px;
