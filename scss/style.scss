@@ -1012,10 +1012,9 @@ $mobile : 539px;
 
                 &:nth-of-type(1){margin-right: 2%;}
                 .icon{
+                    top: 50px;
                     left: 50%;
                     transform: translateX(-50%);
-                    width: 120px;
-                    height: 120px;
                 }
             }
         }
