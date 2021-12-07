@@ -909,9 +909,16 @@ fieldset {
         line-height: 1.2; }
   #content .service {
     height: auto;
-    padding: 100px 0; }
+    padding: 50px 0 100px; }
     #content .service.on .bg .box {
       right: 5%; }
+    #content .service h1 {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    #content .service > p {
+      width: 250px;
+      font-size: 13px;
+      line-height: 1.2; }
     #content .service .bg .box {
       width: 90%; }
   #content .news {

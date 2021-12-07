@@ -1201,10 +1201,19 @@ $mobile : 539px;
         }
         .service{
             height: auto;
-            padding: 100px 0;
+            padding: 50px 0 100px;
 
             &.on{
                 .bg .box{right: 5%;}
+            }
+            h1{
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            >p{
+                width: 250px;
+                font-size: 13px;
+                line-height: 1.2;
             }
             .bg .box{
                 width: 90%;
