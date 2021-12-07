@@ -20,6 +20,11 @@
             a{
                 font: 600 20px/1 "Gowun Batang";
                 color: #232D3A;
+                transition: .4s;
+
+                &:hover{
+                    color: #000;
+                }
             }
         }
         #gnb{
@@ -38,6 +43,11 @@
                     color: #666;
                     display: inline-block;
                     padding: 20px;
+                    transition: .4s;
+
+                    &:hover{
+                        color: #111;
+                    }
                 }
                 &:last-child a{
                     border-radius: 30px;
@@ -62,6 +72,11 @@
                 a{
                     font: 400 13px/1 'Montserrat';
                     color: #555;
+                    transition: .4s;
+
+                    &:hover{
+                        color: #111;
+                    }
                 }
             }
         }

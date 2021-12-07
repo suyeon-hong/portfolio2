@@ -48,7 +48,10 @@ fieldset {
       font-size: 0; }
       #header .inner h1 a {
         font: 600 20px/1 "Gowun Batang";
-        color: #ddd; }
+        color: #ddd;
+        transition: .4s; }
+        #header .inner h1 a:hover {
+          color: #fff; }
     #header .inner #gnb {
       position: absolute;
       left: 50%;
@@ -62,7 +65,10 @@ fieldset {
           font: 500 16px/1 'Montserrat';
           color: #bbb;
           display: inline-block;
-          padding: 20px; }
+          padding: 20px;
+          transition: .4s; }
+          #header .inner #gnb li a:hover {
+            color: #eee; }
         #header .inner #gnb li:last-child a {
           border-radius: 30px;
           border: 2px solid #555;
@@ -80,7 +86,10 @@ fieldset {
         margin-left: 10px; }
         #header .inner .lan li a {
           font: 400 13px/1 'Montserrat';
-          color: #bbb; }
+          color: #bbb;
+          transition: .4s; }
+          #header .inner .lan li a:hover {
+            color: #eee; }
     #header .inner .btnMo {
       display: none;
       width: 18px;
@@ -90,11 +99,15 @@ fieldset {
       right: 0;
       margin-top: -9px;
       overflow: hidden; }
+      #header .inner .btnMo:hover span {
+        background: #eee; }
+      #header .inner .btnMo:hover::before, #header .inner .btnMo:hover::after {
+        background: #eee; }
       #header .inner .btnMo span {
         display: block;
         width: 100%;
         height: 2px;
-        background: #444;
+        background: #bbb;
         text-indent: -9999px;
         position: absolute;
         top: 7px;
@@ -105,7 +118,7 @@ fieldset {
         display: block;
         width: 100%;
         height: 2px;
-        background: #444;
+        background: #bbb;
         position: absolute;
         top: 0;
         left: 0;
@@ -115,7 +128,7 @@ fieldset {
         display: block;
         width: 100%;
         height: 2px;
-        background: #444;
+        background: #bbb;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -972,7 +985,10 @@ fieldset {
       font-size: 0; }
       #header_sub .inner h1 a {
         font: 600 20px/1 "Gowun Batang";
-        color: #232D3A; }
+        color: #232D3A;
+        transition: .4s; }
+        #header_sub .inner h1 a:hover {
+          color: #000; }
     #header_sub .inner #gnb {
       position: absolute;
       left: 50%;
@@ -986,7 +1002,10 @@ fieldset {
           font: 500 16px/1 'Montserrat';
           color: #666;
           display: inline-block;
-          padding: 20px; }
+          padding: 20px;
+          transition: .4s; }
+          #header_sub .inner #gnb li a:hover {
+            color: #111; }
         #header_sub .inner #gnb li:last-child a {
           border-radius: 30px;
           border: 2px solid #555;
@@ -1004,7 +1023,10 @@ fieldset {
         margin-left: 10px; }
         #header_sub .inner .lan li a {
           font: 400 13px/1 'Montserrat';
-          color: #555; }
+          color: #555;
+          transition: .4s; }
+          #header_sub .inner .lan li a:hover {
+            color: #111; }
     #header_sub .inner .btnMo {
       display: none;
       width: 18px;

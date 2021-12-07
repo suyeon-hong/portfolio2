@@ -28,6 +28,11 @@ $mobile : 539px;
             a{
                 font: 600 20px/1 "Gowun Batang";
                 color: #ddd;
+                transition: .4s;
+
+                &:hover{
+                    color: #fff;
+                }
             }
         }
         #gnb{
@@ -46,6 +51,11 @@ $mobile : 539px;
                     color: #bbb;
                     display: inline-block;
                     padding: 20px;
+                    transition: .4s;
+
+                    &:hover{
+                        color: #eee;
+                    }
                 }
                 &:last-child a{
                     border-radius: 30px;
@@ -70,6 +80,11 @@ $mobile : 539px;
                 a{
                     font: 400 13px/1 'Montserrat';
                     color: #bbb;
+                    transition: .4s;
+
+                    &:hover{
+                        color: #eee;
+                    }
                 }
             }
         }
@@ -83,11 +98,18 @@ $mobile : 539px;
             margin-top: -9px;
             overflow: hidden;
 
+            &:hover{
+                span{background: #eee;}
+
+                &::before, &::after{
+                    background: #eee;
+                }
+            }
             span{
                 display: block;
                 width: 100%;
                 height: 2px;
-                background: #444;
+                background: #bbb;
                 text-indent: -9999px;
                 position: absolute;
                 top: 7px;
@@ -99,7 +121,7 @@ $mobile : 539px;
                 display: block;
                 width: 100%;
                 height: 2px;
-                background: #444;
+                background: #bbb;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -110,7 +132,7 @@ $mobile : 539px;
                 display: block;
                 width: 100%;
                 height: 2px;
-                background: #444;
+                background: #bbb;
                 position: absolute;
                 bottom: 0;
                 left: 0;
