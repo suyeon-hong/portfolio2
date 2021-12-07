@@ -54,6 +54,9 @@ window.addEventListener("mousewheel", e=>{
 
 navis.forEach((navi,index)=>{
     navi.addEventListener("click", ()=>{
+        const isOn = navi.classList.contains("on");
+        if(isOn) return;
+        
         if(enableClick){
             enableClick = false;
             
