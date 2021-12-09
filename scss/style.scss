@@ -46,16 +46,35 @@ $mobile : 539px;
                 float: left;
                 position: relative;
 
+                &:not(:last-child)::after{
+                    content: '';
+                    display: block;
+                    width: 0px;
+                    height: 2px;
+                    background: #eee;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: -12px;
+                    transition: .6s;
+                }
+                &:hover{
+                    &::after{
+                        width: 100%;
+                    }
+                    a{
+                        color: #eee;
+                    }
+                    &:last-child a{
+                        border-color: #eee;
+                    }
+                }
                 a{
                     font: 500 16px/1 'Montserrat';
                     color: #bbb;
                     display: inline-block;
                     padding: 20px;
                     transition: .4s;
-
-                    &:hover{
-                        color: #eee;
-                    }
                 }
                 &:last-child a{
                     border-radius: 30px;

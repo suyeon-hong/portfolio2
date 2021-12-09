@@ -38,16 +38,35 @@
                 float: left;
                 position: relative;
 
+                &:not(:last-child)::after{
+                    content: '';
+                    display: block;
+                    width: 0px;
+                    height: 2px;
+                    background: #111;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: -12px;
+                    transition: .6s;
+                }
+                &:hover{
+                    &::after{
+                        width: 100%;
+                    }
+                    a{
+                        color: #111;
+                    }
+                    &:last-child a{
+                        border-color: #111;
+                    }
+                }
                 a{
                     font: 500 16px/1 'Montserrat';
                     color: #666;
                     display: inline-block;
                     padding: 20px;
                     transition: .4s;
-
-                    &:hover{
-                        color: #111;
-                    }
                 }
                 &:last-child a{
                     border-radius: 30px;

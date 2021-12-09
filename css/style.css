@@ -61,14 +61,29 @@ fieldset {
       #header .inner #gnb li {
         float: left;
         position: relative; }
+        #header .inner #gnb li:not(:last-child)::after {
+          content: '';
+          display: block;
+          width: 0px;
+          height: 2px;
+          background: #eee;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -12px;
+          transition: .6s; }
+        #header .inner #gnb li:hover::after {
+          width: 100%; }
+        #header .inner #gnb li:hover a {
+          color: #eee; }
+        #header .inner #gnb li:hover:last-child a {
+          border-color: #eee; }
         #header .inner #gnb li a {
           font: 500 16px/1 'Montserrat';
           color: #bbb;
           display: inline-block;
           padding: 20px;
           transition: .4s; }
-          #header .inner #gnb li a:hover {
-            color: #eee; }
         #header .inner #gnb li:last-child a {
           border-radius: 30px;
           border: 2px solid #555;
@@ -1086,14 +1101,29 @@ fieldset {
       #header_sub .inner #gnb li {
         float: left;
         position: relative; }
+        #header_sub .inner #gnb li:not(:last-child)::after {
+          content: '';
+          display: block;
+          width: 0px;
+          height: 2px;
+          background: #111;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -12px;
+          transition: .6s; }
+        #header_sub .inner #gnb li:hover::after {
+          width: 100%; }
+        #header_sub .inner #gnb li:hover a {
+          color: #111; }
+        #header_sub .inner #gnb li:hover:last-child a {
+          border-color: #111; }
         #header_sub .inner #gnb li a {
           font: 500 16px/1 'Montserrat';
           color: #666;
           display: inline-block;
           padding: 20px;
           transition: .4s; }
-          #header_sub .inner #gnb li a:hover {
-            color: #111; }
         #header_sub .inner #gnb li:last-child a {
           border-radius: 30px;
           border: 2px solid #555;
