@@ -1229,8 +1229,12 @@ fieldset {
 @media screen and (max-width: 539px) {
   #header_sub {
     padding: 0 10px; }
-    #header_sub .inner .lan {
-      display: none; } }
+    #header_sub .inner {
+      height: 60px; }
+      #header_sub .inner h1 a {
+        font-size: 16px; }
+      #header_sub .inner .lan {
+        display: none; } }
 .content {
   width: 100%; }
   .content .visual {
