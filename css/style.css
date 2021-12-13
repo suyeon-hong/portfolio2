@@ -1164,6 +1164,10 @@ fieldset {
       right: 0;
       margin-top: -9px;
       overflow: hidden; }
+      #header_sub .inner .btnMo:hover span {
+        background: #000; }
+      #header_sub .inner .btnMo:hover::before, #header_sub .inner .btnMo:hover::after {
+        background: #000; }
       #header_sub .inner .btnMo span {
         display: block;
         width: 100%;

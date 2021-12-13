@@ -109,6 +109,14 @@
             margin-top: -9px;
             overflow: hidden;
 
+            &:hover{
+                span{
+                    background: #000;
+                }
+                &::before, &::after{
+                    background: #000;
+                }
+            }
             span{
                 display: block;
                 width: 100%;
