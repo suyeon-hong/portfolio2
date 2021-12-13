@@ -162,22 +162,32 @@
     }
     .gnbMo{
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 81px);
         position: absolute;
-        top: 80px;
+        top: 81px;
         left: -100%;
-        background: #19191a;
+        background: #fff;
         opacity: 0;
         transition: 1s;
         z-index: 10;
 
         li{
-            padding: 50px;
-            border-bottom: 1px solid #444;
+            border-bottom: 1px solid #eee;
+            transition: .6s;
 
+            &:hover{
+                background: #eee;
+
+                a{
+                    color: #111;
+                }
+            }
             a{
+                display: block;
+                padding: 50px;
                 font: 500 20px/1 $font;
-                color: #fff;
+                color: #555;
+                transition: .6s;
             }
         }
         &.on{
@@ -218,6 +228,10 @@
             .lan{
                 display: none;
             }
+        }
+        .gnbMo{
+            height: calc(100vh - 61px);
+            top: 61px;
         }
     }
 }

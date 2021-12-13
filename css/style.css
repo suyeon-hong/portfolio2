@@ -1207,20 +1207,27 @@ fieldset {
         transition: bottom 0.6s, transform 0.6s 0.6s; }
   #header_sub .gnbMo {
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 81px);
     position: absolute;
-    top: 80px;
+    top: 81px;
     left: -100%;
-    background: #19191a;
+    background: #fff;
     opacity: 0;
     transition: 1s;
     z-index: 10; }
     #header_sub .gnbMo li {
-      padding: 50px;
-      border-bottom: 1px solid #444; }
+      border-bottom: 1px solid #eee;
+      transition: .6s; }
+      #header_sub .gnbMo li:hover {
+        background: #eee; }
+        #header_sub .gnbMo li:hover a {
+          color: #111; }
       #header_sub .gnbMo li a {
+        display: block;
+        padding: 50px;
         font: 500 20px/1 "Montserrat";
-        color: #fff; }
+        color: #555;
+        transition: .6s; }
     #header_sub .gnbMo.on {
       left: 0;
       opacity: 1; }
@@ -1244,7 +1251,10 @@ fieldset {
       #header_sub .inner h1 a {
         font-size: 16px; }
       #header_sub .inner .lan {
-        display: none; } }
+        display: none; }
+    #header_sub .gnbMo {
+      height: calc(100vh - 61px);
+      top: 61px; } }
 .content {
   width: 100%; }
   .content .visual {
