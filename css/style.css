@@ -944,6 +944,9 @@ fieldset {
     #header .gnbMo {
       height: calc(100vh - 61px);
       top: 61px; }
+      #header .gnbMo li a {
+        padding: 30px 20px;
+        font-size: 14px; }
 
   #visual {
     height: 300px; }
@@ -1258,7 +1261,10 @@ fieldset {
         display: none; }
     #header_sub .gnbMo {
       height: calc(100vh - 61px);
-      top: 61px; } }
+      top: 61px; }
+      #header_sub .gnbMo li a {
+        padding: 30px 20px;
+        font-size: 14px; } }
 .content {
   width: 100%; }
   .content .visual {

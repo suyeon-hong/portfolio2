@@ -1240,6 +1240,11 @@ $mobile : 539px;
         .gnbMo{
             height: calc(100vh - 61px);
             top: 61px;
+
+            li a{
+                padding: 30px 20px;
+                font-size: 14px;
+            }
         }
     }
 
