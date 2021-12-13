@@ -161,20 +161,27 @@ fieldset {
         transition: bottom 0.6s, transform 0.6s 0.6s; }
   #header .gnbMo {
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 81px);
     position: absolute;
-    top: 80px;
+    top: 81px;
     left: -100%;
-    background: #19191a;
+    background: #000;
     opacity: 0;
     transition: 1s;
     z-index: 10; }
     #header .gnbMo li {
-      padding: 50px;
-      border-bottom: 1px solid #444; }
+      border-bottom: 1px solid #444;
+      transition: .6s; }
+      #header .gnbMo li:hover {
+        background: #444; }
+        #header .gnbMo li:hover a {
+          color: #fff; }
       #header .gnbMo li a {
+        display: block;
+        padding: 50px;
         font: 500 20px/1 "Montserrat";
-        color: #fff; }
+        color: #ddd;
+        transition: .6s; }
     #header .gnbMo.on {
       left: 0;
       opacity: 1; }
@@ -934,6 +941,9 @@ fieldset {
         font-size: 16px; }
       #header .inner .lan {
         display: none; }
+    #header .gnbMo {
+      height: calc(100vh - 61px);
+      top: 61px; }
 
   #visual {
     height: 300px; }

@@ -177,22 +177,32 @@ $mobile : 539px;
     }
     .gnbMo{
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 81px);
         position: absolute;
-        top: 80px;
+        top: 81px;
         left: -100%;
-        background: #19191a;
+        background: #000;
         opacity: 0;
         transition: 1s;
         z-index: 10;
 
         li{
-            padding: 50px;
             border-bottom: 1px solid #444;
+            transition: .6s;
 
+            &:hover{
+                background: #444;
+
+                a{
+                    color: #fff;
+                }
+            }
             a{
+                display: block;
+                padding: 50px;
                 font: 500 20px/1 $font;
-                color: #fff;
+                color: #ddd;
+                transition: .6s;
             }
         }
         &.on{
@@ -1226,6 +1236,10 @@ $mobile : 539px;
             .lan{
                 display: none;
             }
+        }
+        .gnbMo{
+            height: calc(100vh - 61px);
+            top: 61px;
         }
     }
 
