@@ -892,7 +892,7 @@ $mobile : 539px;
             text-align: center;
         }
         p{
-            font: 400 20px/1.2 $font;
+            font: 300 20px/1.2 $font;
             color: #888;
             letter-spacing: -1px;
             margin-bottom: 40px;
@@ -941,7 +941,6 @@ $mobile : 539px;
                 border-radius: 2px;
                 border: 1px solid #888;
                 margin-right: 5px;
-                vertical-align: middle;
             }
             &.on::before{
                 background: #555;
@@ -1207,35 +1206,35 @@ $mobile : 539px;
                 margin-bottom: 10px;
             }
             p{
-                font-size: 15px;
+                font-size: 14px;
                 margin-bottom: 20px;
             }
             input[type="text"]{
                 width: 250px;
                 height: 40px;
-                font-size: 14px;
+                font-size: 13px;
                 line-height: 40px;
                 margin-bottom: 5px;
 
                 &::placeholder{
-                    font-size: 14px;
+                    font-size: 13px;
                 }
             }
             button{
                 width: 250px;
                 height: 40px;
-                font-size: 14px;
+                font-size: 13px;
                 line-height: 40px;
             }
         }
         .cookieCk{
-            input[type=checkbox]{
-                width: 10px;
-                height: 10px;
-                margin-right: -2px;
-            }
             label{
                 font-size: 11px;
+
+                &::before{
+                    width: 8px;
+                    height: 8px;
+                }
             }
         }
     }

@@ -709,7 +709,7 @@ fieldset {
       margin-bottom: 20px;
       text-align: center; }
     .popup .con p {
-      font: 400 20px/1.2 "Montserrat";
+      font: 300 20px/1.2 "Montserrat";
       color: #888;
       letter-spacing: -1px;
       margin-bottom: 40px;
@@ -750,8 +750,7 @@ fieldset {
         height: 10px;
         border-radius: 2px;
         border: 1px solid #888;
-        margin-right: 5px;
-        vertical-align: middle; }
+        margin-right: 5px; }
       .popup .cookieCk label.on::before {
         background: #555; }
   .popup .close {
@@ -925,27 +924,26 @@ fieldset {
         font-size: 20px;
         margin-bottom: 10px; }
       .popup .con p {
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 20px; }
       .popup .con input[type="text"] {
         width: 250px;
         height: 40px;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 40px;
         margin-bottom: 5px; }
         .popup .con input[type="text"]::placeholder {
-          font-size: 14px; }
+          font-size: 13px; }
       .popup .con button {
         width: 250px;
         height: 40px;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 40px; }
-    .popup .cookieCk input[type=checkbox] {
-      width: 10px;
-      height: 10px;
-      margin-right: -2px; }
     .popup .cookieCk label {
-      font-size: 11px; } }
+      font-size: 11px; }
+      .popup .cookieCk label::before {
+        width: 8px;
+        height: 8px; } }
 @media screen and (max-width: 539px) {
   #header {
     padding: 0 10px; }
