@@ -737,9 +737,23 @@ fieldset {
     position: absolute;
     bottom: 10px;
     right: 10px; }
+    .popup .cookieCk input[type=checkbox] {
+      display: none; }
     .popup .cookieCk label {
       font: 13px/1 'Montserrat';
-      color: #555; }
+      color: #555;
+      cursor: pointer; }
+      .popup .cookieCk label::before {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+        border: 1px solid #888;
+        margin-right: 5px;
+        vertical-align: middle; }
+      .popup .cookieCk label.on::before {
+        background: #555; }
   .popup .close {
     display: block;
     width: 20px;

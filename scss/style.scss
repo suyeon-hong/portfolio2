@@ -927,9 +927,25 @@ $mobile : 539px;
         bottom: 10px;
         right: 10px;
 
+        input[type=checkbox]{display: none;}
         label{
             font: 13px/1 'Montserrat';
             color: #555;
+            cursor: pointer;
+
+            &::before{
+                content: '';
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-radius: 2px;
+                border: 1px solid #888;
+                margin-right: 5px;
+                vertical-align: middle;
+            }
+            &.on::before{
+                background: #555;
+            }
         }
     }
     .close{
