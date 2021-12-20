@@ -9,6 +9,7 @@ class Myflickr{
     }
     init(selector, opt){
         this.frame = document.querySelector(".gallery");
+        this.pics = this.frame.querySelectorAll(".intro img")
         this.photoBox = document.querySelector(selector);
         this.loadingImg = document.querySelector(".loading");
         this.base = "https://www.flickr.com/services/rest/?";
@@ -20,6 +21,19 @@ class Myflickr{
     }
     bindingEvent(){
         this.callData();
+
+        this.pics.forEach(pic=>{
+            pic.addEventListener("click", e=>{
+                const imgSrc = e.target.getAttribute("src");
+                const pop = document.createElement("aside");
+                const htmls = `
+                    <img src=${imgSrc}>
+                    <span class="close">CLOSE</span>
+                `;
+                pop.innerHTML = htmls;
+                this.frame.append(pop);
+            })
+        })
 
         this.photoBox.addEventListener("click", e=>{
             e.preventDefault();
