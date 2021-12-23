@@ -6,6 +6,26 @@ $font : 'Montserrat';
 $tablet : 1179px;
 $mobile : 539px;
 
+#skip a{
+    position: fixed;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background: #fff;
+    font: 600 13px/25px $font;
+    color: #111;
+    text-align: center;
+    z-index: 3;
+
+    &:focus{
+        outline: none;
+    }
+    &.on{
+        top: 0px;
+    }
+}
+
 #header{
     width: 100%;
     background: #000;
