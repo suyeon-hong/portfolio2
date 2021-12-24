@@ -836,11 +836,11 @@ $mobile : 539px;
     transform: translateY(-50%);
 
     li{
-        width: 15px;
-        height: 15px;
-        border-radius: 10px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
         background: #939ead;
-        margin-bottom: 30px;
+        margin-bottom: 24px;
         cursor: pointer;
         transition: .6s;
         position: relative;
@@ -848,8 +848,8 @@ $mobile : 539px;
         &::before{
             content: '';
             display: none;
-            width: 130%;
-            height: 130%;
+            width: 125%;
+            height: 125%;
             border-radius: 50%;
             border: 1px solid transparent;
             position: absolute;
@@ -862,12 +862,12 @@ $mobile : 539px;
             content: '';
             display: block;
             width: 2px;
-            height: 30px;
+            height: 24px;
             background: inherit;
             position: relative;
             top: 100%;
             left: 50%;
-            margin-left: -2px;
+            margin-left: -1px;
             transition: .6s;
         }
         &:last-child::after{
