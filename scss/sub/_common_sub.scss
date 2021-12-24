@@ -1,6 +1,5 @@
 @import 'header_sub';
 
-
 .content{
     width: 100%;
 
@@ -46,9 +45,10 @@
     .content{
         .visual{
             margin-bottom: 50px;
+            padding: 60px 0;
             
             h1{
-                font-size: 28px;
+                font-size: 24px;
                 margin-bottom: 5px;
             }
             p{font-size: 12px;}

@@ -1324,9 +1324,10 @@ fieldset {
     padding: 0 30px 100px; } }
 @media screen and (max-width: 539px) {
   .content .visual {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding: 60px 0; }
     .content .visual h1 {
-      font-size: 28px;
+      font-size: 24px;
       margin-bottom: 5px; }
     .content .visual p {
       font-size: 12px; }
