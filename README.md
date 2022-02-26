@@ -7,3 +7,4 @@
 <br>
 
 ### 🚀 [배포사이트](https://suyeon-hong.github.io/portfolio2)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/78653426/155837809-c7315f3d-46d7-4843-9793-5d21196053a8.gif)
